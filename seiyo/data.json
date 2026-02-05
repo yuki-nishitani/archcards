@@ -479,5 +479,460 @@
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/mon_reare/1.webp",
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/mon_reare/2.webp"
     ]
+  },
+  {
+    "id": "pari",
+    "title": "パリ大聖堂",
+    "year": "1163~1250年",
+    "style": "ゴシック",
+    "architect": "不明",
+    "location": "フランス",
+    "desc": "初期ゴシック",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/pari/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/pari/2.webp"
+    ]
+  },
+  {
+    "id": "ran",
+    "title": "ラン大聖堂",
+    "year": "1160~1230頃",
+    "style": "ゴシック",
+    "architect": "不明",
+    "location": "フランス",
+    "desc": "初期ゴシック",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/ran/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/ran/2.webp"
+    ]
+  },
+  {
+    "id": "syarutoru",
+    "title": "シャルトル大聖堂",
+    "year": "1194~1250",
+    "style": "ゴシック",
+    "architect": "不明",
+    "location": "フランス",
+    "desc": "盛期ゴシック",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/syarutoru/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/syarutoru/2.webp"
+    ]
+  },
+  {
+    "id": "ransu",
+    "title": "ランス大聖堂",
+    "year": "1211~1475年",
+    "style": "ゴシック",
+    "architect": "不明",
+    "location": "フランス",
+    "desc": "盛期ゴシック",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/ransu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/ransu/2.webp"
+    ]
+  },
+  {
+    "id": "amian",
+    "title": "アミアン大聖堂",
+    "year": "1220~1401年",
+    "style": "ゴシック",
+    "architect": "不明",
+    "location": "フランス",
+    "desc": "盛期ゴシック",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/amian/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/amian/2.webp"
+    ]
+  },
+  {
+    "id": "kantabe",
+    "title": "カンタベリー大聖堂",
+    "year": "1174~1185年",
+    "style": "ゴシック",
+    "architect": "不明",
+    "location": "イギリス",
+    "desc": "フランスより高さがない",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kantabe/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kantabe/2.webp"
+    ]
+  },
+  {
+    "id": "kerun",
+    "title": "ケルン大聖堂",
+    "year": "1248~1559年",
+    "style": "ゴシック",
+    "architect": "不明",
+    "location": "ドイツ",
+    "desc": "ドイツでは単塔式のほうが一般的",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kerun/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kerun/2.webp"
+    ]
+  },
+  {
+    "id": "mirano",
+    "title": "ミラノ大聖堂",
+    "year": "1294~1443年",
+    "style": "ゴシック",
+    "architect": "不明",
+    "location": "イタリア",
+    "desc": "イタリアでは托鉢修道会とかに普及",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/mirano/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/mirano/2.webp"
+    ]
+  },
+  {
+    "id": "rondon",
+    "title": "ロンドン塔",
+    "year": "11~14世紀",
+    "style": "城郭",
+    "architect": "不明",
+    "location": "イギリス",
+    "desc": "円筒形の天守",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/rondon/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/rondon/2.webp"
+    ]
+  },
+  {
+    "id": "kanavon",
+    "title": "カーナーヴォン城",
+    "year": "1283~1331年",
+    "style": "城郭",
+    "architect": "不明",
+    "location": "イギリス",
+    "desc": "ウェールズ地方。天守から城壁へ守りの中心が移る",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kanavon/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kanavon/2.webp"
+    ]
+  },
+  {
+    "id": "kanpo",
+    "title": "カンポ広場と市役所",
+    "year": "1297~1310年",
+    "style": "中世都市",
+    "architect": "不明",
+    "location": "イタリア",
+    "desc": "シエナ。城壁のある中世ヨーロッパの都市",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kanpo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kanpo/2.webp"
+    ]
+  },
+  {
+    "id": "rinburuku",
+    "title": "リーンブルクの町家",
+    "year": "12,13世紀頃",
+    "style": "中世都市",
+    "architect": "不明",
+    "location": "ドイツ",
+    "desc": "無秩序な増改築, 最悪の衛生状態",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/rinburuku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/rinburuku/2.webp"
+    ]
+  },
+  {
+    "id": "maruko",
+    "title": "サン・マルコ広場",
+    "year": "中世",
+    "style": "中世都市",
+    "architect": "不明",
+    "location": "ヴェネツィア(イタリア)",
+    "desc": "ヴェネツィアの水路と住宅。交易都市",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/maruko/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/maruko/2.webp"
+    ]
+  },
+  {
+    "id": "sinyoria",
+    "title": "シニョーリア広場",
+    "year": "中世",
+    "style": "中世都市",
+    "architect": "不明",
+    "location": "フィレンツェ(イタリア)",
+    "desc": "フィレンツェ。右はパラッツォ・メディチ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sinyoria/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sinyoria/2.webp"
+    ]
+  },
+  {
+    "id": "fione",
+    "title": "サンタ・マリア・デル・フィオーレ",
+    "year": "1420~61年",
+    "style": "ルネサンス",
+    "architect": "ブルネレスキ",
+    "location": "フィレンツェ(イタリア)",
+    "desc": "120mにも達するクーポラを完成させた",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/fione/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/fione/2.webp"
+    ]
+  },
+  {
+    "id": "sutego",
+    "title": "捨子保育院",
+    "year": "1419~45年",
+    "style": "ルネサンス",
+    "architect": "ブルネレスキ",
+    "location": "フィレンツェ(イタリア)",
+    "desc": "オスペダーレ・デッリ・イノチェンティ。ロッジア",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sutego/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sutego/2.webp"
+    ]
+  },
+  {
+    "id": "rorentso",
+    "title": "サン・ロレンツォ聖堂",
+    "year": "1420~60年",
+    "style": "ルネサンス",
+    "architect": "ブルネレスキ",
+    "location": "フィレンツェ(イタリア)",
+    "desc": "立方体格子など幾何学的秩序を重んじた",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/rorentso/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/rorentso/2.webp"
+    ]
+  },
+  {
+    "id": "patsui",
+    "title": "パッツィ家礼拝堂",
+    "year": "1430~61年",
+    "style": "ルネサンス",
+    "architect": "ブルネレスキ",
+    "location": "フィレンツェ(イタリア)",
+    "desc": "強い幾何学的秩序",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/patsui/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/patsui/2.webp"
+    ]
+  },
+  {
+    "id": "rutyera",
+    "title": "パラッツォ・ルチェライ",
+    "year": "1446~51年",
+    "style": "ルネサンス",
+    "architect": "アルベルティ",
+    "location": "フィレンツェ(イタリア)",
+    "desc": "ローマのコロッセウムがモデル",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/rutyera/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/rutyera/2.webp"
+    ]
+  },
+  {
+    "id": "tenpio",
+    "title": "テンピオ・マラテスティアーノ",
+    "year": "1450~68年",
+    "style": "ルネサンス",
+    "architect": "アルベルティ",
+    "location": "リミニ(イタリア)",
+    "desc": "未完成。凱旋門がモデル",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/tenpio/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/tenpio/2.webp"
+    ]
+  },
+  {
+    "id": "novera",
+    "title": "サンタ・マリア・ノヴェッラ聖堂",
+    "year": "1448~70年",
+    "style": "ルネサンス",
+    "architect": "アルベルティ",
+    "location": "フィレンツェ(イタリア)",
+    "desc": "整数比による構成",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/novera/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/novera/2.webp"
+    ]
+  },
+  {
+    "id": "dorea",
+    "title": "サンタドレア聖堂",
+    "year": "1471~1512年",
+    "style": "ルネサンス",
+    "architect": "アルベルティ",
+    "location": "マントヴァ(イタリア)",
+    "desc": "ラテン十字型平面+ヴォールト",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/dorea/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/dorea/2.webp"
+    ]
+  },
+  {
+    "id": "presso",
+    "title": "サンタ・マリア・プレッソ・サン・サティーロ聖堂",
+    "year": "1482~86年",
+    "style": "ルネサンス",
+    "architect": "ブラマンテ",
+    "location": "ミラノ(イタリア)",
+    "desc": "壁面装飾による奥行きの演出",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/presso/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/presso/2.webp"
+    ]
+  },
+  {
+    "id": "guratsuie",
+    "title": "サンタ・マリア・デレ・グラーツィエ聖堂",
+    "year": "1485~97年",
+    "style": "ルネサンス",
+    "architect": "ブラマンテ",
+    "location": "ミラノ(イタリア)",
+    "desc": "ダヴィンチの「最後の晩餐」がある",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/guratsuie/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/guratsuie/2.webp"
+    ]
+  },
+  {
+    "id": "tenpiet",
+    "title": "テンピエット",
+    "year": "1502~10年",
+    "style": "ルネサンス",
+    "architect": "ブラマンテ",
+    "location": "ローマ(イタリア)",
+    "desc": "サン・ピエトロ・イン・モントリオ教会の殉教者記念堂",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/tenpiet/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/tenpiet/2.webp"
+    ]
+  },
+  {
+    "id": "sinseigu",
+    "title": "新聖具室",
+    "year": "1521~34年",
+    "style": "マニエリスム",
+    "architect": "ミケランジェロ",
+    "location": "フィレンツェ(イタリア)",
+    "desc": "サン・ロレンツォ聖堂付属。彫刻と建築が一体化",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sinseigu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sinseigu/2.webp"
+    ]
+  },
+  {
+    "id": "huzokutosho",
+    "title": "付属図書館階段室",
+    "year": "1523~52年",
+    "style": "マニエリスム",
+    "architect": "ミケランジェロ",
+    "location": "フィレンツェ(イタリア)",
+    "desc": "サン・ロレンツォ聖堂付属。ペア・コラム",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/huzokutosho/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/huzokutosho/2.webp"
+    ]
+  },
+  {
+    "id": "kanpidorio",
+    "title": "カンピドリオ広場",
+    "year": "1499~1546年",
+    "style": "マニエリスム",
+    "architect": "ミケランジェロ",
+    "location": "ローマ(イタリア)",
+    "desc": "幾何学の調和。古典からの逸脱や遊び。",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kanpidorio/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kanpidorio/2.webp"
+    ]
+  },
+  {
+    "id": "irujezu",
+    "title": "イル・ジェズ聖堂",
+    "year": "1568~84年",
+    "style": "マニエリスム",
+    "architect": "ヴィニョーラ",
+    "location": "ローマ(イタリア)",
+    "desc": "正面デザインが他に影響を及ぼすように",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/irujezu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/irujezu/2.webp"
+    ]
+  },
+  {
+    "id": "desude",
+    "title": "ヴィッラ・デステ",
+    "year": "1550年着工",
+    "style": "イタリア式庭園",
+    "architect": "リゴーリオ",
+    "location": "ティヴォリ(イタリア",
+    "desc": "幾何学的に成型された小庭園",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/desude/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/desude/2.webp"
+    ]
+  },
+  {
+    "id": "rotonda",
+    "title": "ヴィッラ・ロトンダ",
+    "year": "1566~69年",
+    "style": "ルネサンス",
+    "architect": "パッラーディオ",
+    "location": "ヴィチェンツァ(イタリア)",
+    "desc": "左右対称で均整のとれた比率",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/rotonda/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/rotonda/2.webp"
+    ]
+  },
+  {
+    "id": "vitye_bashi",
+    "title": "ヴィチェンツァのバシリカ",
+    "year": "1545~80年",
+    "style": "ルネサンス",
+    "architect": "パッラーディオ",
+    "location": "ヴィチェンツァ(イタリア)",
+    "desc": "結構、伝統的なルネサンスって感じか",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/vitye_bashi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/vitye_bashi/2.webp"
+    ]
+  },
+  {
+    "id": "jorujo_majo",
+    "title": "サン・ジョルジョ・マジョーレ聖堂",
+    "year": "1560~80年",
+    "style": "ルネサンス",
+    "architect": "パッラーディオ",
+    "location": "ヴェネツィア(イタリア)",
+    "desc": "結構、伝統的なルネサンスって感じか",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/jorujo_majo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/jorujo_majo/2.webp"
+    ]
+  },
+  {
+    "id": "orinpiko",
+    "title": "テアトロ・オリンピコ",
+    "year": "1580~83年",
+    "style": "ルネサンス",
+    "architect": "パッラーディオ",
+    "location": "ヴィチェンツァ(イタリア)",
+    "desc": "結構、伝統的なルネサンスって感じか",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/orinpiko/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/orinpiko/2.webp"
+    ]
+  },
+  {
+    "id": "augusuburuku",
+    "title": "アウグスブルク市庁舎",
+    "year": "1573~1646年",
+    "style": "ルネサンス",
+    "architect": "不明",
+    "location": "ドイツ",
+    "desc": "ルネサンスの国外への波及は遅い。",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/augusuburuku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/augusuburuku/2.webp"
+    ]
   }
 ]
