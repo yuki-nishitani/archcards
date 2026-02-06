@@ -934,5 +934,551 @@
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/augusuburuku/1.webp",
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/augusuburuku/2.webp"
     ]
+  },
+  {
+    "id": "kirinare",
+    "title": "サンタンドレア・アル・キリナ―レ聖堂",
+    "year": "1658~70年",
+    "style": "バロック",
+    "architect": "ベルニーニ",
+    "location": "ローマ(イタリア)",
+    "desc": "歪んだ真珠。",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kirinare/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kirinare/2.webp"
+    ]
+  },
+  {
+    "id": "sanpie",
+    "title": "サン・ピエトロ大聖堂(増築部)",
+    "year": "1600年頃",
+    "style": "バロック",
+    "architect": "マデルノ",
+    "location": "ローマ(イタリア)",
+    "desc": "広場はベルニーニが設計。",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sanpie/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sanpie/2.webp"
+    ]
+  },
+  {
+    "id": "barube",
+    "title": "パラッツォ・バルベリーニ",
+    "year": "1628~1638年",
+    "style": "バロック",
+    "architect": "マデルノ",
+    "location": "ローマ(イタリア)",
+    "desc": "ベルニーニとボッロミーニの協力",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/barube/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/barube/2.webp"
+    ]
+  },
+  {
+    "id": "sukara",
+    "title": "スカラ・レジア",
+    "year": "1663~66年",
+    "style": "バロック",
+    "architect": "ベルニーニ",
+    "location": "バチカン",
+    "desc": "透視画法の利用",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sukara/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sukara/2.webp"
+    ]
+  },
+  {
+    "id": "karuro_arre",
+    "title": "サン・カルロ・アッレ・クワトロ・フォンターネ聖堂",
+    "year": "1638~46年",
+    "style": "バロック",
+    "architect": "ボッロミーニ",
+    "location": "ローマ(イタリア)",
+    "desc": "実は幾何学的にも秩序あり",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/karuro_arre/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/karuro_arre/2.webp"
+    ]
+  },
+  {
+    "id": "navona",
+    "title": "ナヴォナ広場",
+    "year": "17世紀",
+    "style": "バロック",
+    "architect": "ボッロミーニ, ベルニーに",
+    "location": "ローマ(イタリア)",
+    "desc": "サンタ二エーゼ聖堂がボ, 噴水と台座がベ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/navona/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/navona/2.webp"
+    ]
+  },
+  {
+    "id": "vicont",
+    "title": "ヴォ―・ル・ヴィコント",
+    "year": "1657~61年",
+    "style": "バロック",
+    "architect": "ル・ヴォ―",
+    "location": "フランス",
+    "desc": "豪壮な城館, 広大な庭園, 豪華な装飾",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/vicont/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/vicont/2.webp"
+    ]
+  },
+  {
+    "id": "verusa",
+    "title": "ヴェルサイユ宮の整備",
+    "year": "17世紀",
+    "style": "フランス式庭園",
+    "architect": "マンサール",
+    "location": "フランス",
+    "desc": "アポロン噴水、右は鏡の間",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/verusa/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/verusa/2.webp"
+    ]
+  },
+  {
+    "id": "syenburu",
+    "title": "シェーンブルン宮",
+    "year": "1695~1713年",
+    "style": "バロック",
+    "architect": "エルラッハ",
+    "location": "ウィーン(オーストリア)",
+    "desc": "ベルニーニの弟子",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/syenburu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/syenburu/2.webp"
+    ]
+  },
+  {
+    "id": "karusuki",
+    "title": "カールスキルヒェ",
+    "year": "1716~37年",
+    "style": "バロック",
+    "architect": "エルラッハ",
+    "location": "ウィーン(オーストリア)",
+    "desc": "ベルニーニの弟子",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/karusuki/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/karusuki/2.webp"
+    ]
+  },
+  {
+    "id": "vyurutsu",
+    "title": "ヴュルツブルクの司教館",
+    "year": "1719~44年",
+    "style": "バロック",
+    "architect": "ノイマン",
+    "location": "ドイツ",
+    "desc": "シェーンボルン家の支え",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/vyurutsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/vyurutsu/2.webp"
+    ]
+  },
+  {
+    "id": "junrei",
+    "title": "14人聖人巡礼教会",
+    "year": "1743~72年",
+    "style": "バロック",
+    "architect": "ノイマン",
+    "location": "ドイツ",
+    "desc": "シェーンボルン家の支え",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/junrei/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/junrei/2.webp"
+    ]
+  },
+  {
+    "id": "guri_kai",
+    "title": "グリニッチの海軍病院",
+    "year": "1696~1814年",
+    "style": "バロック",
+    "architect": "レン",
+    "location": "イギリス",
+    "desc": "元天文学者",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/guri_kai/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/guri_kai/2.webp"
+    ]
+  },
+  {
+    "id": "senporu",
+    "title": "セント・ポール大聖堂",
+    "year": "1675~1710年",
+    "style": "バロック",
+    "architect": "レン",
+    "location": "イギリス",
+    "desc": "元天文学者",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/senporu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/senporu/2.webp"
+    ]
+  },
+  {
+    "id": "burenimu",
+    "title": "ブレニム宮",
+    "year": "1705~25年",
+    "style": "バロック",
+    "architect": "ヴァンブラ, ホークスムーア",
+    "location": "イギリス",
+    "desc": "むちゃバロックらしいらしい",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/burenimu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/burenimu/2.webp"
+    ]
+  },
+  {
+    "id": "beruve",
+    "title": "ベルヴェデーレ宮",
+    "year": "1714~24年",
+    "style": "後期バロック",
+    "architect": "ヒルデブラント",
+    "location": "ウィーン(オーストリア)",
+    "desc": "庭園をはさんで向かい合う二つの宮殿",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/beruve/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/beruve/2.webp"
+    ]
+  },
+  {
+    "id": "tsuvin",
+    "title": "ツヴィンガー宮",
+    "year": "1709~23年",
+    "style": "後期バロック",
+    "architect": "ペッペルマン",
+    "location": "ドレスデン(ドイツ)",
+    "desc": "啓蒙君主, 幻想的",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/tsuvin/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/tsuvin/2.webp"
+    ]
+  },
+  {
+    "id": "sansushi",
+    "title": "サン・スーシ宮(無憂宮)",
+    "year": "1745~47年",
+    "style": "後期バロック",
+    "architect": "クノーベルスドルフ",
+    "location": "ポツダム(ドイツ)",
+    "desc": "啓蒙君主, 幻想的",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sansushi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sansushi/2.webp"
+    ]
+  },
+  {
+    "id": "amarien",
+    "title": "アマリエンブルク",
+    "year": "1734~39年",
+    "style": "ロココ",
+    "architect": "キュヴィエ",
+    "location": "ミュンヘン(ドイツ)",
+    "desc": "大きな窓と鏡、繊細な装飾",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/amarien/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/amarien/2.webp"
+    ]
+  },
+  {
+    "id": "visu",
+    "title": "ヴィ―ス巡礼教会",
+    "year": "1745~59年",
+    "style": "ロココ",
+    "architect": "ツィンマーマン兄弟",
+    "location": "ドイツ",
+    "desc": "アルプスの麓。淡く繊細な味わい",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/visu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/visu/2.webp"
+    ]
+  },
+  {
+    "id": "subizu",
+    "title": "オテル・ド・スービーズ",
+    "year": "1706~12, 1735~40年",
+    "style": "オテル",
+    "architect": "ボフラン",
+    "location": "パリ(フランス)",
+    "desc": "左右両翼に夫婦のためのアパルトマン",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/subizu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/subizu/2.webp"
+    ]
+  },
+  {
+    "id": "tizuwiku",
+    "title": "チズウィック・ハウス",
+    "year": "1726~29年",
+    "style": "オテル",
+    "architect": "ボイル, ケント",
+    "location": "イギリス",
+    "desc": "パッラーディオの影響",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/tizuwiku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/tizuwiku/2.webp"
+    ]
+  },
+  {
+    "id": "sutou",
+    "title": "ストウの庭園",
+    "year": "1730年頃",
+    "style": "ピクチャレスク",
+    "architect": "ケント",
+    "location": "イギリス",
+    "desc": "イギリス式庭園の先駆け",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sutou/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/sutou/2.webp"
+    ]
+  },
+  {
+    "id": "kuresento",
+    "title": "ロイヤル・クレセント",
+    "year": "1767~75年",
+    "style": "ピクチャレスク",
+    "architect": "ウッド",
+    "location": "バース(イギリス)",
+    "desc": "緑地を囲むように湾曲して建つ集住",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kuresento/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/kuresento/2.webp"
+    ]
+  },
+  {
+    "id": "rijento",
+    "title": "リージェント・ストリート",
+    "year": "1819~25年",
+    "style": "ピクチャレスク",
+    "architect": "ナッシュ",
+    "location": "ロンドン(イギリス)",
+    "desc": "ピカデリー・テラス, カンバーランド・テラス",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/rijento/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/rijento/2.webp"
+    ]
+  },
+  {
+    "id": "pari_pan",
+    "title": "パリのパンテオン",
+    "year": "1751~90年",
+    "style": "新古典主義",
+    "architect": "スフロ",
+    "location": "フランス",
+    "desc": "極力装飾を廃し, 構造を明示しようとした",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/pari_pan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/pari_pan/2.webp"
+    ]
+  },
+  {
+    "id": "torianon",
+    "title": "プチ・トリアノン",
+    "year": "1761~64年",
+    "style": "新古典主義",
+    "architect": "ガブリエル",
+    "location": "ヴェルサイユ(フランス)",
+    "desc": "近代建築の萌芽をここに見る",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/torianon/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/torianon/2.webp"
+    ]
+  },
+  {
+    "id": "nyuton",
+    "title": "ニュートン記念堂案",
+    "year": "1785年",
+    "style": "建築の革命",
+    "architect": "ブーレ―",
+    "location": "実現せず(フランス)",
+    "desc": "理念の追求が現実性を超越。様式ない",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/nyuton/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/nyuton/2.webp"
+    ]
+  },
+  {
+    "id": "seien",
+    "title": "アルケ・スナン(ショー)の製塩工場",
+    "year": "1775~79年",
+    "style": "建築の革命",
+    "architect": "ルドゥー",
+    "location": "フランス",
+    "desc": "厳密な幾何学とマニエリスム的な遊びもある",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/seien/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/seien/2.webp"
+    ]
+  },
+  {
+    "id": "ingu_gin",
+    "title": "イングランド銀行",
+    "year": "1753~1835年",
+    "style": "建築の革命",
+    "architect": "ソーン",
+    "location": "現存せず(イギリス)",
+    "desc": "独特なポロポーションのオフィス",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/ingu_gin/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/ingu_gin/2.webp"
+    ]
+  },
+  {
+    "id": "daieihaku",
+    "title": "大英帝国博物館",
+    "year": "1823~47年",
+    "style": "グリーク・リヴァイヴァル",
+    "architect": "スマーク",
+    "location": "ロンドン(イギリス)",
+    "desc": "古代ギリシャの質実剛健なつくり",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/daieihaku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/daieihaku/2.webp"
+    ]
+  },
+  {
+    "id": "muzeumu",
+    "title": "アルテス・ムゼウム",
+    "year": "1824~28年",
+    "style": "グリーク・リヴァイヴァル",
+    "architect": "シンケル",
+    "location": "ベルリン(ドイツ)",
+    "desc": "平面計画における実用性, 構造の素直な表れ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/muzeumu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/muzeumu/2.webp"
+    ]
+  },
+  {
+    "id": "gryuputo",
+    "title": "グリュプトテーク",
+    "year": "1816~34年",
+    "style": "グリーク・リヴァイヴァル",
+    "architect": "クレンツェ",
+    "location": "ミュンヘン(ドイツ)",
+    "desc": "徹底した古代ギリシャの参照",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/gryuputo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/gryuputo/2.webp"
+    ]
+  },
+  {
+    "id": "varuhara",
+    "title": "ヴァルハラ",
+    "year": "1830~42年",
+    "style": "グリーク・リヴァイヴァル",
+    "architect": "クレンツェ",
+    "location": "レーゲンスブルク(ドイツ)",
+    "desc": "パルテノンがモデル",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/varuhara/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/varuhara/2.webp"
+    ]
+  },
+  {
+    "id": "eikokkai",
+    "title": "英国国会議事堂",
+    "year": "1836~60年",
+    "style": "ゴシック・リヴァイヴァル",
+    "architect": "ピュージン",
+    "location": "ロンドン(イギリス)",
+    "desc": "ゴシックが建築的・考古学的に精密に",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/eikokkai/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/eikokkai/2.webp"
+    ]
+  },
+  {
+    "id": "doresu_opera",
+    "title": "ドレスデンのオペラ座",
+    "year": "1838~41年",
+    "style": "新古典主義(?)",
+    "architect": "ゼンパー",
+    "location": "ドレスデン(ドイツ)",
+    "desc": "市民を対象にした公共施設",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/doresu_opera/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/doresu_opera/2.webp"
+    ]
+  },
+  {
+    "id": "pari_opera",
+    "title": "パリのオペラ座",
+    "year": "1861~74年",
+    "style": "ネオ・バロック",
+    "architect": "ガルニエ",
+    "location": "パリ(フランス)",
+    "desc": "市民を対象にした公共施設",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/pari_opera/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/pari_opera/2.webp"
+    ]
+  },
+  {
+    "id": "doitsu_gikai",
+    "title": "ドイツ帝国議会",
+    "year": "1884~94年",
+    "style": "ネオ・バロック",
+    "architect": "ヴァロット",
+    "location": "ベルリン(ドイツ)",
+    "desc": "ノーマンフォスターによるリノベーションも",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/doitsu_gikai/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/doitsu_gikai/2.webp"
+    ]
+  },
+  {
+    "id": "riyon",
+    "title": "リヨン駅",
+    "year": "19世紀後半",
+    "style": "駅舎",
+    "architect": "トゥドワール",
+    "location": "パリ(フランス)",
+    "desc": "交通機関の発達により",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/riyon/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/riyon/2.webp"
+    ]
+  },
+  {
+    "id": "roi_pavi",
+    "title": "ロイヤル・パヴィリオン",
+    "year": "1815~23年",
+    "style": "模倣",
+    "architect": "ナッシュ",
+    "location": "ブライトン(イギリス)",
+    "desc": "インドのイスラーム建築の引用",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/roi_pavi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/roi_pavi/2.webp"
+    ]
+  },
+  {
+    "id": "pete_kaiun",
+    "title": "サンクト・ペテルブルクの海運省",
+    "year": "1732~38年",
+    "style": "模倣",
+    "architect": "コローボフ",
+    "location": "ロシア",
+    "desc": "非ヨーロッパによる西洋建築模倣",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/pete_kaiun/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/pete_kaiun/2.webp"
+    ]
+  },
+  {
+    "id": "feasutoa",
+    "title": "フェアストア",
+    "year": "1889~90年",
+    "style": "シカゴ構法",
+    "architect": "ジェニー",
+    "location": "現存せず(アメリカ)",
+    "desc": "現代高層建築の礎",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/feasutoa/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/seiyo/feasutoa/2.webp"
+    ]
   }
 ]
