@@ -1,0 +1,1159 @@
+[
+  {
+    "id": "ise",
+    "title": "伊勢神宮正殿",
+    "year": "7世紀頃",
+    "style": "神明造",
+    "architect": "不明",
+    "location": "三重県",
+    "desc": "式年遷宮：棟持柱, 心御柱, 堅魚木, 千木",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ise/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ise/2.webp"
+    ]
+  },
+  {
+    "id": "izumo",
+    "title": "出雲大社本殿",
+    "year": "7世紀頃(?)",
+    "style": "大社造",
+    "architect": "不明",
+    "location": "島根県",
+    "desc": "江戸時代に再建, 妻入り, 左右非対称",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/izumo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/izumo/2.webp"
+    ]
+  },
+  {
+    "id": "sumiyoshi",
+    "title": "住吉大社本殿",
+    "year": "3世紀頃(?)",
+    "style": "住吉造",
+    "architect": "不明",
+    "location": "大阪府",
+    "desc": "妻入り, 2室に分けられている",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sumiyoshi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sumiyoshi/2.webp"
+    ]
+  },
+  {
+    "id": "hou_kon",
+    "title": "法隆寺金堂",
+    "year": "7世紀後半",
+    "style": "伽藍配置",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "法隆寺西院, 基壇, 土壁, 瓦, 組み物",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_kon/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_kon/2.webp"
+    ]
+  },
+  {
+    "id": "hou_tou",
+    "title": "法隆寺五重塔",
+    "year": "7世紀後半",
+    "style": "伽藍配置",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "心礎柱",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_tou/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_tou/2.webp"
+    ]
+  },
+  {
+    "id": "yaku_tou",
+    "title": "薬師寺東塔",
+    "year": "8世紀",
+    "style": "伽藍配置",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "3重の塔",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/yaku_tou/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/yaku_tou/2.webp"
+    ]
+  },
+  {
+    "id": "hou_soudo",
+    "title": "法隆寺食堂及び細殿",
+    "year": "8世紀",
+    "style": "双堂",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "肘木, 二重虹梁",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_soudo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_soudo/2.webp"
+    ]
+  },
+  {
+    "id": "isaniwa",
+    "title": "伊佐爾波神社本殿",
+    "year": "1667年",
+    "style": "八幡造",
+    "architect": "不明",
+    "location": "愛媛県",
+    "desc": "建築を大型化する工夫",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/isaniwa/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/isaniwa/2.webp"
+    ]
+  },
+  {
+    "id": "hou_denpo",
+    "title": "法隆寺伝法堂",
+    "year": "8世紀",
+    "style": "モヤ-ヒサシ",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "桁行5間，梁間4間が移築後、桁行7間，梁間4間",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_denpo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_denpo/2.webp"
+    ]
+  },
+  {
+    "id": "sinyaku",
+    "title": "新薬師寺本堂",
+    "year": "8世紀",
+    "style": "モヤ-ヒサシ",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "四面モヤ, 入母屋",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sinyaku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sinyaku/2.webp"
+    ]
+  },
+  {
+    "id": "tousyo",
+    "title": "唐招提寺金堂",
+    "year": "8世紀",
+    "style": "モヤ-ヒサシ",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "正面側のヒサシを吹き放ち",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/tousyo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/tousyo/2.webp"
+    ]
+  },
+  {
+    "id": "nagare",
+    "title": "賀茂別雷神摂社",
+    "year": "1628年",
+    "style": "流造",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "平入り",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nagare/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nagare/2.webp"
+    ]
+  },
+  {
+    "id": "kasuga",
+    "title": "春日大社本社本殿",
+    "year": "1863年",
+    "style": "春日造",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "妻入り",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kasuga/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kasuga/2.webp"
+    ]
+  },
+  {
+    "id": "yoshinogari",
+    "title": "吉野ケ里遺跡",
+    "year": "1~3世紀頃",
+    "style": "環状集落",
+    "architect": "不明",
+    "location": "佐賀県",
+    "desc": "環濠がめぐっている",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/yoshinogari/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/yoshinogari/2.webp"
+    ]
+  },
+  {
+    "id": "hieizan",
+    "title": "比叡山根本中堂",
+    "year": "1642年",
+    "style": "密教寺院",
+    "architect": "不明",
+    "location": "滋賀県",
+    "desc": "山間のため、伽藍配置は意味を失う",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hieizan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hieizan/2.webp"
+    ]
+  },
+  {
+    "id": "byodo",
+    "title": "平等院鳳凰堂",
+    "year": "1053年",
+    "style": "寝殿造",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "藤原頼道の指示",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/byodo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/byodo/2.webp"
+    ]
+  },
+  {
+    "id": "nageire",
+    "title": "三佛寺奥院投入堂",
+    "year": "11~12世紀",
+    "style": "懸造",
+    "architect": "不明",
+    "location": "鳥取県",
+    "desc": "回廊の消失：屋根材が植物性に",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nageire/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nageire/2.webp"
+    ]
+  },
+  {
+    "id": "kiyomizu",
+    "title": "清水寺本堂",
+    "year": "1633年",
+    "style": "懸造",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "回廊の消失：屋根材が植物性に",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kiyomizu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kiyomizu/2.webp"
+    ]
+  },
+  {
+    "id": "kaku_tai",
+    "title": "鶴林寺太子堂",
+    "year": "1112年",
+    "style": "一間四面堂",
+    "architect": "不明",
+    "location": "兵庫県",
+    "desc": "一間四面堂は、常行堂や法華堂に用いられた",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kaku_tai/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kaku_tai/2.webp"
+    ]
+  },
+  {
+    "id": "taima",
+    "title": "當麻寺本堂",
+    "year": "1161年",
+    "style": "曼荼羅堂",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "モヤ東西の壁に曼荼羅を掲げている",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/taima/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/taima/2.webp"
+    ]
+  },
+  {
+    "id": "joruri",
+    "title": "浄瑠璃寺本堂",
+    "year": "1157年",
+    "style": "九体阿弥陀堂",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "曼荼羅の代わりに仏像を安置",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/joruri/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/joruri/2.webp"
+    ]
+  },
+  {
+    "id": "renge",
+    "title": "蓮華王院本堂",
+    "year": "1112年",
+    "style": "和様",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "別名三十三間堂。弓道やってる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/renge/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/renge/2.webp"
+    ]
+  },
+  {
+    "id": "ruriko",
+    "title": "瑠璃光寺五重塔",
+    "year": "1442年",
+    "style": "多宝塔・大塔",
+    "architect": "不明",
+    "location": "山口県",
+    "desc": "塔内部に仏像、周囲の自然と一体化",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ruriko/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ruriko/2.webp"
+    ]
+  },
+  {
+    "id": "daigo",
+    "title": "醍醐寺薬師堂",
+    "year": "1121年",
+    "style": "和様",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "天井材が張られる。亀腹の普及",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daigo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daigo/2.webp"
+    ]
+  },
+  {
+    "id": "kouzan",
+    "title": "高山寺石水院",
+    "year": "13世紀",
+    "style": "和様",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "床板と天井に挟まれた水平に延びる空間",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kouzan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kouzan/2.webp"
+    ]
+  },
+  {
+    "id": "gango",
+    "title": "元興寺極楽坊本堂",
+    "year": "1244年",
+    "style": "和様",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "天井裏の小屋組が屋根荷重を担う",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/gango/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/gango/2.webp"
+    ]
+  },
+  {
+    "id": "todai_daibutsu",
+    "title": "東大寺大仏殿",
+    "year": "1709年に再建",
+    "style": "大仏様",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "鎌倉時代に源頼朝の支援を受け大仏様が導入",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/todai_daibutsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/todai_daibutsu/2.webp"
+    ]
+  },
+  {
+    "id": "todai_nandai",
+    "title": "東大寺南大門",
+    "year": "1199年",
+    "style": "大仏様",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "貫と楔による緊結で大スパン、部材の規格化",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/todai_nandai/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/todai_nandai/2.webp"
+    ]
+  },
+  {
+    "id": "jodo",
+    "title": "浄土寺浄土堂",
+    "year": "1192年",
+    "style": "大仏様",
+    "architect": "不明",
+    "location": "兵庫県",
+    "desc": "通し柱, 遊離尾垂木, 挿肘木, 扇垂木",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/jodo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/jodo/2.webp"
+    ]
+  },
+  {
+    "id": "zuiryu",
+    "title": "瑞龍寺仏殿",
+    "year": "1659年",
+    "style": "大仏様",
+    "architect": "不明",
+    "location": "富山県",
+    "desc": "大仏様の組み物：皿斗, 通肘木",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/zuiryu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/zuiryu/2.webp"
+    ]
+  },
+  {
+    "id": "kencho",
+    "title": "建長寺仏殿・法堂",
+    "year": "14世紀",
+    "style": "禅宗様",
+    "architect": "不明",
+    "location": "神奈川県",
+    "desc": "五山寺院は伽藍+密教的な自然配置",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kencho/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kencho/2.webp"
+    ]
+  },
+  {
+    "id": "eiho",
+    "title": "永保寺庭園",
+    "year": "1313年",
+    "style": "禅宗様",
+    "architect": "不明",
+    "location": "岐阜県",
+    "desc": "自然地形の概念化(景・境致)",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/eiho/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/eiho/2.webp"
+    ]
+  },
+  {
+    "id": "enkaku",
+    "title": "円覚寺舎利殿",
+    "year": "16世紀",
+    "style": "禅宗様",
+    "architect": "不明",
+    "location": "神奈川県",
+    "desc": "中央の高い身舎、周囲の低い裳階から構成",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/enkaku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/enkaku/2.webp"
+    ]
+  },
+  {
+    "id": "syohuku",
+    "title": "正福寺地蔵堂",
+    "year": "1407年",
+    "style": "禅宗様",
+    "architect": "不明",
+    "location": "東京都",
+    "desc": "身舎と裳階の高低差を吸収する海老虹梁",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/syohuku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/syohuku/2.webp"
+    ]
+  },
+  {
+    "id": "hudoin",
+    "title": "不動院金堂",
+    "year": "1540年",
+    "style": "禅宗様",
+    "architect": "不明",
+    "location": "広島県",
+    "desc": "大虹梁と大瓶束による柱の省略",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hudoin/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hudoin/2.webp"
+    ]
+  },
+  {
+    "id": "choju",
+    "title": "長寿寺本堂",
+    "year": "12~13世紀",
+    "style": "本堂系",
+    "architect": "不明",
+    "location": "滋賀県",
+    "desc": "正堂と礼堂の接続",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/choju/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/choju/2.webp"
+    ]
+  },
+  {
+    "id": "saimyo",
+    "title": "西明寺本堂",
+    "year": "12~14世紀",
+    "style": "本堂系",
+    "architect": "不明",
+    "location": "滋賀県",
+    "desc": "ヒサシによる外陣の拡大",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/saimyo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/saimyo/2.webp"
+    ]
+  },
+  {
+    "id": "daihouon",
+    "title": "大法恩寺本堂",
+    "year": "1227年",
+    "style": "本堂系",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "禅宗様的な大虹梁による柱の省略",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daihouon/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daihouon/2.webp"
+    ]
+  },
+  {
+    "id": "chokyu",
+    "title": "長弓寺本堂",
+    "year": "1279年",
+    "style": "本堂系",
+    "architect": "不明",
+    "location": "大阪府",
+    "desc": "組物の意匠化, 六枝掛の成立",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chokyu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chokyu/2.webp"
+    ]
+  },
+  {
+    "id": "kaku_hon",
+    "title": "鶴林寺本堂",
+    "year": "1397年",
+    "style": "本堂系",
+    "architect": "不明",
+    "location": "兵庫県",
+    "desc": "禅宗様的な浅唐戸や海老虹梁の利用",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kaku_hon/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kaku_hon/2.webp"
+    ]
+  },
+  {
+    "id": "zisyo_tou",
+    "title": "慈照寺東求堂",
+    "year": "1486年",
+    "style": "会所",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "室町時代, 寝殿造から武士住宅へ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/zisyo_tou/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/zisyo_tou/2.webp"
+    ]
+  },
+  {
+    "id": "daisen",
+    "title": "大仙院方丈",
+    "year": "1513年",
+    "style": "方丈建築",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "会所と似た六室構成, ハレとケ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daisen/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daisen/2.webp"
+    ]
+  },
+  {
+    "id": "ryugen",
+    "title": "龍源院本堂",
+    "year": "1517年",
+    "style": "方丈建築",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "枯山水など豊かな庭園空間",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ryugen/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ryugen/2.webp"
+    ]
+  },
+  {
+    "id": "kinkaku",
+    "title": "鹿苑寺金閣",
+    "year": "1398年",
+    "style": "和様, 禅宗様",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "1955年再建し三層が異なる建築様式",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kinkaku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kinkaku/2.webp"
+    ]
+  },
+  {
+    "id": "ginkaku",
+    "title": "慈照寺銀閣",
+    "year": "15世紀末",
+    "style": "和様, 禅宗様",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "金閣同様に二層が異なる建築様式",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ginkaku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ginkaku/2.webp"
+    ]
+  },
+  {
+    "id": "rinzai",
+    "title": "臨済寺本堂",
+    "year": "17世紀初期",
+    "style": "方丈建築",
+    "architect": "不明",
+    "location": "静岡県",
+    "desc": "畳が備え付けに。追回し敷き",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/rinzai/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/rinzai/2.webp"
+    ]
+  },
+  {
+    "id": "inuyama",
+    "title": "犬山城天守",
+    "year": "1601年",
+    "style": "天守閣",
+    "architect": "不明",
+    "location": "愛知県",
+    "desc": "多聞櫓＋楼閣の望楼型",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/inuyama/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/inuyama/2.webp"
+    ]
+  },
+  {
+    "id": "matsuyama",
+    "title": "松山城天守",
+    "year": "1804~59年",
+    "style": "天守閣",
+    "architect": "不明",
+    "location": "愛知県",
+    "desc": "多聞櫓＋楼閣の望楼型",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/matsuyama/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/matsuyama/2.webp"
+    ]
+  },
+  {
+    "id": "matsumoto",
+    "title": "松本城天守",
+    "year": "1615年頃",
+    "style": "天守閣",
+    "architect": "不明",
+    "location": "長野県",
+    "desc": "寺院建築の塔と似た層塔型",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/matsumoto/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/matsumoto/2.webp"
+    ]
+  },
+  {
+    "id": "hirosaki",
+    "title": "弘前城天守",
+    "year": "1810年",
+    "style": "天守閣",
+    "architect": "不明",
+    "location": "青森県",
+    "desc": "寺院建築の塔と似た層塔型",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hirosaki/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hirosaki/2.webp"
+    ]
+  },
+  {
+    "id": "himeji",
+    "title": "姫路城大天守",
+    "year": "1608年",
+    "style": "天守閣",
+    "architect": "不明",
+    "location": "兵庫県",
+    "desc": "層塔型に唐破風, 千鳥破風",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/himeji/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/himeji/2.webp"
+    ]
+  },
+  {
+    "id": "hikone",
+    "title": "彦根城天守",
+    "year": "1606年",
+    "style": "天守閣",
+    "architect": "不明",
+    "location": "滋賀県",
+    "desc": "層塔型に唐破風, 千鳥破風",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hikone/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hikone/2.webp"
+    ]
+  },
+  {
+    "id": "kojoin",
+    "title": "光浄院客殿",
+    "year": "1601年",
+    "style": "書院造",
+    "architect": "不明",
+    "location": "滋賀県",
+    "desc": "押板, 床, 棚といった座敷飾が南側に",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kojoin/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kojoin/2.webp"
+    ]
+  },
+  {
+    "id": "chion_hojo",
+    "title": "知恩院大方丈",
+    "year": "1641年",
+    "style": "書院造",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "帳台構が違い棚になってる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chion_hojo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chion_hojo/2.webp"
+    ]
+  },
+  {
+    "id": "daigo_sanpo",
+    "title": "醍醐寺三宝院表書院",
+    "year": "1598年",
+    "style": "書院造",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "床の間を先頭に部屋が直線的に並ぶ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daigo_sanpo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daigo_sanpo/2.webp"
+    ]
+  },
+  {
+    "id": "nijojo",
+    "title": "二条城二の丸御殿",
+    "year": "1626年",
+    "style": "書院造",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "複数の大型書院の連なり",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nijojo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nijojo/2.webp"
+    ]
+  },
+  {
+    "id": "nishihon",
+    "title": "西本願寺書院",
+    "year": "1618年",
+    "style": "書院造",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "寺院本堂の形式と書院造が融合",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nishihon/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nishihon/2.webp"
+    ]
+  },
+  {
+    "id": "taiann",
+    "title": "妙喜庵待庵",
+    "year": "1580年",
+    "style": "茶室",
+    "architect": "千利休",
+    "location": "京都府",
+    "desc": "小間茶室",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/taiann/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/taiann/2.webp"
+    ]
+  },
+  {
+    "id": "konnichi",
+    "title": "今日庵",
+    "year": "1648年",
+    "style": "茶室",
+    "architect": "千宗旦",
+    "location": "京都府",
+    "desc": "裏千家茶室。極小空間",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/konnichi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/konnichi/2.webp"
+    ]
+  },
+  {
+    "id": "kinmo",
+    "title": "金毛窟",
+    "year": "1918年",
+    "style": "茶室",
+    "architect": "不明",
+    "location": "神奈川県",
+    "desc": "三渓園内にある。天窓など採光の機微",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kinmo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kinmo/2.webp"
+    ]
+  },
+  {
+    "id": "bousen",
+    "title": "孤篷庵忘筌",
+    "year": "17世紀",
+    "style": "茶室",
+    "architect": "小堀遠州",
+    "location": "京都府",
+    "desc": "江戸時代後期に再建。大型で開放的",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/bousen/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/bousen/2.webp"
+    ]
+  },
+  {
+    "id": "joan",
+    "title": "如庵",
+    "year": "1618年",
+    "style": "茶室",
+    "architect": "織田有楽斎",
+    "location": "愛知県",
+    "desc": "センス系の茶室",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/joan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/joan/2.webp"
+    ]
+  },
+  {
+    "id": "hiunkaku",
+    "title": "西本願寺飛雲閣",
+    "year": "16~17世紀",
+    "style": "数寄屋風書院造",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "唐破風や入母屋がつきだす自由な建築",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hiunkaku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hiunkaku/2.webp"
+    ]
+  },
+  {
+    "id": "chusyu",
+    "title": "聴秋閣",
+    "year": "17世紀",
+    "style": "数寄屋風書院造",
+    "architect": "不明",
+    "location": "神奈川県",
+    "desc": "金毛窟のある三渓園に移築された",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chusyu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chusyu/2.webp"
+    ]
+  },
+  {
+    "id": "katsura",
+    "title": "桂離宮",
+    "year": "17世紀",
+    "style": "数寄屋風書院造",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "八条宮智仁・智忠親子の別邸。丹下これ好き",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/katsura/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/katsura/2.webp"
+    ]
+  },
+  {
+    "id": "rinsyun",
+    "title": "臨春閣",
+    "year": "18世紀",
+    "style": "数寄屋風書院造",
+    "architect": "不明",
+    "location": "神奈川県",
+    "desc": "和歌山から三渓園に移築された",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/rinsyun/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/rinsyun/2.webp"
+    ]
+  },
+  {
+    "id": "takizawa",
+    "title": "瀧澤家住宅",
+    "year": "1760年",
+    "style": "町家主屋",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "トオリニワ, ミセノマ, ヒロマ, ザシキ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/takizawa/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/takizawa/2.webp"
+    ]
+  },
+  {
+    "id": "yoshijima",
+    "title": "吉島家住宅",
+    "year": "1907年",
+    "style": "町家主屋",
+    "architect": "不明",
+    "location": "岐阜県",
+    "desc": "豪商の大型町家。トオリニワがでかい",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/yoshijima/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/yoshijima/2.webp"
+    ]
+  },
+  {
+    "id": "sakuta",
+    "title": "作田家住宅",
+    "year": "17世紀",
+    "style": "農家主屋",
+    "architect": "不明",
+    "location": "神奈川県",
+    "desc": "上屋下屋構造による大型化",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sakuta/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sakuta/2.webp"
+    ]
+  },
+  {
+    "id": "horie",
+    "title": "堀江家住宅",
+    "year": "17世紀",
+    "style": "農家主屋",
+    "architect": "不明",
+    "location": "広島県",
+    "desc": "広間型三間取り",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/horie/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/horie/2.webp"
+    ]
+  },
+  {
+    "id": "toshima",
+    "title": "豊島家住宅",
+    "year": "1758年",
+    "style": "農家主屋",
+    "architect": "不明",
+    "location": "愛媛県",
+    "desc": "豪農によるL字型プラン",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/toshima/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/toshima/2.webp"
+    ]
+  },
+  {
+    "id": "gassyo",
+    "title": "合掌造",
+    "year": "18世紀末",
+    "style": "農家主屋",
+    "architect": "不明",
+    "location": "岐阜富山",
+    "desc": "白川郷・五箇山, 蚕用の巨大屋根裏",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/gassyo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/gassyo/2.webp"
+    ]
+  },
+  {
+    "id": "takahappo",
+    "title": "高八方",
+    "year": "18世紀末",
+    "style": "農家主屋",
+    "architect": "不明",
+    "location": "山形県",
+    "desc": "渋谷家住宅, 養蚕",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/takahappo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/takahappo/2.webp"
+    ]
+  },
+  {
+    "id": "magariya",
+    "title": "曲り屋",
+    "year": "18世紀末",
+    "style": "農家主屋",
+    "architect": "不明",
+    "location": "岩手県",
+    "desc": "工藤家住宅, 母屋と馬屋が連結",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/magariya/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/magariya/2.webp"
+    ]
+  },
+  {
+    "id": "chion_hondo",
+    "title": "知恩院本堂",
+    "year": "1639年",
+    "style": "本山",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "浄土宗の本山",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chion_hondo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chion_hondo/2.webp"
+    ]
+  },
+  {
+    "id": "hase",
+    "title": "長谷寺本堂",
+    "year": "1650年",
+    "style": "本山",
+    "architect": "不明",
+    "location": "奈良県",
+    "desc": "真言宗豊山派の本山",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hase/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hase/2.webp"
+    ]
+  },
+  {
+    "id": "nikko",
+    "title": "日光東照宮",
+    "year": "1636年",
+    "style": "権現造",
+    "architect": "不明",
+    "location": "栃木県",
+    "desc": "本殿, 拝殿, 石の間",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nikko/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nikko/2.webp"
+    ]
+  },
+  {
+    "id": "nikko_mon",
+    "title": "日光東照宮唐門と陽明門",
+    "year": "17世紀",
+    "style": "権現造",
+    "architect": "不明",
+    "location": "栃木県",
+    "desc": "彩色と装飾の施され豪華",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nikko_mon/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nikko_mon/2.webp"
+    ]
+  },
+  {
+    "id": "tsugaru",
+    "title": "津軽家霊屋",
+    "year": "17~18世紀",
+    "style": "権現造",
+    "architect": "不明",
+    "location": "青森県",
+    "desc": "大名家の先祖を祀る霊廟",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/tsugaru/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/tsugaru/2.webp"
+    ]
+  },
+  {
+    "id": "gomurabetsu",
+    "title": "五村別院本堂",
+    "year": "1730年",
+    "style": "江戸時代の寺社",
+    "architect": "不明",
+    "location": "滋賀県",
+    "desc": "本堂建築が大衆に開く",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/gomurabetsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/gomurabetsu/2.webp"
+    ]
+  },
+  {
+    "id": "seitoku",
+    "title": "西徳寺本堂",
+    "year": "1713年",
+    "style": "江戸時代の寺社",
+    "architect": "不明",
+    "location": "滋賀県",
+    "desc": "庶民の参詣を受け向拝が拡大",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/seitoku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/seitoku/2.webp"
+    ]
+  },
+  {
+    "id": "otaki",
+    "title": "大滝神社本殿及び拝殿",
+    "year": "1843年",
+    "style": "江戸時代の寺社",
+    "architect": "不明",
+    "location": "福井県",
+    "desc": "権現造の影響を受け複雑化",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/otaki/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/otaki/2.webp"
+    ]
+  },
+  {
+    "id": "kokawadera",
+    "title": "粉河寺本堂",
+    "year": "1720年",
+    "style": "江戸時代の寺社",
+    "architect": "不明",
+    "location": "和歌山県",
+    "desc": "複雑な屋根, 参詣者のための吹き放ち空間",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kokawadera/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kokawadera/2.webp"
+    ]
+  },
+  {
+    "id": "manpuku",
+    "title": "萬福寺",
+    "year": "1661年",
+    "style": "江戸時代の寺社",
+    "architect": "不明",
+    "location": "京都府",
+    "desc": "虹梁で海老虹梁を重ねた黄檗天井",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/manpuku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/manpuku/2.webp"
+    ]
+  },
+  {
+    "id": "kyusyosou",
+    "title": "旧正宗寺三匝堂",
+    "year": "1797年",
+    "style": "江戸時代の寺社",
+    "architect": "不明",
+    "location": "宮城県",
+    "desc": "二重螺旋の階段, 栄螺堂",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kyusyosou/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kyusyosou/2.webp"
+    ]
+  },
+  {
+    "id": "sinsyo_tou",
+    "title": "新勝寺三重塔",
+    "year": "1712年",
+    "style": "江戸時代の寺社",
+    "architect": "不明",
+    "location": "千葉県",
+    "desc": "過剰なまでの装飾",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sinsyo_tou/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sinsyo_tou/2.webp"
+    ]
+  },
+  {
+    "id": "kangi",
+    "title": "歓喜院聖天堂",
+    "year": "1744~60年",
+    "style": "江戸時代の寺社",
+    "architect": "不明",
+    "location": "埼玉県",
+    "desc": "過剰なまでの装飾",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kangi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kangi/2.webp"
+    ]
+  },
+  {
+    "id": "raigou",
+    "title": "来迎寺本堂",
+    "year": "1730年",
+    "style": "江戸時代の寺社",
+    "architect": "不明",
+    "location": "三重県",
+    "desc": "三間梁規制",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/raigou/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/raigou/2.webp"
+    ]
+  },
+  {
+    "id": "kouan",
+    "title": "講安寺本堂",
+    "year": "1789年",
+    "style": "江戸時代の寺社",
+    "architect": "不明",
+    "location": "東京都",
+    "desc": "三間梁規制",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kouan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kouan/2.webp"
+    ]
+  }
+]
