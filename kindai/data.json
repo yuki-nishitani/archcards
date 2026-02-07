@@ -559,19 +559,6 @@
     ]
   },
   {
-    "id": "daiichi_ginko",
-    "title": "第一銀行京都支店",
-    "year": "1906年",
-    "style": "日本人建築家",
-    "architect": "辰野金吾",
-    "location": "京都",
-    "desc": "民間の事務所建築",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daiichi_ginko/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daiichi_ginko/2.webp"
-    ]
-  },
-  {
     "id": "seimei_kyushu",
     "title": "日本生命九州支店",
     "year": "1909年",
@@ -871,19 +858,6 @@
     ]
   },
   {
-    "id": "syuei_insatsu",
-    "title": "秀英舎印刷工場",
-    "year": "1894年",
-    "style": "新構造",
-    "architect": "若山鉉吉",
-    "location": "東京",
-    "desc": "日本最初の鉄骨構造建築",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/syuei_insatsu/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/syuei_insatsu/2.webp"
-    ]
-  },
-  {
     "id": "mitsui_ginko",
     "title": "三井銀行本店",
     "year": "1902年",
@@ -1085,7 +1059,7 @@
     "style": "住宅の変化",
     "architect": "同潤会",
     "location": "東京",
-    "desc": "左は清洲町, 右は青山",
+    "desc": "左は清砂通, 右は青山",
     "images": [
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/dojunkai/1.webp",
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/dojunkai/2.webp"
@@ -1180,19 +1154,6 @@
     "images": [
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/maeda/1.webp",
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/maeda/2.webp"
-    ]
-  },
-  {
-    "id": "mino_jutaku",
-    "title": "箕面住宅改造博覧会",
-    "year": "1922年",
-    "style": "住宅の変化",
-    "architect": "不明",
-    "location": "大阪",
-    "desc": "居間中心型住宅の提案",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mino_jutaku/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mino_jutaku/2.webp"
     ]
   },
   {
