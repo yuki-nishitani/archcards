@@ -144,7 +144,7 @@
   },
   {
     "id": "gare_vit",
-    "title": "ガレリア・ヴィットリオ・エマヌエーレ",
+    "title": "ガレリア・ヴィットリオ・エマヌエーレ2世",
     "year": "1877年",
     "style": "鉄とガラス",
     "architect": "メンゴーニ",
@@ -192,19 +192,6 @@
     "images": [
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kokumotsu/1.webp",
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kokumotsu/2.webp"
-    ]
-  },
-  {
-    "id": "sutanrei",
-    "title": "スタンレイ紡績工場",
-    "year": "1813年",
-    "style": "鉄とガラス",
-    "architect": "不明",
-    "location": "イギリス",
-    "desc": "主要構造材が鉄",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sutanrei/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sutanrei/2.webp"
     ]
   },
   {
@@ -361,19 +348,6 @@
     "images": [
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tomioka/1.webp",
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tomioka/2.webp"
-    ]
-  },
-  {
-    "id": "kyu_raten",
-    "title": "旧羅典神学校",
-    "year": "1875年",
-    "style": "西洋技術の導入",
-    "architect": "不明",
-    "location": "長崎",
-    "desc": "木造骨組みの充填に煉瓦",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kyu_raten/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kyu_raten/2.webp"
     ]
   },
   {
