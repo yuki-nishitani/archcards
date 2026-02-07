@@ -1,1159 +1,2992 @@
 [
   {
-    "id": "ise",
-    "title": "伊勢神宮正殿",
-    "year": "7世紀頃",
-    "style": "神明造",
+    "id": "koruburukku",
+    "title": "コールブルックデール鋳鉄橋",
+    "year": "1779年",
+    "style": "鉄製橋梁",
     "architect": "不明",
-    "location": "三重県",
-    "desc": "式年遷宮：棟持柱, 心御柱, 堅魚木, 千木",
+    "location": "イギリス",
+    "desc": "鋳鉄で作られた最初の橋梁",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ise/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ise/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/koruburukku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/koruburukku/2.webp"
     ]
   },
   {
-    "id": "izumo",
-    "title": "出雲大社本殿",
-    "year": "7世紀頃(?)",
-    "style": "大社造",
-    "architect": "不明",
-    "location": "島根県",
-    "desc": "江戸時代に再建, 妻入り, 左右非対称",
+    "id": "kureigerahi",
+    "title": "クレイゲラヒー橋",
+    "year": "1814年",
+    "style": "鉄製橋梁",
+    "architect": "テルフォード",
+    "location": "スコットランド",
+    "desc": "鋳鉄型トラス構造",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/izumo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/izumo/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kureigerahi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kureigerahi/2.webp"
     ]
   },
   {
-    "id": "sumiyoshi",
-    "title": "住吉大社本殿",
-    "year": "3世紀頃(?)",
-    "style": "住吉造",
-    "architect": "不明",
-    "location": "大阪府",
-    "desc": "妻入り, 2室に分けられている",
+    "id": "kurihuton",
+    "title": "クリフトン橋",
+    "year": "1864年",
+    "style": "鉄製橋梁",
+    "architect": "ブルネル",
+    "location": "イギリス",
+    "desc": "鉄製ワイヤーケーブルの吊り橋",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sumiyoshi/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sumiyoshi/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kurihuton/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kurihuton/2.webp"
     ]
   },
   {
-    "id": "hou_kon",
-    "title": "法隆寺金堂",
-    "year": "7世紀後半",
-    "style": "伽藍配置",
+    "id": "burukkurin",
+    "title": "ブルックリン橋",
+    "year": "1883年",
+    "style": "鉄製橋梁",
     "architect": "不明",
-    "location": "奈良県",
-    "desc": "法隆寺西院, 基壇, 土壁, 瓦, 組み物",
+    "location": "アメリカ",
+    "desc": "486mものスパン。びっくり",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_kon/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_kon/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/burukkurin/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/burukkurin/2.webp"
     ]
   },
   {
-    "id": "hou_tou",
-    "title": "法隆寺五重塔",
-    "year": "7世紀後半",
-    "style": "伽藍配置",
-    "architect": "不明",
-    "location": "奈良県",
-    "desc": "心礎柱",
+    "id": "kyugaden",
+    "title": "キュー・ガーデンの温室",
+    "year": "1848年",
+    "style": "鉄とガラス",
+    "architect": "ターナー",
+    "location": "イギリス",
+    "desc": "鉄骨構造の温室",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_tou/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_tou/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kyugaden/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kyugaden/2.webp"
     ]
   },
   {
-    "id": "yaku_tou",
-    "title": "薬師寺東塔",
-    "year": "8世紀",
-    "style": "伽藍配置",
-    "architect": "不明",
-    "location": "奈良県",
-    "desc": "3重の塔",
+    "id": "suisyokyu",
+    "title": "水晶宮(クリスタルパレス)",
+    "year": "1851年",
+    "style": "鉄とガラス",
+    "architect": "パクストン",
+    "location": "ロンドン(イギリス)",
+    "desc": "ハイドパークの初代万博で建設",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/yaku_tou/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/yaku_tou/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/suisyokyu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/suisyokyu/2.webp"
     ]
   },
   {
-    "id": "hou_soudo",
-    "title": "法隆寺食堂及び細殿",
-    "year": "8世紀",
-    "style": "双堂",
+    "id": "sangyokyu",
+    "title": "産業宮",
+    "year": "1855年",
+    "style": "鉄とガラス",
     "architect": "不明",
-    "location": "奈良県",
-    "desc": "肘木, 二重虹梁",
+    "location": "パリ(フランス)",
+    "desc": "パリ万博で石壁が鉄とガラスの屋根を支える",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_soudo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_soudo/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sangyokyu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sangyokyu/2.webp"
     ]
   },
   {
-    "id": "isaniwa",
-    "title": "伊佐爾波神社本殿",
-    "year": "1667年",
-    "style": "八幡造",
-    "architect": "不明",
-    "location": "愛媛県",
-    "desc": "建築を大型化する工夫",
+    "id": "kikaikan",
+    "title": "機械館",
+    "year": "1889年",
+    "style": "鉄とガラス",
+    "architect": "デュテール, コンタマン",
+    "location": "パリ(フランス)",
+    "desc": "三回目のパリ万博。3ヒンジアーチ",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/isaniwa/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/isaniwa/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kikaikan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kikaikan/2.webp"
     ]
   },
   {
-    "id": "hou_denpo",
-    "title": "法隆寺伝法堂",
-    "year": "8世紀",
-    "style": "モヤ-ヒサシ",
-    "architect": "不明",
-    "location": "奈良県",
-    "desc": "桁行5間，梁間4間が移築後、桁行7間，梁間4間",
+    "id": "efferutou",
+    "title": "エッフェル塔",
+    "year": "1890年",
+    "style": "鉄とガラス",
+    "architect": "エッフェル",
+    "location": "パリ(フランス)",
+    "desc": "三回目のパリ万博の時に設計",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_denpo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hou_denpo/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/efferutou/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/efferutou/2.webp"
     ]
   },
   {
-    "id": "sinyaku",
-    "title": "新薬師寺本堂",
-    "year": "8世紀",
-    "style": "モヤ-ヒサシ",
-    "architect": "不明",
-    "location": "奈良県",
-    "desc": "四面モヤ, 入母屋",
+    "id": "okkusu_sizen",
+    "title": "オックスフォード大学自然史博物館",
+    "year": "1860年",
+    "style": "鉄とガラス",
+    "architect": "ウッドワード",
+    "location": "イギリス",
+    "desc": "細い鉄骨柱＋アーチでガラスを支える",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sinyaku/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sinyaku/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/okkusu_sizen/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/okkusu_sizen/2.webp"
     ]
   },
   {
-    "id": "tousyo",
-    "title": "唐招提寺金堂",
-    "year": "8世紀",
-    "style": "モヤ-ヒサシ",
-    "architect": "不明",
-    "location": "奈良県",
-    "desc": "正面側のヒサシを吹き放ち",
+    "id": "gyara_sanchu",
+    "title": "ギャラリーサンチュベール",
+    "year": "1830年代",
+    "style": "鉄とガラス",
+    "architect": "クリュイセナール",
+    "location": "ブリュッセル(ベルギー)",
+    "desc": "細い鉄骨柱＋アーチでガラスを支える",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/tousyo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/tousyo/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/gyara_sanchu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/gyara_sanchu/2.webp"
     ]
   },
   {
-    "id": "nagare",
-    "title": "賀茂別雷神摂社",
-    "year": "1628年",
-    "style": "流造",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "平入り",
+    "id": "gare_vit",
+    "title": "ガレリア・ヴィットリオ・エマヌエーレ",
+    "year": "1877年",
+    "style": "鉄とガラス",
+    "architect": "メンゴーニ",
+    "location": "ミラノ(イタリア)",
+    "desc": "細い鉄骨柱＋アーチでガラスを支える",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nagare/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nagare/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/gare_vit/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/gare_vit/2.webp"
     ]
   },
   {
-    "id": "kasuga",
-    "title": "春日大社本社本殿",
+    "id": "sen_pankura",
+    "title": "セントパンクラス駅舎",
+    "year": "1874年",
+    "style": "鉄とガラス",
+    "architect": "スコット",
+    "location": "ロンドン(イギリス)",
+    "desc": "トレインシェッド",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sen_pankura/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sen_pankura/2.webp"
+    ]
+  },
+  {
+    "id": "sekitan",
+    "title": "ロンドン石炭取引所",
+    "year": "1849年",
+    "style": "鉄とガラス",
+    "architect": "バニング",
+    "location": "ロンドン(イギリス)",
+    "desc": "鉄骨ドーム",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sekitan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sekitan/2.webp"
+    ]
+  },
+  {
+    "id": "kokumotsu",
+    "title": "リーズ穀物取引所",
     "year": "1863年",
-    "style": "春日造",
+    "style": "鉄とガラス",
+    "architect": "ブロドリック",
+    "location": "リーズ(イギリス)",
+    "desc": "鉄骨ドーム",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kokumotsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kokumotsu/2.webp"
+    ]
+  },
+  {
+    "id": "sutanrei",
+    "title": "スタンレイ紡績工場",
+    "year": "1813年",
+    "style": "鉄とガラス",
     "architect": "不明",
-    "location": "奈良県",
-    "desc": "妻入り",
+    "location": "イギリス",
+    "desc": "主要構造材が鉄",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kasuga/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kasuga/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sutanrei/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sutanrei/2.webp"
     ]
   },
   {
-    "id": "yoshinogari",
-    "title": "吉野ケ里遺跡",
-    "year": "1~3世紀頃",
-    "style": "環状集落",
+    "id": "choko",
+    "title": "ムニエチョコレート工場",
+    "year": "1872年",
+    "style": "鉄とガラス",
+    "architect": "ソルニエ",
+    "location": "パリ(フランス)",
+    "desc": "鉄骨＋カーテンウォール",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/choko/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/choko/2.webp"
+    ]
+  },
+  {
+    "id": "junuvie",
+    "title": "サント・ジュヌヴィエーヴ図書館",
+    "year": "1850年",
+    "style": "鉄とガラス",
+    "architect": "ラブルースト",
+    "location": "パリ(フランス)",
+    "desc": "図書館に鉄骨アーチ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/junuvie/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/junuvie/2.webp"
+    ]
+  },
+  {
+    "id": "daiei_tosho_etsuran",
+    "title": "大英博物館図書館閲覧室",
+    "year": "1857年",
+    "style": "鉄とガラス",
+    "architect": "スマーク",
+    "location": "ロンドン(イギリス)",
+    "desc": "図書館に鉄骨ドーム",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daiei_tosho_etsuran/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daiei_tosho_etsuran/2.webp"
+    ]
+  },
+  {
+    "id": "megane",
+    "title": "長崎眼鏡橋",
+    "year": "1634年",
+    "style": "組積橋",
     "architect": "不明",
-    "location": "佐賀県",
-    "desc": "環濠がめぐっている",
+    "location": "長崎",
+    "desc": "組積による頑強な石橋",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/yoshinogari/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/yoshinogari/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/megane/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/megane/2.webp"
     ]
   },
   {
-    "id": "hieizan",
-    "title": "比叡山根本中堂",
-    "year": "1642年",
-    "style": "密教寺院",
+    "id": "reidai",
+    "title": "霊台橋・通潤橋",
+    "year": "1847, 1854年",
+    "style": "組積橋",
+    "architect": "種山石工",
+    "location": "熊本",
+    "desc": "通潤橋は水路橋",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/reidai/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/reidai/2.webp"
+    ]
+  },
+  {
+    "id": "kokyo_ishibashi",
+    "title": "皇居正門石橋",
+    "year": "1889年",
+    "style": "組積橋",
+    "architect": "種山石工",
+    "location": "東京",
+    "desc": "明治維新後",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kokyo_ishibashi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kokyo_ishibashi/2.webp"
+    ]
+  },
+  {
+    "id": "kobe_kyoryu",
+    "title": "神戸居留地十五番館",
+    "year": "1881年頃",
+    "style": "洋館",
     "architect": "不明",
-    "location": "滋賀県",
-    "desc": "山間のため、伽藍配置は意味を失う",
+    "location": "兵庫",
+    "desc": "アメリカ領事館として建設",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hieizan/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hieizan/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kobe_kyoryu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kobe_kyoryu/2.webp"
     ]
   },
   {
-    "id": "byodo",
-    "title": "平等院鳳凰堂",
-    "year": "1053年",
-    "style": "寝殿造",
+    "id": "guraba",
+    "title": "グラバー住宅",
+    "year": "1863年",
+    "style": "洋館",
     "architect": "不明",
-    "location": "京都府",
-    "desc": "藤原頼道の指示",
+    "location": "長崎",
+    "desc": "外国人住宅, ベランダ",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/byodo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/byodo/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/guraba/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/guraba/2.webp"
     ]
   },
   {
-    "id": "nageire",
-    "title": "三佛寺奥院投入堂",
-    "year": "11~12世紀",
-    "style": "懸造",
+    "id": "hassamu",
+    "title": "ハッサム住宅",
+    "year": "1902年",
+    "style": "洋館",
     "architect": "不明",
-    "location": "鳥取県",
-    "desc": "回廊の消失：屋根材が植物性に",
+    "location": "兵庫",
+    "desc": "下見張り+ペンキ",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nageire/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nageire/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hassamu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hassamu/2.webp"
     ]
   },
   {
-    "id": "kiyomizu",
-    "title": "清水寺本堂",
-    "year": "1633年",
-    "style": "懸造",
+    "id": "nirayama",
+    "title": "韮山反射炉",
+    "year": "1857年",
+    "style": "西洋技術の導入",
     "architect": "不明",
-    "location": "京都府",
-    "desc": "回廊の消失：屋根材が植物性に",
+    "location": "静岡",
+    "desc": "洋学者によよる",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kiyomizu/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kiyomizu/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nirayama/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nirayama/2.webp"
     ]
   },
   {
-    "id": "kaku_tai",
-    "title": "鶴林寺太子堂",
-    "year": "1112年",
-    "style": "一間四面堂",
+    "id": "syoko",
+    "title": "尚古集成館",
+    "year": "1865年",
+    "style": "西洋技術の導入",
     "architect": "不明",
-    "location": "兵庫県",
-    "desc": "一間四面堂は、常行堂や法華堂に用いられた",
+    "location": "鹿児島",
+    "desc": "隣接して紡績所",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kaku_tai/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kaku_tai/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/syoko/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/syoko/2.webp"
     ]
   },
   {
-    "id": "taima",
-    "title": "當麻寺本堂",
-    "year": "1161年",
-    "style": "曼荼羅堂",
+    "id": "tomioka",
+    "title": "富岡製糸場",
+    "year": "1872年",
+    "style": "西洋技術の導入",
+    "architect": "バスチャン",
+    "location": "群馬",
+    "desc": "木造骨組みの充填に煉瓦",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tomioka/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tomioka/2.webp"
+    ]
+  },
+  {
+    "id": "kyu_raten",
+    "title": "旧羅典神学校",
+    "year": "1875年",
+    "style": "西洋技術の導入",
     "architect": "不明",
-    "location": "奈良県",
-    "desc": "モヤ東西の壁に曼荼羅を掲げている",
+    "location": "長崎",
+    "desc": "木造骨組みの充填に煉瓦",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/taima/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/taima/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kyu_raten/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kyu_raten/2.webp"
     ]
   },
   {
-    "id": "joruri",
-    "title": "浄瑠璃寺本堂",
-    "year": "1157年",
-    "style": "九体阿弥陀堂",
+    "id": "kyoiku_etsuran",
+    "title": "教育博物館書籍閲覧所書庫",
+    "year": "1880年",
+    "style": "西洋技術の導入",
     "architect": "不明",
-    "location": "京都府",
-    "desc": "曼荼羅の代わりに仏像を安置",
+    "location": "東京",
+    "desc": "アーチをもつガチの煉瓦造",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/joruri/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/joruri/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kyoiku_etsuran/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kyoiku_etsuran/2.webp"
     ]
   },
   {
-    "id": "renge",
-    "title": "蓮華王院本堂",
-    "year": "1112年",
-    "style": "和様",
+    "id": "higashi_yamanashi",
+    "title": "東山梨郡役所",
+    "year": "1885年",
+    "style": "擬洋風",
+    "architect": "藤村紫朗",
+    "location": "山梨",
+    "desc": "木造なのに組積っぽいアーチや石積",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/higashi_yamanashi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/higashi_yamanashi/2.webp"
+    ]
+  },
+  {
+    "id": "nishi_murayama",
+    "title": "西村山郡役所及び議事堂",
+    "year": "1878年",
+    "style": "擬洋風",
+    "architect": "三島通庸",
+    "location": "山形",
+    "desc": "嘘組積乙",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nishi_murayama/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nishi_murayama/2.webp"
+    ]
+  },
+  {
+    "id": "kaichi",
+    "title": "開智学校",
+    "year": "1876年",
+    "style": "擬洋風",
+    "architect": "立石清重",
+    "location": "長野",
+    "desc": "唐破風と天使も組み合わされてる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kaichi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kaichi/2.webp"
+    ]
+  },
+  {
+    "id": "keio_mita",
+    "title": "慶應義塾三田演説館",
+    "year": "1875年",
+    "style": "擬洋風",
     "architect": "不明",
-    "location": "京都府",
-    "desc": "別名三十三間堂。弓道やってる",
+    "location": "東京",
+    "desc": "伝統的な土蔵の構法",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/renge/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/renge/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/keio_mita/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/keio_mita/2.webp"
     ]
   },
   {
-    "id": "ruriko",
-    "title": "瑠璃光寺五重塔",
-    "year": "1442年",
-    "style": "多宝塔・大塔",
+    "id": "saiseikan",
+    "title": "済生館",
+    "year": "1879年",
+    "style": "擬洋風",
     "architect": "不明",
-    "location": "山口県",
-    "desc": "塔内部に仏像、周囲の自然と一体化",
+    "location": "山形",
+    "desc": "円形回廊の付属する病院",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ruriko/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ruriko/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/saiseikan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/saiseikan/2.webp"
     ]
   },
   {
-    "id": "daigo",
-    "title": "醍醐寺薬師堂",
-    "year": "1121年",
-    "style": "和様",
+    "id": "tsuruoka_keisatsu",
+    "title": "鶴岡警察署",
+    "year": "1885年",
+    "style": "擬洋風",
     "architect": "不明",
-    "location": "京都府",
-    "desc": "天井材が張られる。亀腹の普及",
+    "location": "山形",
+    "desc": "西洋建築のペディメントと入母屋の大屋根が合体",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daigo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daigo/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tsuruoka_keisatsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tsuruoka_keisatsu/2.webp"
     ]
   },
   {
-    "id": "kouzan",
-    "title": "高山寺石水院",
-    "year": "13世紀",
-    "style": "和様",
+    "id": "oyama_ginja",
+    "title": "尾山神社神門",
+    "year": "1875年",
+    "style": "擬洋風",
     "architect": "不明",
-    "location": "京都府",
-    "desc": "床板と天井に挟まれた水平に延びる空間",
+    "location": "石川",
+    "desc": "神社の門に組積の意匠",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kouzan/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kouzan/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/oyama_ginja/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/oyama_ginja/2.webp"
     ]
   },
   {
-    "id": "gango",
-    "title": "元興寺極楽坊本堂",
-    "year": "1244年",
-    "style": "和様",
+    "id": "oura_tenshu",
+    "title": "大浦天主堂",
+    "year": "1829年",
+    "style": "お雇い外国人",
     "architect": "不明",
-    "location": "奈良県",
-    "desc": "天井裏の小屋組が屋根荷重を担う",
+    "location": "長崎",
+    "desc": "プチジャン神父が関与",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/gango/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/gango/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/oura_tenshu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/oura_tenshu/2.webp"
     ]
   },
   {
-    "id": "todai_daibutsu",
-    "title": "東大寺大仏殿",
-    "year": "1709年に再建",
-    "style": "大仏様",
+    "id": "zohei_chuzo",
+    "title": "造幣寮鋳造所",
+    "year": "1871年",
+    "style": "お雇い外国人",
+    "architect": "ウォールス",
+    "location": "大阪",
+    "desc": "お雇い外国人による設計",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/zohei_chuzo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/zohei_chuzo/2.webp"
+    ]
+  },
+  {
+    "id": "kaigun_seito",
+    "title": "海軍兵学校生徒館",
+    "year": "1893年",
+    "style": "お雇い外国人",
+    "architect": "ダイアック",
+    "location": "広島",
+    "desc": "土木建築の専門家を雇用へ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kaigun_seito/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kaigun_seito/2.webp"
+    ]
+  },
+  {
+    "id": "teishitsu",
+    "title": "帝室博物館",
+    "year": "1882年",
+    "style": "お雇い外国人",
+    "architect": "コンドル",
+    "location": "東京",
+    "desc": "ガチガチに将来を嘱望された建築家",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/teishitsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/teishitsu/2.webp"
+    ]
+  },
+  {
+    "id": "nikorai",
+    "title": "東京復活大聖堂(ニコライ堂)",
+    "year": "1891年",
+    "style": "お雇い外国人",
+    "architect": "コンドル",
+    "location": "東京",
+    "desc": "ロシア正教会",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nikorai/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nikorai/2.webp"
+    ]
+  },
+  {
+    "id": "iwasaki_yokan",
+    "title": "岩崎邸",
+    "year": "1896年",
+    "style": "お雇い外国人",
+    "architect": "コンドル",
+    "location": "東京",
+    "desc": "財閥資本家の邸宅",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/iwasaki_yokan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/iwasaki_yokan/2.webp"
+    ]
+  },
+  {
+    "id": "tsunamachi",
+    "title": "綱町三井倶楽部",
+    "year": "1910年",
+    "style": "お雇い外国人",
+    "architect": "コンドル",
+    "location": "東京",
+    "desc": "財閥の迎賓館",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tsunamachi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tsunamachi/2.webp"
+    ]
+  },
+  {
+    "id": "nihon_ginko",
+    "title": "日本銀行本店本館",
+    "year": "1896年",
+    "style": "日本人建築家",
+    "architect": "辰野金吾",
+    "location": "東京",
+    "desc": "様式守る感じ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_ginko/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_ginko/2.webp"
+    ]
+  },
+  {
+    "id": "daiichi_ginko",
+    "title": "第一銀行京都支店",
+    "year": "1906年",
+    "style": "日本人建築家",
+    "architect": "辰野金吾",
+    "location": "京都",
+    "desc": "民間の事務所建築",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daiichi_ginko/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daiichi_ginko/2.webp"
+    ]
+  },
+  {
+    "id": "seimei_kyushu",
+    "title": "日本生命九州支店",
+    "year": "1909年",
+    "style": "日本人建築家",
+    "architect": "辰野金吾",
+    "location": "福岡",
+    "desc": "民間の事務所建築",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/seimei_kyushu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/seimei_kyushu/2.webp"
+    ]
+  },
+  {
+    "id": "kyouto_teishitsu",
+    "title": "京都帝室博物館本館",
+    "year": "1895年",
+    "style": "日本人建築家",
+    "architect": "片山東熊",
+    "location": "京都",
+    "desc": "宮内庁に就職",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kyouto_teishitsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kyouto_teishitsu/2.webp"
+    ]
+  },
+  {
+    "id": "tokyo_teishitsu_hyokei",
+    "title": "東京帝室博物館表慶館",
+    "year": "1908年",
+    "style": "日本人建築家",
+    "architect": "片山東熊",
+    "location": "東京",
+    "desc": "宮内庁に就職",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_teishitsu_hyokei/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_teishitsu_hyokei/2.webp"
+    ]
+  },
+  {
+    "id": "akasaka",
+    "title": "赤坂離宮",
+    "year": "1909年",
+    "style": "日本人建築家",
+    "architect": "片山東熊",
+    "location": "東京",
+    "desc": "宮内庁に就職",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/akasaka/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/akasaka/2.webp"
+    ]
+  },
+  {
+    "id": "takeda",
+    "title": "竹田宮邸",
+    "year": "1911年",
+    "style": "日本人建築家",
+    "architect": "片山東熊",
+    "location": "東京",
+    "desc": "宮内庁に就職",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/takeda/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/takeda/2.webp"
+    ]
+  },
+  {
+    "id": "suijun",
+    "title": "日本水準原点",
+    "year": "1891年",
+    "style": "日本人建築家",
+    "architect": "佐立七次郎",
+    "location": "東京",
+    "desc": "官庁営繕の建築家",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/suijun/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/suijun/2.webp"
+    ]
+  },
+  {
+    "id": "mitsubisi_kobe",
+    "title": "三菱銀行神戸支店",
+    "year": "1900年",
+    "style": "日本人建築家",
+    "architect": "曽禰達蔵, 中條精一郎",
+    "location": "兵庫",
+    "desc": "2016年解体",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsubisi_kobe/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsubisi_kobe/2.webp"
+    ]
+  },
+  {
+    "id": "keio_tosho",
+    "title": "慶應義塾図書館",
+    "year": "1912年",
+    "style": "日本人建築家",
+    "architect": "曽禰達蔵, 中條精一郎",
+    "location": "東京",
+    "desc": "ゴシック様式が基本",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/keio_tosho/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/keio_tosho/2.webp"
+    ]
+  },
+  {
+    "id": "yokohama_shokin",
+    "title": "横浜正金銀行本店",
+    "year": "1904年",
+    "style": "日本人建築家",
+    "architect": "妻木頼黄",
+    "location": "神奈川",
+    "desc": "官庁営繕の建築家",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/yokohama_shokin/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/yokohama_shokin/2.webp"
+    ]
+  },
+  {
+    "id": "daigo_tyugaku",
+    "title": "第五高等中学校本館",
+    "year": "1889年",
+    "style": "日本人建築家",
+    "architect": "山口半六",
+    "location": "熊本",
+    "desc": "官庁営繕の建築家",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daigo_tyugaku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daigo_tyugaku/2.webp"
+    ]
+  },
+  {
+    "id": "tokyo_ongaku",
+    "title": "東京音楽学校奏楽堂",
+    "year": "1890年",
+    "style": "日本人建築家",
+    "architect": "山口半六",
+    "location": "東京",
+    "desc": "官庁営繕の建築家",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_ongaku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_ongaku/2.webp"
+    ]
+  },
+  {
+    "id": "kyouto_chosho",
+    "title": "京都府庁舎",
+    "year": "1904年",
+    "style": "日本人建築家",
+    "architect": "松室重光",
+    "location": "京都",
+    "desc": "官庁営繕の建築家",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kyouto_chosho/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kyouto_chosho/2.webp"
+    ]
+  },
+  {
+    "id": "sihosyo",
+    "title": "司法省本館",
+    "year": "1895年",
+    "style": "脱擬洋風",
+    "architect": "ベックマン事務所",
+    "location": "東京",
+    "desc": "脱擬洋風の庁舎建築",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sihosyo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sihosyo/2.webp"
+    ]
+  },
+  {
+    "id": "nagoya_kouso",
+    "title": "名古屋控訴院地方裁判所区裁判所庁舎",
+    "year": "1922年",
+    "style": "脱擬洋風",
+    "architect": "河合浩三蔵",
+    "location": "愛知",
+    "desc": "司法省技師による脱擬洋風",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nagoya_kouso/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nagoya_kouso/2.webp"
+    ]
+  },
+  {
+    "id": "osaka_tosho",
+    "title": "大阪府立図書館",
+    "year": "1904年",
+    "style": "脱擬洋風",
+    "architect": "野口孫市",
+    "location": "大阪",
+    "desc": "石材をファサードにしてる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/osaka_tosho/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/osaka_tosho/2.webp"
+    ]
+  },
+  {
+    "id": "nihon_ginko_kyoto",
+    "title": "日本銀行京都支店",
+    "year": "1906年",
+    "style": "日本人建築家",
+    "architect": "辰野金吾",
+    "location": "京都",
+    "desc": "赤煉瓦の壁面に、白いオーダーやアーチなどの辰野式",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_ginko_kyoto/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_ginko_kyoto/2.webp"
+    ]
+  },
+  {
+    "id": "vodo",
+    "title": "ウォード自邸",
+    "year": "1876年",
+    "style": "新構造",
+    "architect": "ウォード",
+    "location": "アメリカ",
+    "desc": "鉄筋コンクリートの誕生",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/vodo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/vodo/2.webp"
+    ]
+  },
+  {
+    "id": "oruri_kuko_kakuno",
+    "title": "オルリー空港飛行船格納庫",
+    "year": "1916年",
+    "style": "新構造",
+    "architect": "フレシネー",
+    "location": "フランス",
+    "desc": "プレストレストコンクリート",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/oruri_kuko_kakuno/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/oruri_kuko_kakuno/2.webp"
+    ]
+  },
+  {
+    "id": "fodo_hairando",
+    "title": "フォード・ハイランドパーク工場",
+    "year": "1909年",
+    "style": "新構造",
+    "architect": "アルバート・カーン",
+    "location": "アメリカ",
+    "desc": "カーンシステムと呼ばれる独自のRC構造",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/fodo_hairando/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/fodo_hairando/2.webp"
+    ]
+  },
+  {
+    "id": "dansei",
+    "title": "弾正橋",
+    "year": "1878年",
+    "style": "新構造",
     "architect": "不明",
-    "location": "奈良県",
-    "desc": "鎌倉時代に源頼朝の支援を受け大仏様が導入",
+    "location": "東京",
+    "desc": "佐野利器より前からある土木新構造遺構",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/todai_daibutsu/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/todai_daibutsu/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/dansei/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/dansei/2.webp"
     ]
   },
   {
-    "id": "todai_nandai",
-    "title": "東大寺南大門",
-    "year": "1199年",
-    "style": "大仏様",
+    "id": "mikobata",
+    "title": "神子畑鋳鉄橋",
+    "year": "1883~85年",
+    "style": "新構造",
     "architect": "不明",
-    "location": "奈良県",
-    "desc": "貫と楔による緊結で大スパン、部材の規格化",
+    "location": "兵庫",
+    "desc": "佐野利器より前からある土木新構造遺構",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/todai_nandai/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/todai_nandai/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mikobata/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mikobata/2.webp"
     ]
   },
   {
-    "id": "jodo",
-    "title": "浄土寺浄土堂",
-    "year": "1192年",
-    "style": "大仏様",
+    "id": "nagahama",
+    "title": "長浜駅舎",
+    "year": "1882年",
+    "style": "新構造",
     "architect": "不明",
-    "location": "兵庫県",
-    "desc": "通し柱, 遊離尾垂木, 挿肘木, 扇垂木",
+    "location": "滋賀",
+    "desc": "無筋コンクリート",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/jodo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/jodo/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nagahama/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nagahama/2.webp"
     ]
   },
   {
-    "id": "zuiryu",
-    "title": "瑞龍寺仏殿",
-    "year": "1659年",
-    "style": "大仏様",
+    "id": "biwako",
+    "title": "琵琶湖疎水",
+    "year": "1885~1912年",
+    "style": "新構造",
+    "architect": "田邊朔郎",
+    "location": "滋賀",
+    "desc": "右は水路閣。鉄やコンクリートの使用",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/biwako/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/biwako/2.webp"
+    ]
+  },
+  {
+    "id": "syuei_insatsu",
+    "title": "秀英舎印刷工場",
+    "year": "1894年",
+    "style": "新構造",
+    "architect": "若山鉉吉",
+    "location": "東京",
+    "desc": "日本最初の鉄骨構造建築",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/syuei_insatsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/syuei_insatsu/2.webp"
+    ]
+  },
+  {
+    "id": "mitsui_ginko",
+    "title": "三井銀行本店",
+    "year": "1902年",
+    "style": "新構造",
+    "architect": "横河民輔",
+    "location": "東京",
+    "desc": "煉瓦と鉄の混構造",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsui_ginko/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsui_ginko/2.webp"
+    ]
+  },
+  {
+    "id": "maruzen",
+    "title": "丸善書店",
+    "year": "1909年",
+    "style": "新構造",
+    "architect": "佐野利器",
+    "location": "東京",
+    "desc": "耐震性を考慮した鉄骨構造",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/maruzen/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/maruzen/2.webp"
+    ]
+  },
+  {
+    "id": "ryogoku",
+    "title": "両国国技館",
+    "year": "1909年",
+    "style": "新構造",
+    "architect": "辰野金吾, 葛西萬司",
+    "location": "東京",
+    "desc": "佐野の理論に基づいて設計",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ryogoku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ryogoku/2.webp"
+    ]
+  },
+  {
+    "id": "tokyo_eki",
+    "title": "東京駅舎",
+    "year": "1914年",
+    "style": "新構造",
     "architect": "不明",
-    "location": "富山県",
-    "desc": "大仏様の組み物：皿斗, 通肘木",
+    "location": "東京",
+    "desc": "鉄骨の構造体に煉瓦を充填",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/zuiryu/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/zuiryu/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_eki/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_eki/2.webp"
     ]
   },
   {
-    "id": "kencho",
-    "title": "建長寺仏殿・法堂",
-    "year": "14世紀",
-    "style": "禅宗様",
+    "id": "mitsui_bussan_yokohama",
+    "title": "三井物産横浜支店",
+    "year": "1911年",
+    "style": "新構造",
+    "architect": "遠藤於菟",
+    "location": "神奈川",
+    "desc": "酒井祐之介の助言を得たRC構造",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsui_bussan_yokohama/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsui_bussan_yokohama/2.webp"
+    ]
+  },
+  {
+    "id": "kiyoshu",
+    "title": "清洲橋",
+    "year": "1927年",
+    "style": "新構造",
     "architect": "不明",
-    "location": "神奈川県",
-    "desc": "五山寺院は伽藍+密教的な自然配置",
+    "location": "東京",
+    "desc": "震災復興における鉄製橋梁",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kencho/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kencho/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kiyoshu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kiyoshu/2.webp"
     ]
   },
   {
-    "id": "eiho",
-    "title": "永保寺庭園",
-    "year": "1313年",
-    "style": "禅宗様",
+    "id": "kachidoki",
+    "title": "勝鬨橋",
+    "year": "1940年",
+    "style": "新構造",
     "architect": "不明",
-    "location": "岐阜県",
-    "desc": "自然地形の概念化(景・境致)",
+    "location": "東京",
+    "desc": "震災復興における鉄製橋梁",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/eiho/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/eiho/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kachidoki/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kachidoki/2.webp"
     ]
   },
   {
-    "id": "enkaku",
-    "title": "円覚寺舎利殿",
-    "year": "16世紀",
-    "style": "禅宗様",
+    "id": "ueno_eki",
+    "title": "上野駅舎",
+    "year": "1932年",
+    "style": "新構造",
     "architect": "不明",
-    "location": "神奈川県",
-    "desc": "中央の高い身舎、周囲の低い裳階から構成",
+    "location": "東京",
+    "desc": "駅舎屋でも鉄骨。",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/enkaku/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/enkaku/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ueno_eki/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ueno_eki/2.webp"
     ]
   },
   {
-    "id": "syohuku",
-    "title": "正福寺地蔵堂",
-    "year": "1407年",
-    "style": "禅宗様",
+    "id": "taimei_sho",
+    "title": "泰明小学校",
+    "year": "1929年",
+    "style": "新構造",
     "architect": "不明",
-    "location": "東京都",
-    "desc": "身舎と裳階の高低差を吸収する海老虹梁",
+    "location": "東京",
+    "desc": "震災復興におけるRC小学校",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/syohuku/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/syohuku/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/taimei_sho/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/taimei_sho/2.webp"
     ]
   },
   {
-    "id": "hudoin",
-    "title": "不動院金堂",
-    "year": "1540年",
-    "style": "禅宗様",
+    "id": "daiichi_kokuritsu",
+    "title": "第一国立銀行",
+    "year": "1872年",
+    "style": "ゼネコン",
+    "architect": "清水組",
+    "location": "東京",
+    "desc": "二代目清水喜助の時代",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daiichi_kokuritsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daiichi_kokuritsu/2.webp"
+    ]
+  },
+  {
+    "id": "kawase_mitsui",
+    "title": "為替バンク三井組",
+    "year": "1874年",
+    "style": "ゼネコン",
+    "architect": "清水組",
+    "location": "東京",
+    "desc": "二代目清水喜助の時代",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kawase_mitsui/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kawase_mitsui/2.webp"
+    ]
+  },
+  {
+    "id": "rokumei",
+    "title": "鹿鳴館",
+    "year": "1833年",
+    "style": "ゼネコン",
+    "architect": "コンドル",
+    "location": "東京",
+    "desc": "大倉喜八郎創業の大成建設",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/rokumei/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/rokumei/2.webp"
+    ]
+  },
+  {
+    "id": "nyuranaku",
+    "title": "ニューラナーク",
+    "year": "1816年",
+    "style": "近代都市",
+    "architect": "オーエン",
+    "location": "イギリス",
+    "desc": "工場と労働者用社宅に各種公共施設を組み合わせた共同体",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nyuranaku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nyuranaku/2.webp"
+    ]
+  },
+  {
+    "id": "enyama",
+    "title": "円山公園",
+    "year": "19世紀末",
+    "style": "近代都市",
     "architect": "不明",
-    "location": "広島県",
-    "desc": "大虹梁と大瓶束による柱の省略",
+    "location": "京都",
+    "desc": "旧寺社境内を転用して設立された都市公園",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hudoin/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hudoin/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/enyama/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/enyama/2.webp"
     ]
   },
   {
-    "id": "choju",
-    "title": "長寿寺本堂",
-    "year": "12~13世紀",
-    "style": "本堂系",
+    "id": "rechiwasu",
+    "title": "レッチワース",
+    "year": "1903年",
+    "style": "近代都市",
+    "architect": "アンウィン",
+    "location": "ロンドン(イギリス)",
+    "desc": "ハワードの田園都市構想を実現",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/rechiwasu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/rechiwasu/2.webp"
+    ]
+  },
+  {
+    "id": "dojunkai",
+    "title": "同潤会アパート",
+    "year": "1924年以降",
+    "style": "住宅の変化",
+    "architect": "同潤会",
+    "location": "東京",
+    "desc": "左は清洲町, 右は青山",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/dojunkai/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/dojunkai/2.webp"
+    ]
+  },
+  {
+    "id": "mori_natsume",
+    "title": "森鴎外・夏目漱石住宅",
+    "year": "1887年頃",
+    "style": "住宅の変化",
     "architect": "不明",
-    "location": "滋賀県",
-    "desc": "正堂と礼堂の接続",
+    "location": "愛知",
+    "desc": "中廊下型住宅の仮家",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/choju/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/choju/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mori_natsume/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mori_natsume/2.webp"
     ]
   },
   {
-    "id": "saimyo",
-    "title": "西明寺本堂",
-    "year": "12~14世紀",
-    "style": "本堂系",
-    "architect": "不明",
-    "location": "滋賀県",
-    "desc": "ヒサシによる外陣の拡大",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/saimyo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/saimyo/2.webp"
-    ]
-  },
-  {
-    "id": "daihouon",
-    "title": "大法恩寺本堂",
-    "year": "1227年",
-    "style": "本堂系",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "禅宗様的な大虹梁による柱の省略",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daihouon/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daihouon/2.webp"
-    ]
-  },
-  {
-    "id": "chokyu",
-    "title": "長弓寺本堂",
-    "year": "1279年",
-    "style": "本堂系",
-    "architect": "不明",
-    "location": "大阪府",
-    "desc": "組物の意匠化, 六枝掛の成立",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chokyu/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chokyu/2.webp"
-    ]
-  },
-  {
-    "id": "kaku_hon",
-    "title": "鶴林寺本堂",
-    "year": "1397年",
-    "style": "本堂系",
-    "architect": "不明",
-    "location": "兵庫県",
-    "desc": "禅宗様的な浅唐戸や海老虹梁の利用",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kaku_hon/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kaku_hon/2.webp"
-    ]
-  },
-  {
-    "id": "zisyo_tou",
-    "title": "慈照寺東求堂",
-    "year": "1486年",
-    "style": "会所",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "室町時代, 寝殿造から武士住宅へ",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/zisyo_tou/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/zisyo_tou/2.webp"
-    ]
-  },
-  {
-    "id": "daisen",
-    "title": "大仙院方丈",
-    "year": "1513年",
-    "style": "方丈建築",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "会所と似た六室構成, ハレとケ",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daisen/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daisen/2.webp"
-    ]
-  },
-  {
-    "id": "ryugen",
-    "title": "龍源院本堂",
-    "year": "1517年",
-    "style": "方丈建築",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "枯山水など豊かな庭園空間",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ryugen/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ryugen/2.webp"
-    ]
-  },
-  {
-    "id": "kinkaku",
-    "title": "鹿苑寺金閣",
-    "year": "1398年",
-    "style": "和様, 禅宗様",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "1955年再建し三層が異なる建築様式",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kinkaku/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kinkaku/2.webp"
-    ]
-  },
-  {
-    "id": "ginkaku",
-    "title": "慈照寺銀閣",
-    "year": "15世紀末",
-    "style": "和様, 禅宗様",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "金閣同様に二層が異なる建築様式",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ginkaku/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/ginkaku/2.webp"
-    ]
-  },
-  {
-    "id": "rinzai",
-    "title": "臨済寺本堂",
-    "year": "17世紀初期",
-    "style": "方丈建築",
-    "architect": "不明",
-    "location": "静岡県",
-    "desc": "畳が備え付けに。追回し敷き",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/rinzai/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/rinzai/2.webp"
-    ]
-  },
-  {
-    "id": "inuyama",
-    "title": "犬山城天守",
-    "year": "1601年",
-    "style": "天守閣",
-    "architect": "不明",
-    "location": "愛知県",
-    "desc": "多聞櫓＋楼閣の望楼型",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/inuyama/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/inuyama/2.webp"
-    ]
-  },
-  {
-    "id": "matsuyama",
-    "title": "松山城天守",
-    "year": "1804~59年",
-    "style": "天守閣",
-    "architect": "不明",
-    "location": "愛知県",
-    "desc": "多聞櫓＋楼閣の望楼型",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/matsuyama/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/matsuyama/2.webp"
-    ]
-  },
-  {
-    "id": "matsumoto",
-    "title": "松本城天守",
-    "year": "1615年頃",
-    "style": "天守閣",
-    "architect": "不明",
-    "location": "長野県",
-    "desc": "寺院建築の塔と似た層塔型",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/matsumoto/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/matsumoto/2.webp"
-    ]
-  },
-  {
-    "id": "hirosaki",
-    "title": "弘前城天守",
-    "year": "1810年",
-    "style": "天守閣",
-    "architect": "不明",
-    "location": "青森県",
-    "desc": "寺院建築の塔と似た層塔型",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hirosaki/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hirosaki/2.webp"
-    ]
-  },
-  {
-    "id": "himeji",
-    "title": "姫路城大天守",
-    "year": "1608年",
-    "style": "天守閣",
-    "architect": "不明",
-    "location": "兵庫県",
-    "desc": "層塔型に唐破風, 千鳥破風",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/himeji/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/himeji/2.webp"
-    ]
-  },
-  {
-    "id": "hikone",
-    "title": "彦根城天守",
-    "year": "1606年",
-    "style": "天守閣",
-    "architect": "不明",
-    "location": "滋賀県",
-    "desc": "層塔型に唐破風, 千鳥破風",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hikone/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hikone/2.webp"
-    ]
-  },
-  {
-    "id": "kojoin",
-    "title": "光浄院客殿",
-    "year": "1601年",
-    "style": "書院造",
-    "architect": "不明",
-    "location": "滋賀県",
-    "desc": "押板, 床, 棚といった座敷飾が南側に",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kojoin/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kojoin/2.webp"
-    ]
-  },
-  {
-    "id": "chion_hojo",
-    "title": "知恩院大方丈",
-    "year": "1641年",
-    "style": "書院造",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "帳台構が違い棚になってる",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chion_hojo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chion_hojo/2.webp"
-    ]
-  },
-  {
-    "id": "daigo_sanpo",
-    "title": "醍醐寺三宝院表書院",
-    "year": "1598年",
-    "style": "書院造",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "床の間を先頭に部屋が直線的に並ぶ",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daigo_sanpo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/daigo_sanpo/2.webp"
-    ]
-  },
-  {
-    "id": "nijojo",
-    "title": "二条城二の丸御殿",
-    "year": "1626年",
-    "style": "書院造",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "複数の大型書院の連なり",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nijojo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nijojo/2.webp"
-    ]
-  },
-  {
-    "id": "nishihon",
-    "title": "西本願寺書院",
-    "year": "1618年",
-    "style": "書院造",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "寺院本堂の形式と書院造が融合",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nishihon/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nishihon/2.webp"
-    ]
-  },
-  {
-    "id": "taiann",
-    "title": "妙喜庵待庵",
-    "year": "1580年",
-    "style": "茶室",
-    "architect": "千利休",
-    "location": "京都府",
-    "desc": "小間茶室",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/taiann/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/taiann/2.webp"
-    ]
-  },
-  {
-    "id": "konnichi",
-    "title": "今日庵",
-    "year": "1648年",
-    "style": "茶室",
-    "architect": "千宗旦",
-    "location": "京都府",
-    "desc": "裏千家茶室。極小空間",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/konnichi/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/konnichi/2.webp"
-    ]
-  },
-  {
-    "id": "kinmo",
-    "title": "金毛窟",
-    "year": "1918年",
-    "style": "茶室",
-    "architect": "不明",
-    "location": "神奈川県",
-    "desc": "三渓園内にある。天窓など採光の機微",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kinmo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kinmo/2.webp"
-    ]
-  },
-  {
-    "id": "bousen",
-    "title": "孤篷庵忘筌",
-    "year": "17世紀",
-    "style": "茶室",
-    "architect": "小堀遠州",
-    "location": "京都府",
-    "desc": "江戸時代後期に再建。大型で開放的",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/bousen/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/bousen/2.webp"
-    ]
-  },
-  {
-    "id": "joan",
-    "title": "如庵",
-    "year": "1618年",
-    "style": "茶室",
-    "architect": "織田有楽斎",
-    "location": "愛知県",
-    "desc": "センス系の茶室",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/joan/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/joan/2.webp"
-    ]
-  },
-  {
-    "id": "hiunkaku",
-    "title": "西本願寺飛雲閣",
-    "year": "16~17世紀",
-    "style": "数寄屋風書院造",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "唐破風や入母屋がつきだす自由な建築",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hiunkaku/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hiunkaku/2.webp"
-    ]
-  },
-  {
-    "id": "chusyu",
-    "title": "聴秋閣",
-    "year": "17世紀",
-    "style": "数寄屋風書院造",
-    "architect": "不明",
-    "location": "神奈川県",
-    "desc": "金毛窟のある三渓園に移築された",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chusyu/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chusyu/2.webp"
-    ]
-  },
-  {
-    "id": "katsura",
-    "title": "桂離宮",
-    "year": "17世紀",
-    "style": "数寄屋風書院造",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "八条宮智仁・智忠親子の別邸。丹下これ好き",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/katsura/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/katsura/2.webp"
-    ]
-  },
-  {
-    "id": "rinsyun",
-    "title": "臨春閣",
-    "year": "18世紀",
-    "style": "数寄屋風書院造",
-    "architect": "不明",
-    "location": "神奈川県",
-    "desc": "和歌山から三渓園に移築された",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/rinsyun/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/rinsyun/2.webp"
-    ]
-  },
-  {
-    "id": "takizawa",
-    "title": "瀧澤家住宅",
-    "year": "1760年",
-    "style": "町家主屋",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "トオリニワ, ミセノマ, ヒロマ, ザシキ",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/takizawa/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/takizawa/2.webp"
-    ]
-  },
-  {
-    "id": "yoshijima",
-    "title": "吉島家住宅",
+    "id": "hanta",
+    "title": "ハンター住宅",
     "year": "1907年",
-    "style": "町家主屋",
+    "style": "住宅の変化",
     "architect": "不明",
-    "location": "岐阜県",
-    "desc": "豪商の大型町家。トオリニワがでかい",
+    "location": "神戸(兵庫)",
+    "desc": "ベランダが前面ガラスで取り込まれ室内へ",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/yoshijima/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/yoshijima/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hanta/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hanta/2.webp"
     ]
   },
   {
-    "id": "sakuta",
-    "title": "作田家住宅",
-    "year": "17世紀",
-    "style": "農家主屋",
+    "id": "touou_gijuku",
+    "title": "東奥義塾外国人宣教師館",
+    "year": "1907年",
+    "style": "住宅の変化",
     "architect": "不明",
-    "location": "神奈川県",
-    "desc": "上屋下屋構造による大型化",
+    "location": "青森",
+    "desc": "洋館が開港地以外の場所でも広がる",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sakuta/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sakuta/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/touou_gijuku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/touou_gijuku/2.webp"
     ]
   },
   {
-    "id": "horie",
-    "title": "堀江家住宅",
-    "year": "17世紀",
-    "style": "農家主屋",
-    "architect": "不明",
-    "location": "広島県",
-    "desc": "広間型三間取り",
+    "id": "saigo_judo",
+    "title": "西郷従道住宅",
+    "year": "1880年代",
+    "style": "住宅の変化",
+    "architect": "フランス人",
+    "location": "東京",
+    "desc": "広いベランダがある日本人居住者による洋館",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/horie/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/horie/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/saigo_judo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/saigo_judo/2.webp"
     ]
   },
   {
-    "id": "toshima",
-    "title": "豊島家住宅",
-    "year": "1758年",
-    "style": "農家主屋",
-    "architect": "不明",
-    "location": "愛媛県",
-    "desc": "豪農によるL字型プラン",
+    "id": "tomasu",
+    "title": "トーマス住宅",
+    "year": "1909年",
+    "style": "住宅の変化",
+    "architect": "デラランデ",
+    "location": "神戸(兵庫)",
+    "desc": "石・煉瓦・木の混構造",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/toshima/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/toshima/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tomasu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tomasu/2.webp"
     ]
   },
   {
-    "id": "gassyo",
-    "title": "合掌造",
-    "year": "18世紀末",
-    "style": "農家主屋",
+    "id": "iwasaki_wakan",
+    "title": "岩崎家住宅",
+    "year": "1894年",
+    "style": "住宅の変化",
     "architect": "不明",
-    "location": "岐阜富山",
-    "desc": "白川郷・五箇山, 蚕用の巨大屋根裏",
+    "location": "東京",
+    "desc": "三菱財閥。コンドル設計の洋館に加え和風住宅が併設",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/gassyo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/gassyo/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/iwasaki_wakan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/iwasaki_wakan/2.webp"
     ]
   },
   {
-    "id": "takahappo",
-    "title": "高八方",
-    "year": "18世紀末",
-    "style": "農家主屋",
+    "id": "maeda",
+    "title": "前田侯爵邸",
+    "year": "1930年",
+    "style": "住宅の変化",
     "architect": "不明",
-    "location": "山形県",
-    "desc": "渋谷家住宅, 養蚕",
+    "location": "東京",
+    "desc": "RC造の洋館と木造の和風住宅の併設",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/takahappo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/takahappo/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/maeda/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/maeda/2.webp"
     ]
   },
   {
-    "id": "magariya",
-    "title": "曲り屋",
-    "year": "18世紀末",
-    "style": "農家主屋",
+    "id": "mino_jutaku",
+    "title": "箕面住宅改造博覧会",
+    "year": "1922年",
+    "style": "住宅の変化",
     "architect": "不明",
-    "location": "岩手県",
-    "desc": "工藤家住宅, 母屋と馬屋が連結",
+    "location": "大阪",
+    "desc": "居間中心型住宅の提案",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/magariya/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/magariya/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mino_jutaku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mino_jutaku/2.webp"
     ]
   },
   {
-    "id": "chion_hondo",
-    "title": "知恩院本堂",
-    "year": "1639年",
-    "style": "本山",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "浄土宗の本山",
+    "id": "kawakami",
+    "title": "川上貞奴邸",
+    "year": "1920年頃",
+    "style": "住宅の変化",
+    "architect": "あめりか屋",
+    "location": "愛媛",
+    "desc": "山本拙郎が中心。ハウスメーカーの走り的な",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chion_hondo/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/chion_hondo/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kawakami/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kawakami/2.webp"
     ]
   },
   {
-    "id": "hase",
-    "title": "長谷寺本堂",
-    "year": "1650年",
-    "style": "本山",
-    "architect": "不明",
-    "location": "奈良県",
-    "desc": "真言宗豊山派の本山",
+    "id": "chochikukyo",
+    "title": "聴竹居",
+    "year": "1928年",
+    "style": "住宅の変化",
+    "architect": "藤井厚二",
+    "location": "京都",
+    "desc": "中廊下型住宅＋居間, 環境工学的な視点",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hase/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/hase/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/chochikukyo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/chochikukyo/2.webp"
     ]
   },
   {
-    "id": "nikko",
-    "title": "日光東照宮",
-    "year": "1636年",
-    "style": "権現造",
+    "id": "kanban",
+    "title": "看板建築",
+    "year": "1928, 1927年",
+    "style": "住宅の変化",
     "architect": "不明",
-    "location": "栃木県",
-    "desc": "本殿, 拝殿, 石の間",
+    "location": "東京",
+    "desc": "左が村上精華堂, 右が植村邸",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nikko/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nikko/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kanban/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kanban/2.webp"
     ]
   },
   {
-    "id": "nikko_mon",
-    "title": "日光東照宮唐門と陽明門",
-    "year": "17世紀",
-    "style": "権現造",
+    "id": "huruishiba",
+    "title": "東京市営古石場住宅",
+    "year": "1923年",
+    "style": "住宅の変化",
     "architect": "不明",
-    "location": "栃木県",
-    "desc": "彩色と装飾の施され豪華",
+    "location": "東京",
+    "desc": "RC構造, 労働者向けの公共住宅",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nikko_mon/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/nikko_mon/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/huruishiba/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/huruishiba/2.webp"
     ]
   },
   {
-    "id": "tsugaru",
-    "title": "津軽家霊屋",
-    "year": "17~18世紀",
-    "style": "権現造",
-    "architect": "不明",
-    "location": "青森県",
-    "desc": "大名家の先祖を祀る霊廟",
+    "id": "dojun_daikanyama",
+    "title": "同潤会代官山アパート",
+    "year": "1925年",
+    "style": "住宅の変化",
+    "architect": "同潤会",
+    "location": "東京",
+    "desc": "食事室と寝室の分離。しかしRCは当時高価",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/tsugaru/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/tsugaru/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/dojun_daikanyama/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/dojun_daikanyama/2.webp"
     ]
   },
   {
-    "id": "gomurabetsu",
-    "title": "五村別院本堂",
-    "year": "1730年",
-    "style": "江戸時代の寺社",
-    "architect": "不明",
-    "location": "滋賀県",
-    "desc": "本堂建築が大衆に開く",
+    "id": "akai_ie",
+    "title": "赤い家",
+    "year": "1860年",
+    "style": "アーツ・アンド・クラフツ",
+    "architect": "モリス",
+    "location": "イギリス",
+    "desc": "ウェッブとの協同。職人による手仕事を評価",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/gomurabetsu/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/gomurabetsu/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/akai_ie/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/akai_ie/2.webp"
     ]
   },
   {
-    "id": "seitoku",
-    "title": "西徳寺本堂",
-    "year": "1713年",
-    "style": "江戸時代の寺社",
-    "architect": "不明",
-    "location": "滋賀県",
-    "desc": "庶民の参詣を受け向拝が拡大",
+    "id": "gurasugo_bijutsu",
+    "title": "グラスゴー美術学校",
+    "year": "1909年",
+    "style": "アーツ・アンド・クラフツ",
+    "architect": "マッキントッシュ",
+    "location": "スコットランド",
+    "desc": "近代機械生産品を否定はしない",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/seitoku/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/seitoku/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/gurasugo_bijutsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/gurasugo_bijutsu/2.webp"
     ]
   },
   {
-    "id": "otaki",
-    "title": "大滝神社本殿及び拝殿",
-    "year": "1843年",
-    "style": "江戸時代の寺社",
-    "architect": "不明",
-    "location": "福井県",
-    "desc": "権現造の影響を受け複雑化",
+    "id": "tasseru",
+    "title": "タッセル邸",
+    "year": "1893年",
+    "style": "アールヌーヴォー",
+    "architect": "オルタ",
+    "location": "ベルギー",
+    "desc": "反転曲線を多用する自由な形態の応用",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/otaki/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/otaki/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tasseru/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tasseru/2.webp"
     ]
   },
   {
-    "id": "kokawadera",
-    "title": "粉河寺本堂",
-    "year": "1720年",
-    "style": "江戸時代の寺社",
-    "architect": "不明",
-    "location": "和歌山県",
-    "desc": "複雑な屋根, 参詣者のための吹き放ち空間",
+    "id": "oruta",
+    "title": "オルタ自邸",
+    "year": "1898年",
+    "style": "アールヌーヴォー",
+    "architect": "オルタ",
+    "location": "ベルギー",
+    "desc": "反転曲線を多用する自由な形態の応用",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kokawadera/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kokawadera/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/oruta/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/oruta/2.webp"
     ]
   },
   {
-    "id": "manpuku",
-    "title": "萬福寺",
-    "year": "1661年",
-    "style": "江戸時代の寺社",
-    "architect": "不明",
-    "location": "京都府",
-    "desc": "虹梁で海老虹梁を重ねた黄檗天井",
+    "id": "metoro_iriguchi",
+    "title": "メトロ入口",
+    "year": "1901年",
+    "style": "アールヌーヴォー",
+    "architect": "ギマール",
+    "location": "パリ(フランス)",
+    "desc": "鉄の素材特性を生かした造形",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/manpuku/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/manpuku/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/metoro_iriguchi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/metoro_iriguchi/2.webp"
     ]
   },
   {
-    "id": "kyusyosou",
-    "title": "旧正宗寺三匝堂",
-    "year": "1797年",
-    "style": "江戸時代の寺社",
-    "architect": "不明",
-    "location": "宮城県",
-    "desc": "二重螺旋の階段, 栄螺堂",
+    "id": "kasamira",
+    "title": "カサ・ミラ",
+    "year": "1910年",
+    "style": "アールヌーヴォー",
+    "architect": "ガウディ",
+    "location": "バルセロナ(スペイン)",
+    "desc": "風土に根差した形態, 構造も重視",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kyusyosou/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kyusyosou/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kasamira/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kasamira/2.webp"
     ]
   },
   {
-    "id": "sinsyo_tou",
-    "title": "新勝寺三重塔",
-    "year": "1712年",
-    "style": "江戸時代の寺社",
-    "architect": "不明",
-    "location": "千葉県",
-    "desc": "過剰なまでの装飾",
+    "id": "sakurada",
+    "title": "サクラダ・ファミリア教会堂",
+    "year": "1884年~",
+    "style": "アールヌーヴォー",
+    "architect": "ガウディ",
+    "location": "バルセロナ(スペイン)",
+    "desc": "風土に根差した形態, 構造も重視",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sinsyo_tou/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/sinsyo_tou/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sakurada/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sakurada/2.webp"
     ]
   },
   {
-    "id": "kangi",
-    "title": "歓喜院聖天堂",
-    "year": "1744~60年",
-    "style": "江戸時代の寺社",
-    "architect": "不明",
-    "location": "埼玉県",
-    "desc": "過剰なまでの装飾",
+    "id": "win_yubin",
+    "title": "ウィーン郵貯金局",
+    "year": "1906年",
+    "style": "セセッション",
+    "architect": "ワーグナー",
+    "location": "ウィーン(オーストリア)",
+    "desc": "古典様式に基づきながら機能の追求",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kangi/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kangi/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/win_yubin/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/win_yubin/2.webp"
     ]
   },
   {
-    "id": "raigou",
-    "title": "来迎寺本堂",
-    "year": "1730年",
-    "style": "江戸時代の寺社",
-    "architect": "不明",
-    "location": "三重県",
-    "desc": "三間梁規制",
+    "id": "sesessyon",
+    "title": "セセッション館",
+    "year": "1898年",
+    "style": "セセッション",
+    "architect": "オルブリッヒ",
+    "location": "ウィーン(オーストリア)",
+    "desc": "輪郭線を強調した凹凸の少ない平面",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/raigou/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/raigou/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sesessyon/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sesessyon/2.webp"
     ]
   },
   {
-    "id": "kouan",
-    "title": "講安寺本堂",
-    "year": "1789年",
-    "style": "江戸時代の寺社",
-    "architect": "不明",
-    "location": "東京都",
-    "desc": "三間梁規制",
+    "id": "sutokkure",
+    "title": "ストックレー邸",
+    "year": "1911年",
+    "style": "セセッション",
+    "architect": "ホフマン",
+    "location": "ベルギー",
+    "desc": "輪郭線を強調した凹凸の少ない平面",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kouan/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/nihon/kouan/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sutokkure/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sutokkure/2.webp"
+    ]
+  },
+  {
+    "id": "syutaina",
+    "title": "シュタイナー邸",
+    "year": "1910年",
+    "style": "住宅造形論",
+    "architect": "アドルフ・ロース",
+    "location": "オーストリア",
+    "desc": "自著『装飾と犯罪』で装飾を否定。がち怖。",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/syutaina/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/syutaina/2.webp"
+    ]
+  },
+  {
+    "id": "garasu_pavi",
+    "title": "ガラスパビリオン",
+    "year": "1914年",
+    "style": "表現主義",
+    "architect": "ブルーノ・タウト",
+    "location": "ドイツ",
+    "desc": "一次大戦敗戦国ドイツで表現主義が花開く",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/garasu_pavi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/garasu_pavi/2.webp"
+    ]
+  },
+  {
+    "id": "ainsyutain",
+    "title": "アインシュタイン塔",
+    "year": "1924年以降",
+    "style": "表現主義",
+    "architect": "エーリヒ・メンデルゾーン",
+    "location": "ドイツ",
+    "desc": "外観と内部空間における建築造形の自由度",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ainsyutain/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ainsyutain/2.webp"
+    ]
+  },
+  {
+    "id": "berurin_daigekijo",
+    "title": "ベルリン大劇場",
+    "year": "1919年",
+    "style": "表現主義",
+    "architect": "ハンス・ペルツィヒ",
+    "location": "ドイツ",
+    "desc": "小型半円アーチの繰り返し",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/berurin_daigekijo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/berurin_daigekijo/2.webp"
+    ]
+  },
+  {
+    "id": "kaiun_biru",
+    "title": "海運ビル",
+    "year": "1916年",
+    "style": "アムステルダル派",
+    "architect": "ファン・デル・メイ",
+    "location": "オランダ",
+    "desc": "表現主義を受け古典様式の建築とは違う感じ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kaiun_biru/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kaiun_biru/2.webp"
+    ]
+  },
+  {
+    "id": "daraheto",
+    "title": "デ・ダヘラート集合住宅",
+    "year": "1923年",
+    "style": "アムステルダル派",
+    "architect": "ピエト・L・クラメル",
+    "location": "オランダ",
+    "desc": "表現主義を受け古典様式の建築とは違う感じ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daraheto/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daraheto/2.webp"
+    ]
+  },
+  {
+    "id": "nishijin",
+    "title": "西陣電話局",
+    "year": "1920年頃",
+    "style": "日本での解釈",
+    "architect": "岩本禄",
+    "location": "京都",
+    "desc": "セセッションの影響がある",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nishijin/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nishijin/2.webp"
+    ]
+  },
+  {
+    "id": "osaka_tyuo_kodokai",
+    "title": "大阪市中央公道会",
+    "year": "1918年",
+    "style": "日本での解釈",
+    "architect": "岡田信一郎",
+    "location": "大阪",
+    "desc": "セセッションの影響がある",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/osaka_tyuo_kodokai/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/osaka_tyuo_kodokai/2.webp"
+    ]
+  },
+  {
+    "id": "izumo_eki",
+    "title": "一畑鉄道出雲大社前駅",
+    "year": "1930年",
+    "style": "日本での解釈",
+    "architect": "不明",
+    "location": "島根",
+    "desc": "セセッションの影響がある",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/izumo_eki/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/izumo_eki/2.webp"
+    ]
+  },
+  {
+    "id": "tokyo_densin",
+    "title": "東京中央電信局",
+    "year": "1923年",
+    "style": "日本での解釈",
+    "architect": "山田守",
+    "location": "東京",
+    "desc": "表現主義の影響を受けている",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_densin/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_densin/2.webp"
+    ]
+  },
+  {
+    "id": "hijiribashi",
+    "title": "聖橋",
+    "year": "1927年",
+    "style": "日本での解釈",
+    "architect": "山田守",
+    "location": "東京",
+    "desc": "平滑に仕上げ組積造の表現を廃する",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hijiribashi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hijiribashi/2.webp"
+    ]
+  },
+  {
+    "id": "kosuge",
+    "title": "小菅刑務所",
+    "year": "1930年",
+    "style": "日本での解釈",
+    "architect": "蒲原重雄",
+    "location": "東京",
+    "desc": "表現主義の影響かも",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kosuge/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kosuge/2.webp"
+    ]
+  },
+  {
+    "id": "tokyo_shisei_kaikan",
+    "title": "東京市政会館",
+    "year": "1929年",
+    "style": "日本での解釈",
+    "architect": "佐藤功一",
+    "location": "東京",
+    "desc": "海運ビルからの影響",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_shisei_kaikan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_shisei_kaikan/2.webp"
+    ]
+  },
+  {
+    "id": "uozaki_sho",
+    "title": "魚崎小学校校舎",
+    "year": "1930年",
+    "style": "日本での解釈",
+    "architect": "清水栄二",
+    "location": "兵庫",
+    "desc": "RCならではの自由な造形",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/uozaki_sho/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/uozaki_sho/2.webp"
+    ]
+  },
+  {
+    "id": "mitsubishi_soko",
+    "title": "三菱倉庫",
+    "year": "1930年",
+    "style": "日本での解釈",
+    "architect": "竹中工務店",
+    "location": "東京",
+    "desc": "軍艦からの連想, RCならでは",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsubishi_soko/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsubishi_soko/2.webp"
+    ]
+  },
+  {
+    "id": "insyua_biru",
+    "title": "ホーム・インシュアランスビル",
+    "year": "1885年",
+    "style": "高層建築",
+    "architect": "ウィリアム・ル・バロン・ジェンニー",
+    "location": "シカゴ(アメリカ)",
+    "desc": "鉄骨の構造材を煉瓦で包み込み耐火性",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/insyua_biru/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/insyua_biru/2.webp"
+    ]
+  },
+  {
+    "id": "sekando_raita_biru",
+    "title": "セカンドライタービル",
+    "year": "1891年",
+    "style": "高層建築",
+    "architect": "ウィリアム・ル・バロン・ジェンニー",
+    "location": "シカゴ(アメリカ)",
+    "desc": "均等に配置された柱と梁でガラス窓を強調",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sekando_raita_biru/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sekando_raita_biru/2.webp"
+    ]
+  },
+  {
+    "id": "monadonokku",
+    "title": "モナドノックビル",
+    "year": "1891年",
+    "style": "高層建築",
+    "architect": "バーナム, ルート",
+    "location": "シカゴ(アメリカ)",
+    "desc": "煉瓦の格子のみで構成",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/monadonokku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/monadonokku/2.webp"
+    ]
+  },
+  {
+    "id": "riraiansu",
+    "title": "リライアンスビル",
+    "year": "1895年",
+    "style": "高層建築",
+    "architect": "バーナム, ルート",
+    "location": "シカゴ(アメリカ)",
+    "desc": "ブレースで補強された鉄骨フレーム, シカゴ窓",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/riraiansu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/riraiansu/2.webp"
+    ]
+  },
+  {
+    "id": "oditoriamu",
+    "title": "オーディトリアムビル",
+    "year": "1889年",
+    "style": "高層建築",
+    "architect": "ルイス・サリヴァン",
+    "location": "シカゴ(アメリカ)",
+    "desc": "「形態は機能に従う」で有名な人",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/oditoriamu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/oditoriamu/2.webp"
+    ]
+  },
+  {
+    "id": "kason_hyakka",
+    "title": "カーソン・ピリースコット百貨店",
+    "year": "1904年",
+    "style": "高層建築",
+    "architect": "ルイス・サリヴァン",
+    "location": "シカゴ(アメリカ)",
+    "desc": "歴史的な様式は姿を消す",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kason_hyakka/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kason_hyakka/2.webp"
+    ]
+  },
+  {
+    "id": "uruwasu",
+    "title": "ウールワースビル",
+    "year": "1910年",
+    "style": "高層建築",
+    "architect": "キャス・ギルバー",
+    "location": "ニューヨーク(アメリカ)",
+    "desc": "ゴシック聖堂を模したデザイン",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/uruwasu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/uruwasu/2.webp"
+    ]
+  },
+  {
+    "id": "kuraisura",
+    "title": "クライスラービル",
+    "year": "1930年",
+    "style": "高層建築",
+    "architect": "ウィリアム・アレン",
+    "location": "ニューヨーク(アメリカ)",
+    "desc": "アール・デコのデザインの引用",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kuraisura/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kuraisura/2.webp"
+    ]
+  },
+  {
+    "id": "enpaiasuteto",
+    "title": "エンパイアステートビル",
+    "year": "1931年",
+    "style": "高層建築",
+    "architect": "ハーモン",
+    "location": "ニューヨーク(アメリカ)",
+    "desc": "アール・デコのデザインの引用",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/enpaiasuteto/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/enpaiasuteto/2.webp"
+    ]
+  },
+  {
+    "id": "winzuro",
+    "title": "ウィンズロー邸",
+    "year": "1894年",
+    "style": "ライトの建築",
+    "architect": "フランク・ロイド・ライト",
+    "location": "シカゴ(アメリカ)",
+    "desc": "中心暖炉はアメリカ的伝統, 左右対称",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/winzuro/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/winzuro/2.webp"
+    ]
+  },
+  {
+    "id": "robi",
+    "title": "ロビー邸",
+    "year": "1909年",
+    "style": "ライトの建築",
+    "architect": "フランク・ロイド・ライト",
+    "location": "シカゴ(アメリカ)",
+    "desc": "左右対称を崩し, 箱型が消える",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/robi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/robi/2.webp"
+    ]
+  },
+  {
+    "id": "teikoku_hoteru",
+    "title": "帝国ホテル",
+    "year": "1923年",
+    "style": "ライトの建築",
+    "architect": "フランク・ロイド・ライト",
+    "location": "東京",
+    "desc": "言わずと知れたライトの建築",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/teikoku_hoteru/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/teikoku_hoteru/2.webp"
+    ]
+  },
+  {
+    "id": "jiyuu_myonichi",
+    "title": "自由学園明日館",
+    "year": "1922年",
+    "style": "ライトの建築",
+    "architect": "フランク・ロイド・ライト",
+    "location": "東京",
+    "desc": "ライトすごい",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/jiyuu_myonichi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/jiyuu_myonichi/2.webp"
+    ]
+  },
+  {
+    "id": "yamamura",
+    "title": "山邑邸",
+    "year": "1924年",
+    "style": "ライトの建築",
+    "architect": "フランク・ロイド・ライト",
+    "location": "兵庫",
+    "desc": "ライトすごい",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/yamamura/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/yamamura/2.webp"
+    ]
+  },
+  {
+    "id": "kosien",
+    "title": "甲子園ホテル",
+    "year": "1930年",
+    "style": "ライトの建築",
+    "architect": "フランク・ロイド・ライト",
+    "location": "兵庫",
+    "desc": "ライトすごい",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kosien/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kosien/2.webp"
+    ]
+  },
+  {
+    "id": "rakusuiso",
+    "title": "カウフマン邸(落水荘)",
+    "year": "1936年",
+    "style": "ライトの建築建築",
+    "architect": "フランク・ロイド・ライト",
+    "location": "アメリカ",
+    "desc": "PSYCHO-PASSの雑賀譲二の家のモデル",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/rakusuiso/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/rakusuiso/2.webp"
+    ]
+  },
+  {
+    "id": "mitsubishi_ichigo",
+    "title": "三菱一号館",
+    "year": "1894年",
+    "style": "日本の都市建築",
+    "architect": "コンドル",
+    "location": "東京",
+    "desc": "本格的な西洋風の事務所建築",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsubishi_ichigo/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsubishi_ichigo/2.webp"
+    ]
+  },
+  {
+    "id": "mitsui_kasi",
+    "title": "三井貸事務所",
+    "year": "1912年",
+    "style": "日本の都市建築",
+    "architect": "横河民輔",
+    "location": "東京",
+    "desc": "鉄骨構造を用いた建築の高層化",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsui_kasi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsui_kasi/2.webp"
+    ]
+  },
+  {
+    "id": "marunouchi",
+    "title": "丸の内ビルヂング",
+    "year": "1923年",
+    "style": "日本の都市建築",
+    "architect": "三菱, フラー社",
+    "location": "東京",
+    "desc": "関東大震災に被災し, SRCへ構造を変更",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/marunouchi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/marunouchi/2.webp"
+    ]
+  },
+  {
+    "id": "mitsui_honkan",
+    "title": "三井本館",
+    "year": "1919年",
+    "style": "日本の都市建築",
+    "architect": "トロブリッジアンドリビングストン社",
+    "location": "東京",
+    "desc": "アメリカンボザール流の古典様式に基づく三分割構成",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsui_honkan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsui_honkan/2.webp"
+    ]
+  },
+  {
+    "id": "meiji_seimei",
+    "title": "明治生命館",
+    "year": "1934年",
+    "style": "日本の都市建築",
+    "architect": "岡田信一郎",
+    "location": "東京",
+    "desc": "厳格な古典様式のオーダーを用いる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/meiji_seimei/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/meiji_seimei/2.webp"
+    ]
+  },
+  {
+    "id": "nihon_yubin_yokohama",
+    "title": "日本郵便横浜支店",
+    "year": "1936年",
+    "style": "日本の都市建築",
+    "architect": "和田順顕",
+    "location": "神奈川",
+    "desc": "厳格な古典様式のオーダーを用いる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_yubin_yokohama/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_yubin_yokohama/2.webp"
+    ]
+  },
+  {
+    "id": "daiichi_seimei",
+    "title": "第一生命館",
+    "year": "1938年",
+    "style": "日本の都市建築",
+    "architect": "渡辺仁",
+    "location": "東京",
+    "desc": "古典主義に基づきながらオーダーを省略",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daiichi_seimei/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daiichi_seimei/2.webp"
+    ]
+  },
+  {
+    "id": "sansin",
+    "title": "三信ビル",
+    "year": "1929年",
+    "style": "日本の都市建築",
+    "architect": "松井貴太郎",
+    "location": "東京",
+    "desc": "表現主義やロマネスク教会の影響",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sansin/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sansin/2.webp"
+    ]
+  },
+  {
+    "id": "mitsukoshi_honten",
+    "title": "三越本店",
+    "year": "1935年",
+    "style": "日本の都市建築",
+    "architect": "横河工務店",
+    "location": "東京",
+    "desc": "店蔵が高層化しデパートへ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsukoshi_honten/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsukoshi_honten/2.webp"
+    ]
+  },
+  {
+    "id": "nankai_biru",
+    "title": "南海ビルディング(高島屋)",
+    "year": "1932年",
+    "style": "日本の都市建築",
+    "architect": "久野節",
+    "location": "難波(大阪)",
+    "desc": "駅と百貨店の融合",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nankai_biru/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nankai_biru/2.webp"
+    ]
+  },
+  {
+    "id": "todai_houbunkei",
+    "title": "東京大学法文経1・2号館",
+    "year": "1929年",
+    "style": "日本の都市建築",
+    "architect": "内田祥三",
+    "location": "東京",
+    "desc": "ゴシックっぽい",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/todai_houbunkei/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/todai_houbunkei/2.webp"
+    ]
+  },
+  {
+    "id": "todai_yasuda",
+    "title": "東京大学安田講堂",
+    "year": "1925年",
+    "style": "日本の都市建築",
+    "architect": "岸田日出刀",
+    "location": "東京",
+    "desc": "シンボリックなタワー",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/todai_yasuda/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/todai_yasuda/2.webp"
+    ]
+  },
+  {
+    "id": "todai_tatsuoka",
+    "title": "東京大学龍岡門",
+    "year": "1931年",
+    "style": "日本の都市建築",
+    "architect": "不明",
+    "location": "東京",
+    "desc": "アムステルダム派の影響",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/todai_tatsuoka/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/todai_tatsuoka/2.webp"
+    ]
+  },
+  {
+    "id": "daisan_inta",
+    "title": "第三インターナショナル",
+    "year": "1920年",
+    "style": "ロシア構成主義",
+    "architect": "ウラジミール・タトリン",
+    "location": "ロシア(?)",
+    "desc": "アバンギャルド",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daisan_inta/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daisan_inta/2.webp"
+    ]
+  },
+  {
+    "id": "purauda_mosukuwa",
+    "title": "プラウダ・モスクワ支局案",
+    "year": "1924年",
+    "style": "ロシア構成主義",
+    "architect": "ヴェスニン兄弟",
+    "location": "ロシア(?)",
+    "desc": "アバンギャルド",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/purauda_mosukuwa/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/purauda_mosukuwa/2.webp"
+    ]
+  },
+  {
+    "id": "syureda",
+    "title": "シュレーダー邸",
+    "year": "1923年",
+    "style": "モダニズム",
+    "architect": "リートフェルト",
+    "location": "オランダ",
+    "desc": "色の塗分けなどコンポジション",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/syureda/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/syureda/2.webp"
+    ]
+  },
+  {
+    "id": "aeg",
+    "title": "AEGタービン工場",
+    "year": "1909年",
+    "style": "モダニズム",
+    "architect": "ペーター・ベーレンス",
+    "location": "ドイツ",
+    "desc": "機能美",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/aeg/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/aeg/2.webp"
+    ]
+  },
+  {
+    "id": "fagusu",
+    "title": "ファグス靴工場",
+    "year": "1911年",
+    "style": "モダニズム",
+    "architect": "グロピウス",
+    "location": "ドイツ",
+    "desc": "アドルフ・マイヤーと共同",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/fagusu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/fagusu/2.webp"
+    ]
+  },
+  {
+    "id": "bauhausu_dessau",
+    "title": "バウハウス・デッサウ校舎",
+    "year": "1926年",
+    "style": "モダニズム",
+    "architect": "グロピウス",
+    "location": "ドイツ",
+    "desc": "機能美",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/bauhausu_dessau/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/bauhausu_dessau/2.webp"
+    ]
+  },
+  {
+    "id": "baruserona_pavi",
+    "title": "バルセロナ万博パヴィリオン",
+    "year": "1929年",
+    "style": "モダニズム",
+    "architect": "ミース",
+    "location": "スペイン",
+    "desc": "ユニバーサルスペース, Less is More",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/baruserona_pavi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/baruserona_pavi/2.webp"
+    ]
+  },
+  {
+    "id": "fanzuwasu",
+    "title": "ファンズワース邸",
+    "year": "1950年",
+    "style": "モダニズム",
+    "architect": "ミース",
+    "location": "アメリカ",
+    "desc": "ユニバーサルスペース, Less is More",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/fanzuwasu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/fanzuwasu/2.webp"
+    ]
+  },
+  {
+    "id": "nichihutsu",
+    "title": "日仏学院",
+    "year": "1951年",
+    "style": "モダニズム",
+    "architect": "坂倉準三",
+    "location": "東京",
+    "desc": "ドミノシステム",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nichihutsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nichihutsu/2.webp"
+    ]
+  },
+  {
+    "id": "savoa",
+    "title": "サヴォア邸",
+    "year": "1931年",
+    "style": "モダニズム",
+    "architect": "コルビュジェ",
+    "location": "フランス",
+    "desc": "モデュロール, ドミノシステム",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/savoa/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/savoa/2.webp"
+    ]
+  },
+  {
+    "id": "yunite_dabida",
+    "title": "ユニテ・ダビタシオン",
+    "year": "1947年",
+    "style": "モダニズム",
+    "architect": "コルビュジェ",
+    "location": "フランス",
+    "desc": "メゾネット方式",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/yunite_dabida/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/yunite_dabida/2.webp"
+    ]
+  },
+  {
+    "id": "monmarutoru",
+    "title": "サン・ジャン・ド・モンマルトル教会",
+    "year": "1904年",
+    "style": "RCの実践",
+    "architect": "アナトール・ド・ボド",
+    "location": "フランス",
+    "desc": "RC構造の造形的実践",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/monmarutoru/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/monmarutoru/2.webp"
+    ]
+  },
+  {
+    "id": "ranshi_notorudamu",
+    "title": "ル・ランシーのノートルダム教会",
+    "year": "1923年",
+    "style": "RCの実践",
+    "architect": "オーギュスト・ペレ",
+    "location": "フランス",
+    "desc": "RC構造の造形的実践",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ranshi_notorudamu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ranshi_notorudamu/2.webp"
+    ]
+  },
+  {
+    "id": "tokyo_joshidai_reihai",
+    "title": "東京女子大学礼拝堂",
+    "year": "1934年",
+    "style": "日本の近代建築",
+    "architect": "アントニン・レーモンド",
+    "location": "東京",
+    "desc": "ル・ランシーのノートルダム教会がモデルらしい",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_joshidai_reihai/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_joshidai_reihai/2.webp"
+    ]
+  },
+  {
+    "id": "kimrura_kenkyu",
+    "title": "木村産業研究所",
+    "year": "1932年",
+    "style": "日本の近代建築",
+    "architect": "前川國男",
+    "location": "青森",
+    "desc": "日本最古の近代建築",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kimrura_kenkyu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kimrura_kenkyu/2.webp"
+    ]
+  },
+  {
+    "id": "mito_sokkou",
+    "title": "水戸測候所",
+    "year": "1935年",
+    "style": "日本の近代建築",
+    "architect": "堀口捨己",
+    "location": "茨城",
+    "desc": "バウハウス流の建築",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mito_sokkou/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mito_sokkou/2.webp"
+    ]
+  },
+  {
+    "id": "tsuchiura",
+    "title": "土浦亀城自邸",
+    "year": "1935年",
+    "style": "日本の近代建築",
+    "architect": "土浦亀城",
+    "location": "東京",
+    "desc": "白い箱状と吹き抜けの構成。木造",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tsuchiura/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tsuchiura/2.webp"
+    ]
+  },
+  {
+    "id": "haratei",
+    "title": "原邸",
+    "year": "1938年",
+    "style": "日本の近代建築",
+    "architect": "渡辺仁",
+    "location": "東京",
+    "desc": "僕が行ってみたかった建築",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/haratei/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/haratei/2.webp"
+    ]
+  },
+  {
+    "id": "nikko_kanaya",
+    "title": "日光金谷ホテル",
+    "year": "1893年",
+    "style": "擬洋風",
+    "architect": "不明",
+    "location": "栃木",
+    "desc": "和様折衷",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nikko_kanaya/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nikko_kanaya/2.webp"
+    ]
+  },
+  {
+    "id": "daimyoji_pauro",
+    "title": "大明寺聖パウロ教会",
+    "year": "1879年",
+    "style": "和洋折衷",
+    "architect": "不明",
+    "location": "愛知",
+    "desc": "西洋の教会を日本の伝統的な構法で実現",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daimyoji_pauro/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/daimyoji_pauro/2.webp"
+    ]
+  },
+  {
+    "id": "asano_soichiro",
+    "title": "浅野総一郎自邸",
+    "year": "1909年",
+    "style": "和洋折衷",
+    "architect": "伊東忠太",
+    "location": "東京",
+    "desc": "書院造の室内に洋風家具",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/asano_soichiro/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/asano_soichiro/2.webp"
+    ]
+  },
+  {
+    "id": "nihon_kangyo_honten",
+    "title": "日本勧業銀行本店",
+    "year": "1905年",
+    "style": "和洋折衷",
+    "architect": "妻木頼黄",
+    "location": "東京",
+    "desc": "平面計画や室内意匠が西洋風",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_kangyo_honten/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_kangyo_honten/2.webp"
+    ]
+  },
+  {
+    "id": "nara_bussan_chinretsu",
+    "title": "奈良県物産陳列所",
+    "year": "1902年",
+    "style": "和洋折衷",
+    "architect": "関野貞",
+    "location": "奈良",
+    "desc": "イスラム建築風の意匠が採用",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nara_bussan_chinretsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nara_bussan_chinretsu/2.webp"
+    ]
+  },
+  {
+    "id": "nihonbashi_takasima",
+    "title": "日本橋高島屋",
+    "year": "1933年",
+    "style": "和洋折衷",
+    "architect": "高橋貞太郎",
+    "location": "東京",
+    "desc": "西洋様式主義の細部を日本建築的なディテール",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihonbashi_takasima/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihonbashi_takasima/2.webp"
+    ]
+  },
+  {
+    "id": "shinsai_hukko",
+    "title": "震災記念堂",
+    "year": "1930年",
+    "style": "和洋折衷",
+    "architect": "伊東忠太",
+    "location": "東京",
+    "desc": "キリスト教会の空間構成を日本的な細部意匠で",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/shinsai_hukko/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/shinsai_hukko/2.webp"
+    ]
+  },
+  {
+    "id": "tsukiji_hongan",
+    "title": "築地本願寺",
+    "year": "1934年",
+    "style": "和洋折衷",
+    "architect": "伊東忠太",
+    "location": "東京",
+    "desc": "外観はインド風",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tsukiji_hongan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tsukiji_hongan/2.webp"
+    ]
+  },
+  {
+    "id": "sinsyu_seimei_hoken",
+    "title": "真宗信徒生命保険会社",
+    "year": "1912年",
+    "style": "和洋折衷",
+    "architect": "不明",
+    "location": "京都",
+    "desc": "外観はインド中近東風",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sinsyu_seimei_hoken/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sinsyu_seimei_hoken/2.webp"
+    ]
+  },
+  {
+    "id": "tokyo_kabukiza",
+    "title": "東京歌舞伎座",
+    "year": "1925年",
+    "style": "日本的表現",
+    "architect": "岡田信一郎",
+    "location": "東京",
+    "desc": "RCや鉄骨を用いて日本建築をつくる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_kabukiza/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_kabukiza/2.webp"
+    ]
+  },
+  {
+    "id": "meiji_jingu_houmotsu",
+    "title": "明治神宮宝物館",
+    "year": "1921年",
+    "style": "日本的表現",
+    "architect": "大江新太郎",
+    "location": "東京",
+    "desc": "日本建築のディティールの再構成",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/meiji_jingu_houmotsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/meiji_jingu_houmotsu/2.webp"
+    ]
+  },
+  {
+    "id": "gunjin_kaikan",
+    "title": "軍人会館",
+    "year": "1934年",
+    "style": "帝冠様式",
+    "architect": "川元良一",
+    "location": "東京",
+    "desc": "日本建築の大屋根を載せる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/gunjin_kaikan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/gunjin_kaikan/2.webp"
+    ]
+  },
+  {
+    "id": "aichi_chisya",
+    "title": "愛知県庁舎",
+    "year": "1938年",
+    "style": "帝冠様式",
+    "architect": "西村好時, 渡辺仁",
+    "location": "愛知",
+    "desc": "日本建築の大屋根を載せる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/aichi_chisya/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/aichi_chisya/2.webp"
+    ]
+  },
+  {
+    "id": "oumi_jingu",
+    "title": "近江神宮",
+    "year": "1940年",
+    "style": "帝冠様式",
+    "architect": "不明",
+    "location": "滋賀",
+    "desc": "日本建築の大屋根を載せる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/oumi_jingu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/oumi_jingu/2.webp"
+    ]
+  },
+  {
+    "id": "tokyo_teishitsu_honkan",
+    "title": "東京帝室博物館本館",
+    "year": "1931年",
+    "style": "帝冠様式",
+    "architect": "渡辺仁",
+    "location": "東京",
+    "desc": "日本建築の大屋根を載せる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_teishitsu_honkan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_teishitsu_honkan/2.webp"
+    ]
+  },
+  {
+    "id": "pari_nihonkan",
+    "title": "パリ万国博覧会日本館",
+    "year": "1937年",
+    "style": "日本モダニズム",
+    "architect": "坂倉準三",
+    "location": "パリ(フランス)",
+    "desc": "モダニズムに日本的木造建築を反映",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/pari_nihonkan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/pari_nihonkan/2.webp"
+    ]
+  },
+  {
+    "id": "osaka_chuo_yubin",
+    "title": "大阪中央郵便局",
+    "year": "1939年",
+    "style": "日本モダニズム",
+    "architect": "吉田鉄郎",
+    "location": "大阪",
+    "desc": "モダニズムに日本的木造建築を反映",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/osaka_chuo_yubin/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/osaka_chuo_yubin/2.webp"
+    ]
+  },
+  {
+    "id": "maekawa_kunio_jitei",
+    "title": "前川國男自邸",
+    "year": "1942年",
+    "style": "日本モダニズム",
+    "architect": "前川國男",
+    "location": "東京",
+    "desc": "木造ながらにモダニズムの精神",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/maekawa_kunio_jitei/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/maekawa_kunio_jitei/2.webp"
+    ]
+  },
+  {
+    "id": "kisi_kinen_taiiku",
+    "title": "岸記念体育館",
+    "year": "1941年",
+    "style": "日本モダニズム",
+    "architect": "丹下健三",
+    "location": "東京",
+    "desc": "木造由来のモダニズム",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kisi_kinen_taiiku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kisi_kinen_taiiku/2.webp"
+    ]
+  },
+  {
+    "id": "koide",
+    "title": "小出邸",
+    "year": "1925年",
+    "style": "日本モダニズム",
+    "architect": "堀口捨己",
+    "location": "東京",
+    "desc": "日本民家を下敷きに欧州の建築運動と合致する造形",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/koide/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/koide/2.webp"
+    ]
+  },
+  {
+    "id": "inomata",
+    "title": "猪俣邸",
+    "year": "1967年",
+    "style": "日本モダニズム",
+    "architect": "吉田五十八",
+    "location": "東京",
+    "desc": "新興数寄屋",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/inomata/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/inomata/2.webp"
+    ]
+  },
+  {
+    "id": "rittai_saisyogen",
+    "title": "立体最小限住宅",
+    "year": "1948年",
+    "style": "戦後住宅",
+    "architect": "池辺陽",
+    "location": "大阪など",
+    "desc": "戦後復興の最小限住宅・プレファブ化",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/rittai_saisyogen/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/rittai_saisyogen/2.webp"
+    ]
+  },
+  {
+    "id": "to_ie",
+    "title": "塔の家",
+    "year": "1967年",
+    "style": "戦後住宅",
+    "architect": "東孝光",
+    "location": "東京",
+    "desc": "踊り場空間の建築化",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/to_ie/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/to_ie/2.webp"
+    ]
+  },
+  {
+    "id": "morihakase",
+    "title": "森博士の家",
+    "year": "1951年",
+    "style": "戦後住宅",
+    "architect": "清家清",
+    "location": "東京",
+    "desc": "ユニバーサルスペースに可働建具的な",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/morihakase/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/morihakase/2.webp"
+    ]
+  },
+  {
+    "id": "karuizawa_sanso",
+    "title": "軽井沢山荘",
+    "year": "1962年",
+    "style": "戦後住宅",
+    "architect": "吉村順三",
+    "location": "長野",
+    "desc": "RCの上に木造が乗ってる感じ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/karuizawa_sanso/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/karuizawa_sanso/2.webp"
+    ]
+  },
+  {
+    "id": "mizetto",
+    "title": "ミゼットハウス",
+    "year": "1959年",
+    "style": "戦後住宅",
+    "architect": "大和ハウス",
+    "location": "ー",
+    "desc": "プレファブ。爆発的に普及",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mizetto/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mizetto/2.webp"
+    ]
+  },
+  {
+    "id": "tokyo_teishin_byoin_kango",
+    "title": "東京逓信病院高等看護学院",
+    "year": "1951年",
+    "style": "戦後モダニズム",
+    "architect": "小坂秀雄",
+    "location": "東京",
+    "desc": "バウハウス流の白い箱。軒の出の小さい寄棟",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_teishin_byoin_kango/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_teishin_byoin_kango/2.webp"
+    ]
+  },
+  {
+    "id": "ridazu_daijesuto",
+    "title": "リーダーズダイジェスト社",
+    "year": "1951年",
+    "style": "戦後モダニズム",
+    "architect": "アントニン・レーモンド",
+    "location": "東京",
+    "desc": "戦後復興建築の先駆け",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ridazu_daijesuto/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ridazu_daijesuto/2.webp"
+    ]
+  },
+  {
+    "id": "nihon_sogo_ginko_honten",
+    "title": "日本相互銀行本店",
+    "year": "1952年",
+    "style": "戦後モダニズム",
+    "architect": "前川國男",
+    "location": "東京",
+    "desc": "全溶接による鉄骨構造！",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_sogo_ginko_honten/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_sogo_ginko_honten/2.webp"
+    ]
+  },
+  {
+    "id": "ncr_biru",
+    "title": "NCRビル",
+    "year": "1963年",
+    "style": "戦後モダニズム",
+    "architect": "吉村順三",
+    "location": "東京",
+    "desc": "可働間仕切りのビル",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ncr_biru/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ncr_biru/2.webp"
+    ]
+  },
+  {
+    "id": "paresusaido",
+    "title": "パレスサイドビル",
+    "year": "1966年",
+    "style": "戦後モダニズム",
+    "architect": "林昌二",
+    "location": "東京",
+    "desc": "ガラスのカーテンウォールとRCの円筒",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/paresusaido/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/paresusaido/2.webp"
+    ]
+  },
+  {
+    "id": "kagawa_chosya",
+    "title": "香川県庁舎",
+    "year": "1959年",
+    "style": "戦後モダニズム",
+    "architect": "丹下健三",
+    "location": "香川",
+    "desc": "やっぱ丹下ってすごい",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kagawa_chosya/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kagawa_chosya/2.webp"
+    ]
+  },
+  {
+    "id": "goutsu",
+    "title": "江津市役所",
+    "year": "1962年",
+    "style": "戦後モダニズム",
+    "architect": "吉阪隆正",
+    "location": "島根",
+    "desc": "びっくり建築だね",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/goutsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/goutsu/2.webp"
+    ]
+  },
+  {
+    "id": "kanagawa_kindai_bijutsu",
+    "title": "神奈川県立近代美術館",
+    "year": "1951年",
+    "style": "戦後モダニズム",
+    "architect": "坂倉準三",
+    "location": "神奈川",
+    "desc": "モダニズム＋庭園や池と関係性",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kanagawa_kindai_bijutsu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kanagawa_kindai_bijutsu/2.webp"
+    ]
+  },
+  {
+    "id": "hiduchi",
+    "title": "日土小学校校舎",
+    "year": "1956年",
+    "style": "戦後モダニズム",
+    "architect": "松村正恒",
+    "location": "愛媛",
+    "desc": "木造モダニズム",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hiduchi/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hiduchi/2.webp"
+    ]
+  },
+  {
+    "id": "sukai_sukurepa",
+    "title": "スカイスクレーパー案",
+    "year": "1927年",
+    "style": "高層建築",
+    "architect": "ミース",
+    "location": "ー",
+    "desc": "ユニバーサルスペース, 透明性",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sukai_sukurepa/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sukai_sukurepa/2.webp"
+    ]
+  },
+  {
+    "id": "jiguramu_biru",
+    "title": "ジーグラムビル",
+    "year": "1958年",
+    "style": "戦後モダニズム",
+    "architect": "ミース",
+    "location": "ニューヨーク(アメリカ)",
+    "desc": "スカイスクレーパーの実践",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/jiguramu_biru/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/jiguramu_biru/2.webp"
+    ]
+  },
+  {
+    "id": "reva_hausu",
+    "title": "レヴァーハウス",
+    "year": "1952年",
+    "style": "戦後モダニズム",
+    "architect": "SOM",
+    "location": "ニューヨーク(アメリカ)",
+    "desc": "ガラスのカーテンウォールの展開",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/reva_hausu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/reva_hausu/2.webp"
+    ]
+  },
+  {
+    "id": "kokusai_rengo_honbu",
+    "title": "国際連合本部",
+    "year": "1953年",
+    "style": "戦後モダニズム",
+    "architect": "ハリソン",
+    "location": "ニューヨーク(アメリカ)",
+    "desc": "高層事務所棟＋低層会議場",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kokusai_rengo_honbu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kokusai_rengo_honbu/2.webp"
+    ]
+  },
+  {
+    "id": "jonwakkusu",
+    "title": "ジョンワックス本社",
+    "year": "1939年",
+    "style": "戦後モダニズム",
+    "architect": "フランク・ロイド・ライト",
+    "location": "アメリカ",
+    "desc": "傘状のプレキャストコンクリート",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/jonwakkusu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/jonwakkusu/2.webp"
+    ]
+  },
+  {
+    "id": "guggenhaimu",
+    "title": "グッゲンハイム美術館",
+    "year": "1959年",
+    "style": "戦後モダニズム",
+    "architect": "フランク・ロイド・ライト",
+    "location": "アメリカ",
+    "desc": "らせん状の通路",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/guggenhaimu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/guggenhaimu/2.webp"
+    ]
+  },
+  {
+    "id": "ronsyan",
+    "title": "ロンシャン礼拝堂",
+    "year": "1955年",
+    "style": "戦後モダニズム",
+    "architect": "コルビュジェ",
+    "location": "フランス",
+    "desc": "RCシェル的かも",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ronsyan/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ronsyan/2.webp"
+    ]
+  },
+  {
+    "id": "soku",
+    "title": "ソーク研究所",
+    "year": "1965年",
+    "style": "戦後モダニズム",
+    "architect": "ルイス・カーン",
+    "location": "アメリカ",
+    "desc": "モダニズムが否定したモニュメント性の再獲得",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/soku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/soku/2.webp"
+    ]
+  },
+  {
+    "id": "vipuri",
+    "title": "ヴィ―プリの図書館",
+    "year": "1935年",
+    "style": "北欧モダン",
+    "architect": "アルヴァ・アアルト",
+    "location": "フィンランド",
+    "desc": "環境と調和した印象的な曲線",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/vipuri/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/vipuri/2.webp"
+    ]
+  },
+  {
+    "id": "aruhesirasu",
+    "title": "アルへシラスの市場",
+    "year": "1933年",
+    "style": "構造表現",
+    "architect": "エドゥアルド・トロハ",
+    "location": "スペイン",
+    "desc": "八角形の市場をRC球状シェル",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/aruhesirasu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/aruhesirasu/2.webp"
+    ]
+  },
+  {
+    "id": "madorido_keiba",
+    "title": "マドリッド競馬場",
+    "year": "1935年",
+    "style": "構造表現",
+    "architect": "エドゥアルド・トロハ",
+    "location": "スペイン",
+    "desc": "薄膜のシェル構造",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/madorido_keiba/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/madorido_keiba/2.webp"
+    ]
+  },
+  {
+    "id": "roma_kakuno",
+    "title": "ローマの格納庫",
+    "year": "1936年",
+    "style": "構造表現",
+    "architect": "ピエール・ルイージ・ネルヴィ",
+    "location": "イタリア",
+    "desc": "リブ付きRCシェル",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/roma_kakuno/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/roma_kakuno/2.webp"
+    ]
+  },
+  {
+    "id": "sidoni_opera",
+    "title": "シドニーオペラハウス",
+    "year": "1972年",
+    "style": "構造表現",
+    "architect": "ヨ―ン・ウッツォン",
+    "location": "オーストラリア",
+    "desc": "これでArupは一躍有名に",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sidoni_opera/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sidoni_opera/2.webp"
+    ]
+  },
+  {
+    "id": "twa",
+    "title": "TWA",
+    "year": "1962年",
+    "style": "構造表現",
+    "architect": "エーロ・サーリネン",
+    "location": "アメリカ",
+    "desc": "嘘シェル構造",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/twa/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/twa/2.webp"
+    ]
+  },
+  {
+    "id": "hokke",
+    "title": "イェール大学ホッケーリンク",
+    "year": "1958年",
+    "style": "構造表現",
+    "architect": "エーロ・サーリネン",
+    "location": "アメリカ",
+    "desc": "これも結構嘘アーチなとこあるよ",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hokke/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hokke/2.webp"
+    ]
+  },
+  {
+    "id": "hirosima_heiwa",
+    "title": "広島平和記念公園",
+    "year": "1955年",
+    "style": "60年代くらいの",
+    "architect": "丹下健三",
+    "location": "広島",
+    "desc": "丹下は軸線の建築家",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hirosima_heiwa/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hirosima_heiwa/2.webp"
+    ]
+  },
+  {
+    "id": "sukai_hausu",
+    "title": "スカイハウス",
+    "year": "1958年",
+    "style": "60年代くらいの",
+    "architect": "菊竹清訓",
+    "location": "東京",
+    "desc": "言わずもがな",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sukai_hausu/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/sukai_hausu/2.webp"
+    ]
+  },
+  {
+    "id": "izumo_chonoya",
+    "title": "出雲大社庁の舎",
+    "year": "1963年",
+    "style": "60年代くらいの",
+    "architect": "菊竹清訓",
+    "location": "島根",
+    "desc": "原始的表現",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/izumo_chonoya/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/izumo_chonoya/2.webp"
+    ]
+  },
+  {
+    "id": "nakagin",
+    "title": "中銀カプセルタワー",
+    "year": "1972年",
+    "style": "60年代くらいの",
+    "architect": "黒川紀章",
+    "location": "東京",
+    "desc": "メタボリズム",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nakagin/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nakagin/2.webp"
+    ]
+  },
+  {
+    "id": "hiroshima_motomachi_choju",
+    "title": "広島基町長寿園高層住宅",
+    "year": "1976年",
+    "style": "60年代くらいの",
+    "architect": "大高正人",
+    "location": "広島",
+    "desc": "人工地盤, 広い公共空間",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hiroshima_motomachi_choju/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/hiroshima_motomachi_choju/2.webp"
+    ]
+  },
+  {
+    "id": "komazawa_orinpikku",
+    "title": "駒沢オリンピック会場",
+    "year": "1964年",
+    "style": "60年代くらいの",
+    "architect": "芦原義信",
+    "location": "東京",
+    "desc": "ムサビの人",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/komazawa_orinpikku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/komazawa_orinpikku/2.webp"
+    ]
+  },
+  {
+    "id": "kagawa_taiiku",
+    "title": "香川県立体育館",
+    "year": "1964年",
+    "style": "60年代くらいの",
+    "architect": "丹下健三",
+    "location": "香川",
+    "desc": "ガチで丹下えぐすぎる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kagawa_taiiku/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/kagawa_taiiku/2.webp"
+    ]
+  },
+  {
+    "id": "yoyotai",
+    "title": "代々木体育館",
+    "year": "1964年",
+    "style": "60年代くらいの",
+    "architect": "丹下健三",
+    "location": "東京",
+    "desc": "ガチで丹下えぐすぎる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/yoyotai/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/yoyotai/2.webp"
+    ]
+  },
+  {
+    "id": "omatsuri",
+    "title": "お祭り広場",
+    "year": "1970年",
+    "style": "60年代くらいの",
+    "architect": "丹下健三",
+    "location": "大阪",
+    "desc": "ガチで丹下えぐすぎる",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/omatsuri/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/omatsuri/2.webp"
     ]
   }
 ]
