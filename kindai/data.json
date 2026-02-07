@@ -1768,19 +1768,6 @@
     ]
   },
   {
-    "id": "mitsui_kasi",
-    "title": "三井貸事務所",
-    "year": "1912年",
-    "style": "日本の都市建築",
-    "architect": "横河民輔",
-    "location": "東京",
-    "desc": "鉄骨構造を用いた建築の高層化",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsui_kasi/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/mitsui_kasi/2.webp"
-    ]
-  },
-  {
     "id": "marunouchi",
     "title": "丸の内ビルヂング",
     "year": "1923年",
