@@ -1807,16 +1807,16 @@
     ]
   },
   {
-    "id": "nihon_yubin_yokohama",
-    "title": "日本郵便横浜支店",
+    "id": "nihon_yusen_yokohama",
+    "title": "日本郵船横浜支店",
     "year": "1936年",
     "style": "日本の都市建築",
     "architect": "和田順顕",
     "location": "神奈川",
     "desc": "厳格な古典様式のオーダーを用いる",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_yubin_yokohama/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_yubin_yokohama/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_yusen_yokohama/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/nihon_yusen_yokohama/2.webp"
     ]
   },
   {
@@ -1873,7 +1873,7 @@
   },
   {
     "id": "todai_houbunkei",
-    "title": "東京大学法文経1・2号館",
+    "title": "東京大学法文経1・2号館アーケード",
     "year": "1929年",
     "style": "日本の都市建築",
     "architect": "内田祥三",
@@ -1912,7 +1912,7 @@
   },
   {
     "id": "daisan_inta",
-    "title": "第三インターナショナル",
+    "title": "第三インターナショナル記念塔",
     "year": "1920年",
     "style": "ロシア構成主義",
     "architect": "ウラジミール・タトリン",
@@ -2133,7 +2133,7 @@
   },
   {
     "id": "haratei",
-    "title": "原邸",
+    "title": "原邸(原美術館)",
     "year": "1938年",
     "style": "日本の近代建築",
     "architect": "渡辺仁",
@@ -2483,19 +2483,6 @@
     ]
   },
   {
-    "id": "tokyo_teishin_byoin_kango",
-    "title": "東京逓信病院高等看護学院",
-    "year": "1951年",
-    "style": "戦後モダニズム",
-    "architect": "小坂秀雄",
-    "location": "東京",
-    "desc": "バウハウス流の白い箱。軒の出の小さい寄棟",
-    "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_teishin_byoin_kango/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/tokyo_teishin_byoin_kango/2.webp"
-    ]
-  },
-  {
     "id": "ridazu_daijesuto",
     "title": "リーダーズダイジェスト社",
     "year": "1951年",
@@ -2506,6 +2493,19 @@
     "images": [
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ridazu_daijesuto/1.webp",
       "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/ridazu_daijesuto/2.webp"
+    ]
+  },
+  {
+    "id": "inoue",
+    "title": "井上邸",
+    "year": "1952年",
+    "style": "戦後モダニズム",
+    "architect": "アントニン・レーモンド",
+    "location": "群馬",
+    "desc": "戦後復興建築の先駆け",
+    "images": [
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/inoue/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/inoue/2.webp"
     ]
   },
   {
@@ -2613,16 +2613,16 @@
     ]
   },
   {
-    "id": "jiguramu_biru",
-    "title": "ジーグラムビル",
+    "id": "siguramu_biru",
+    "title": "シーグラムビル",
     "year": "1958年",
     "style": "戦後モダニズム",
     "architect": "ミース",
     "location": "ニューヨーク(アメリカ)",
     "desc": "スカイスクレーパーの実践",
     "images": [
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/jiguramu_biru/1.webp",
-      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/jiguramu_biru/2.webp"
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/siguramu_biru/1.webp",
+      "https://pub-6e7134ff7595457297783250821603b8.r2.dev/kindai/siguramu_biru/2.webp"
     ]
   },
   {
