@@ -65,40 +65,38 @@ h1{
 </div>
 
 <script>
+const API_BASE = "https://archicard-api.yuki-548.workers.dev"; // ←あなたのWorkers
+
 const grid = document.getElementById("grid");
 
 const categories = [
   {
     title: "日本建築史",
-    json: "./nihon/data.json",
+    json: `${API_BASE}/api/items?collection=nihon`,
     link: "./nihon/list.html",
     img: ""
   },
   {
     title: "西洋建築史",
-    json: "./seiyo/data.json",
+    json: `${API_BASE}/api/items?collection=seiyo`,
     link: "./seiyo/list.html",
     img: ""
   },
   {
     title: "近代建築史",
-    json: "./kindai/data.json",
+    json: `${API_BASE}/api/items?collection=kindai`,
     link: "./kindai/list.html",
     img: ""
   }
 ];
 
+// 以下はそのまま
 async function pickRandomImage(cat){
   try{
     const res = await fetch(cat.json, { cache:"no-store" });
     const items = await res.json();
-
-    const imgs = items
-      .map(it => it.images?.[0])
-      .filter(Boolean);
-
+    const imgs = items.map(it => it.images?.[0]).filter(Boolean);
     if(imgs.length === 0) return "";
-
     return imgs[Math.floor(Math.random() * imgs.length)];
   }catch(e){
     console.warn("failed:", cat.json, e);
@@ -115,7 +113,6 @@ async function main(){
     div.innerHTML = `
       <img src="${cat.img}">
       <div class="title">${cat.title}</div>
-      
     `;
     div.onclick = ()=> location.href = cat.link;
     grid.appendChild(div);
@@ -123,6 +120,7 @@ async function main(){
 }
 
 main();
+
 </script>
 </body>
 </html>
