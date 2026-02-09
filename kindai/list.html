@@ -50,7 +50,7 @@ body{
 
 .back-to-index {
   display: inline-block;
-  margin: 12px 0 0px 12px;
+  margin: 0;
   padding: 6px 10px;
   font-size: 14px;
   text-decoration: none;
@@ -63,20 +63,46 @@ body{
   background: #eaeaea;
 }
 
+.topbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 12px 0 12px; /* 左右余白＋上だけ少し */
+}
+
+/* 右上：編集ボタン */
+.to-admin{
+  display: inline-block;
+  padding: 6px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #f8f8f8;
+}
+.to-admin:hover{
+  background: #eaeaea;
+}
+
+
+
 
 </style>
 </head>
 
 <body>
 
-<a href="../index.html" class="back-to-index">トップに戻る</a>
-
+<div class="topbar">
+  <a href="../index.html" class="back-to-index">トップに戻る</a>
+  <a href="./admin.html" class="to-admin">編集に進む</a>
+</div>
 <div class="wrap">
   <div class="grid" id="grid"></div>
 </div>
 
 <script>
-const DATA_JSON = "https://archicard-api.yuki-548.workers.dev/api/items?collection=nihon";
+const DATA_JSON = "https://archicard-api.yuki-548.workers.dev/api/items?collection=kindai";
 const grid = document.getElementById("grid");
 
 async function load(){

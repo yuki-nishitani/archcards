@@ -84,20 +84,20 @@
 
     .topbar{
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
+      align-items: center; gap:10px;
       margin-bottom: 10px;
     }
-
+    
     .modebtn{
-      padding: 8px 10px;
+      padding: 6px 10px;
+      color: #333;
       border: 1px solid #ddd;
-      border-radius: 12px;
-      background: #fff;
-      font-weight: 700;
+      border-radius: 6px;
+      background: #f8f8f8;
       cursor: pointer;
       user-select: none;
-
-      font-size: 15px; 
+      font-size: 14px; 
     }
 
     .modebtn:active{
@@ -112,20 +112,21 @@
 
     .navbtn{
       flex: 1 1 0;
-      padding: 10px 12px;
+      padding: 6px 10px;
+      color: #333;
       border: 1px solid #ddd;
-      border-radius: 12px;
-      background: #fff;
-      font-weight: 700;
+      border-radius: 6px;
+      background: #f8f8f8;
       text-align: center;
       cursor: pointer;
       user-select: none;
+      font-size: 14px; 
     }
 
     /* aタグ版の見た目をボタンに揃える */
     .navlink{
       text-decoration: none;
-      color: #111;
+      color: #333;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -135,6 +136,21 @@
       transform: translateY(1px);
     }
 
+    /* モード切替ボタンを強調 */
+    #modeBtn{
+      flex: 2 1 0;        /* 横幅を他より広く */
+      font-weight: 600;   /* やや太字（500〜600が上品） */
+      letter-spacing: 0.03em;
+    }
+
+    #modeBtn.random{
+      background: #e59b41;
+      border-color: #e08200;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+
   </style>
 </head>
 
@@ -142,7 +158,8 @@
   <div class="wrap">
 
     <div class="topbar">
-      <button class="modebtn" id="modeBtn" type="button">通常モード</button>
+      <a class="modebtn navlink" id="btnList" href="list.html">一覧へ</a>
+      <a class="modebtn navlink" id="btnEdit" href="#">カードを編集する</a>
     </div>
     
     <div class="card show-front" id="card">
@@ -174,7 +191,7 @@
 
       <div class="nav">
         <button class="navbtn" id="btnPrev" type="button">前へ</button>
-        <a class="navbtn navlink" id="btnList" href="list.html">一覧へ</a>
+        <button class="navbtn" id="modeBtn" type="button">通常モード</button>
         <button class="navbtn" id="btnNext" type="button">次へ</button>
       </div>
 
@@ -182,7 +199,7 @@
   </div>
 
 <script>
-  const DATA_JSON = "https://archicard-api.yuki-548.workers.dev/api/items?collection=kindai";
+  const DATA_JSON = "https://archicard-api.yuki-548.workers.dev/api/items?collection=nihon";
   let items = [];
   let idx = 0;
 
@@ -216,6 +233,10 @@
 
     idx = (i + items.length) % items.length;
     const item = items[idx];
+
+    // ★ 編集リンクを更新（このカードを編集）
+   $("btnEdit").href =
+    `admin.html?id=${encodeURIComponent(item.id)}&return=card&card=card.html`;
 
     // front images
     $("img1").src = item.images?.[0] ?? "";
@@ -285,17 +306,20 @@
   const btnPrev = document.getElementById("btnPrev");
   const btnNext = document.getElementById("btnNext");
   const btnList = document.getElementById("btnList");
+  const btnEdit = document.getElementById("btnEdit");
+
 
   btnPrev.addEventListener("click", (e) => { e.stopPropagation(); prev(); });
   btnNext.addEventListener("click", (e) => { e.stopPropagation(); next(); });
 
   // 一覧へ：カードの click (表裏反転) が発火しないようにする
   btnList.addEventListener("click", (e) => { e.stopPropagation(); });
-
+  btnEdit.addEventListener("click", (e) => { e.stopPropagation(); });
   const modeBtn = document.getElementById("modeBtn");
 
   function updateModeUI(){
     modeBtn.textContent = randomMode ? "ランダムモード" : "通常モード";
+    modeBtn.classList.toggle("random", randomMode);
   }
 
   modeBtn.addEventListener("click", (e) => {

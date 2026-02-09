@@ -136,6 +136,21 @@
       transform: translateY(1px);
     }
 
+    /* モード切替ボタンを強調 */
+    #modeBtn{
+      flex: 2 1 0;        /* 横幅を他より広く */
+      font-weight: 600;   /* やや太字（500〜600が上品） */
+      letter-spacing: 0.03em;
+    }
+
+    #modeBtn.random{
+      background: #e59b41;
+      border-color: #e08200;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+
   </style>
 </head>
 
@@ -143,7 +158,7 @@
   <div class="wrap">
 
     <div class="topbar">
-      <button class="modebtn" id="modeBtn" type="button">通常モード</button>
+      <a class="modebtn navlink" id="btnList" href="list.html">一覧へ</a>
       <a class="modebtn navlink" id="btnEdit" href="#">カードを編集する</a>
     </div>
     
@@ -176,7 +191,7 @@
 
       <div class="nav">
         <button class="navbtn" id="btnPrev" type="button">前へ</button>
-        <a class="navbtn navlink" id="btnList" href="list.html">一覧へ</a>
+        <button class="navbtn" id="modeBtn" type="button">通常モード</button>
         <button class="navbtn" id="btnNext" type="button">次へ</button>
       </div>
 
@@ -304,6 +319,7 @@
 
   function updateModeUI(){
     modeBtn.textContent = randomMode ? "ランダムモード" : "通常モード";
+    modeBtn.classList.toggle("random", randomMode);
   }
 
   modeBtn.addEventListener("click", (e) => {
