@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>archcards admin (nihon)</title>
+  <style>
+    /* ===== card.html と同系統の見た目 ===== */
+    body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; margin: 0; background:#fafafa; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 16px; }
+
+    .card{
+      background:#fff; border:1px solid #ddd; border-radius:14px;
+      padding:12px; overflow:hidden; user-select:none;
+    }
+
+    .img{
+      width:100%; height:auto; max-height:40vh;
+      object-fit:contain; border-radius:8px; display:block; background:#fff;
+    }
+
+    .info{
+      padding:12px; border-radius:10px; background:#f2f4f7;
+    }
+    .row { margin: 6px 0; line-height: 1.35; }
+    .label { color:#555; font-size: 13px;font-weight: 500; margin-right: 6px; }
+
+    #title{ font-size: 1.4em; font-weight: 600; letter-spacing: 0.02em; display:inline-block; margin-bottom: 6px; }
+
+    .thumbs { margin-top: 12px; display:flex; gap:5px; align-items:flex-start; }
+    .thumb { flex:1 1 0; max-width:50%; }
+    .thumb img { width:100%; height:auto; max-height:40vh; object-fit:contain; border-radius:5px; display:block; background:#fff; }
+
+    .hint { color:#666; font-size: 13px; margin-top: 10px; }
+
+    .topbar{
+      display:flex; justify-content:space-between; align-items:center;
+      gap:10px; margin-bottom: 10px;
+    }
+    .modebtn{
+      padding: 8px 10px; border:1px solid #ddd; border-radius:12px;
+      background:#fff;  font-weight: 600; cursor:pointer; user-select:none; font-size:15px;
+    }
+    .modebtn:active{ transform: translateY(1px); }
+
+    .nav{ margin-top: 12px; display:flex; gap:10px; }
+    .navbtn{
+      flex:1 1 0; padding:6px 10px; color: #333; border:1px solid #ddd; border-radius:6px;
+      background:#f8f8f8;  text-align:center; font-weight: 500; cursor:pointer; user-select:none;
+    }
+    .navbtn:active{ transform: translateY(1px); }
+    .navlink{ text-decoration:none; color:#111; display:inline-flex; align-items:center; justify-content:center; }
+
+    /* ===== admin 用 ===== */
+    .hidden{ display:none; }
+    .search{ width:100%; font-size:16px; padding:10px; box-sizing:border-box;
+      border:1px solid #ddd; border-radius:12px; background:#fff;
+    }
+
+
+        /* list表示：list.html っぽい密度に（小さめ） */
+     .grid{
+       display:grid;
+       grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+       gap: 8px;
+     }
+     .mini{
+       background:#fff;
+       border:1px solid #ddd;
+       border-radius:10px;
+       padding:8px;
+       cursor:pointer;
+     }
+     .mini:active{ transform: translateY(1px); }
+ 
+     /* 一覧のサムネは "cover" で固定高にして密度を上げる */
+     .mini .thumbimg{
+       width:100%;
+       height:80px;
+       object-fit:cover;
+       border-radius:6px;
+       display:block;
+       background:#fff;
+     }
+ 
+     .miniTitle{
+       font-weight:700;
+       margin-top:6px;
+       line-height:1.25;
+       font-size:12px;
+     }
+     .miniMeta{
+       color:#666;
+       font-size:11px;
+       margin-top:3px;
+     }
+    textarea.memo{
+      width:100%; box-sizing:border-box;
+      font-size:15px; padding:7px;
+      border:1px solid #ddd; border-radius:6px;
+      background:#fff;
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .status{ font-size:13px; color:#666; }
+    .ok{ color:#0a7; }
+    .err{ color:#c00; }
+
+    input.text{
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 15px;
+      padding: 7px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    .add-card{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height: 120px;
+      border: 2px dashed #ccc;
+      border-radius: 10px;
+      color:#666;
+      font-weight: 800;
+      background:#fff;
+}
+
+
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <a class="modebtn navlink" href="list.html">閲覧一覧へ</a>
+      <div class="status" id="status"></div>
+    </div>
+
+    <!-- ===== List View ===== -->
+    <div id="viewList">
+      <input id="q" class="search" placeholder="検索（id / title）" />
+      <div class="hint">タップすると編集画面へ</div>
+      <div style="height:10px"></div>
+      <div class="grid" id="grid"></div>
+    </div>
+
+    <!-- ===== Edit View (card.html の BACK に寄せる) ===== -->
+    <div id="viewEdit" class="hidden">
+      <div class="card" id="card">
+        <div class="info">
+          <div class="row">
+            <span class="label">ID:</span>
+
+            <!-- 既存編集：表示 -->
+            <span class="status" id="idBadge"></span>
+
+            <!-- 新規追加：入力（新規時だけ表示） -->
+            <input class="text hidden" id="idEdit" placeholder="例：ise（英小文字）" />
+          </div>
+
+           <div class="row title-row">
+            <span class="label">タイトル:</span>
+            <input class="text" id="titleEdit" placeholder="例：伊勢神宮正殿" />
+          </div>
+
+
+          <div class="row">
+            <span class="label">年代:</span>
+            <input class="text" id="yearEdit" placeholder="例：7世紀頃" />
+          </div>
+
+          <div class="row">
+            <span class="label">様式:</span>
+            <input class="text" id="styleEdit" placeholder="例：神明造" />
+          </div>
+
+          <div class="row">
+            <span class="label">建築家:</span>
+            <input class="text" id="architectEdit" placeholder="例：不明" />
+          </div>
+
+          <div class="row">
+            <span class="label">場所:</span>
+            <input class="text" id="locationEdit" placeholder="例：三重県" />
+          </div>
+
+          <div class="row"><span class="label">メモ:</span></div>
+          <textarea class="memo" id="descEdit" placeholder="メモを編集"></textarea>
+        </div>
+
+        <div class="thumbs">
+          <div class="thumb"><img id="img1b" alt="thumb 1" /></div>
+          <div class="thumb"><img id="img2b" alt="thumb 2" /></div>
+        </div>
+
+        <div class="nav">
+          <button class="navbtn" id="btnSave" type="button">保存</button>
+          <button class="navbtn" id="btnDelete" type="button">削除</button>
+          <button class="navbtn" id="btnBack" type="button">キャンセル</button>
+        </div>
+
+        <div class="hint"></div>
+      </div>
+    </div>
+
+  </div>
+
+<script>
+  // nihon固定
+  const COLLECTION = "nihon";
+  const API_BASE = "https://archicard-api.yuki-548.workers.dev";
+
+  const API_ITEMS = `${API_BASE}/api/items?collection=${encodeURIComponent(COLLECTION)}`;
+  const API_PUT   = `${API_BASE}/api/item`;
+  const API_DEL = `${API_BASE}/api/item`; // クエリで collection&id を渡す
+
+  let items = [];
+  let current = null; // 現在編集中の item
+
+  let isNew = false;
+
+  function openNew(){
+    isNew = true;
+    current = { id: "", title:"", year:"", style:"", architect:"", location:"", desc:"", images: [] };
+
+    $("viewList").classList.add("hidden");
+    $("viewEdit").classList.remove("hidden");
+
+    // ID入力を表示、既存表示を隠す
+    $("idBadge").classList.add("hidden");
+    $("idEdit").classList.remove("hidden");
+    $("idEdit").value = "";
+
+    $("titleEdit").value = "";
+    $("yearEdit").value = "";
+    $("styleEdit").value = "";
+    $("architectEdit").value = "";
+    $("locationEdit").value = "";
+    $("descEdit").value = "";
+
+    $("img1b").src = "";
+    $("img2b").src = "";
+
+    // URLは new モードにする（任意）
+    const u = new URL(location.href);
+    u.searchParams.delete("id");
+    u.searchParams.set("mode", "new");
+    history.replaceState(null, "", u.toString());
+
+    setTimeout(() => $("idEdit").focus(), 50);
+    $("btnDelete").disabled = true;
+    $("btnDelete").style.opacity = "0.5";
+  }
+
+
+
+  function $(id){ return document.getElementById(id); }
+
+  function setStatus(msg, cls=""){
+    const el = $("status");
+    el.className = "status "  +  cls;
+    el.textContent = msg;
+  }
+
+  function escapeHtml(s){
+    return String(s ?? "").replace(/[&<>"']/g, c => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    }[c]));
+  }
+
+  async function load(){
+    setStatus("読み込み中…");
+    const res = await fetch(API_ITEMS, { cache: "no-store" });
+    if (!res.ok) { setStatus(`読み込み失敗 HTTP ${res.status}`, "err"); return; }
+    items = await res.json();
+    if (!Array.isArray(items)) items = [];
+    setStatus(`読み込みOK：${items.length}件`, "ok");
+    renderGrid();
+
+    // ?id=ise で直接編集開始できるように
+    const params = new URLSearchParams(location.search);
+    const startId = params.get("id");
+    if (startId){
+      const it = items.find(x => x.id === startId);
+      if (it) openEdit(it);
+    }
+  }
+
+  function renderGrid(){
+    const q = $("q").value.trim().toLowerCase();
+    const grid = $("grid");
+    grid.innerHTML = "";
+
+    const filtered = items.filter(it => {
+      if (!q) return true;
+      return (it.id||"").toLowerCase().includes(q) || (it.title||"").toLowerCase().includes(q);
+    });
+
+    const add = document.createElement("div");
+    add.className = "mini";
+    add.innerHTML = `<div class="add-card">＋ 新規</div>`;
+    add.addEventListener("click", () => openNew());
+    grid.appendChild(add);
+
+    for (const it of filtered){
+      const div = document.createElement("div");
+      div.className = "mini";
+      const img = it.images?.[0] ?? "";
+      div.innerHTML = `
+        ${img ? `<img class="thumbimg" src="${escapeHtml(img)}" alt="">` : ""}
+        <div class="miniTitle">${escapeHtml(it.title)} <span style="color:#999;font-weight:600">(${escapeHtml(it.id)})</span></div>
+        <div class="miniMeta">${escapeHtml(it.year)} / ${escapeHtml(it.style)}</div>
+      `;
+      div.addEventListener("click", () => openEdit(it));
+      grid.appendChild(div);
+    }
+
+    if (filtered.length === 0){
+      const p = document.createElement("div");
+      p.className = "hint";
+      p.textContent = "該当なし";
+      grid.appendChild(p);
+    }
+  }
+
+  function showList(){
+    $("viewList").classList.remove("hidden");
+    $("viewEdit").classList.add("hidden");
+    current = null;
+
+    // URL から id を外す（任意）
+    const u = new URL(location.href);
+    u.searchParams.delete("id");
+    u.searchParams.delete("mode");
+    history.replaceState(null, "", u.toString());
+  }
+
+  function openEdit(it){
+    isNew = false;
+
+    // ID入力は隠して、表示に戻す
+    $("idEdit").classList.add("hidden");
+    $("idBadge").classList.remove("hidden");
+    $("idBadge").textContent = `${it.id ?? ""}`;
+
+    current = it;
+    $("viewList").classList.add("hidden");
+    $("viewEdit").classList.remove("hidden");
+
+    $("titleEdit").value = it.title ?? "";
+    $("idBadge").textContent = `${it.id ?? ""}`;
+    $("yearEdit").value = it.year ?? "";
+    $("styleEdit").value = it.style ?? "";
+    $("architectEdit").value = it.architect ?? "";
+    $("locationEdit").value = it.location ?? "";
+    $("descEdit").value = it.desc ?? "";
+
+    $("img1b").src = it.images?.[0] ?? "";
+    $("img2b").src = it.images?.[1] ?? "";
+
+    // deep link
+    const u = new URL(location.href);
+    u.searchParams.set("id", it.id);
+    history.replaceState(null, "", u.toString());
+
+  }
+
+  function goBackAfterEdit() {
+    const params = new URLSearchParams(location.search);
+    const ret = params.get("return");
+
+    // card.html から来た場合：cardへ戻す
+    if (ret === "card") {
+      const cardPage = params.get("card") || "card.html";
+      const id = params.get("id") || (current?.id ?? "");
+      location.href = `${cardPage}?id=${encodeURIComponent(id)}`;
+      return;
+    }
+
+    // list.html から来た / 直接開いた場合：編集一覧へ戻す
+    showList();
+    $("btnDelete").disabled = false;
+    $("btnDelete").style.opacity = "1";
+  }
+
+  function computeSortAppend(){
+    let mx = 0;
+    for (const it of items){
+      const s = Number(it.sort);
+      if (Number.isFinite(s) && s > mx) mx = s;
+    }
+    return mx + 1000;
+  }
+
+
+  async function save(){
+    if (!current) return;
+
+    const id = isNew ? $("idEdit").value.trim() : current.id;
+    if (!id) {
+      setStatus("IDが空です", "err");
+      return;
+    }
+
+    const payload = {
+      collection: COLLECTION,
+      id,
+      title: $("titleEdit").value,
+      year: $("yearEdit").value,
+      style: $("styleEdit").value,
+      architect: $("architectEdit").value,
+      location: $("locationEdit").value,
+      desc: $("descEdit").value,
+      sort: computeSortAppend() // 末尾追加
+    };
+
+    setStatus("保存中…");
+    const res = await fetch(API_PUT, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+
+    if (!res.ok){
+      setStatus(`保存失敗 HTTP ${res.status}`, "err");
+      return;
+    }
+
+    // ローカルitemsへ反映
+    if (isNew) {
+      const newItem = {
+        id: payload.id,
+        sort: payload.sort,
+        title: payload.title,
+        year: payload.year,
+        style: payload.style,
+        architect: payload.architect,
+        location: payload.location,
+        desc: payload.desc,
+        images: [] // 画像は次段階
+      };
+      items.push(newItem);
+      items.sort((a,b) => (a.sort??0) - (b.sort??0) || (a.id||"").localeCompare(b.id||""));
+
+      // 新規追加後は “いま追加したもの” を current にしておく（戻り先のidに使える）
+      current = newItem;
+    } else {
+      current.title = payload.title;
+      current.year = payload.year;
+      current.style = payload.style;
+      current.architect = payload.architect;
+      current.location = payload.location;
+      current.desc = payload.desc;
+    }
+
+    setStatus("保存OK", "ok");
+    renderGrid();
+    goBackAfterEdit();
+  }
+
+  async function delCurrent(){
+    if (!current || isNew) {
+      setStatus("新規カードは削除できません（保存前）", "err");
+      return;
+    }
+
+    const id = current.id;
+    if (!id) return;
+
+    const ok = confirm(`「${id}」を削除します。よろしいですか？`);
+    if (!ok) return;
+
+    setStatus("削除中…");
+    const url = `${API_DEL}?collection=${encodeURIComponent(COLLECTION)}&id=${encodeURIComponent(id)}`;
+    const res = await fetch(url, { method: "DELETE" });
+
+    if (!res.ok){
+      setStatus(`削除失敗 HTTP ${res.status}`, "err");
+      return;
+    }
+
+    // ローカル配列からも除去
+    items = items.filter(x => x.id !== id);
+    current = null;
+
+    setStatus("削除OK", "ok");
+    renderGrid();
+    showList();
+  }
+
+
+
+  $("q").addEventListener("input", renderGrid);
+  $("btnBack").addEventListener("click", goBackAfterEdit);
+  $("btnSave").addEventListener("click", save);
+  $("btnDelete").addEventListener("click", delCurrent);
+
+
+
+  load().catch(e => {
+    console.error(e);
+    setStatus("エラー：console を確認", "err");
+  });
+</script>
+</body>
+</html>
