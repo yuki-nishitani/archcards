@@ -653,8 +653,7 @@
     $("viewList").classList.remove("hidden");
     $("viewEdit").classList.add("hidden");
 
-    // ★追加：一覧では並べ替えボタンを戻す
-    $("reorderBar").classList.remove("hidden");
+    setReorderButtonsVisible(true); // ★明示的に戻す
 
     current = null;
 
@@ -801,7 +800,7 @@
   // ===== 画面遷移 =====
   function openNew(){
     // ★追加：編集では上のバーを消す
-    $("reorderBar").classList.add("hidden");
+    setReorderButtonsVisible(false);
 
     // ★追加：編集中に並べ替えが残ってたら終わらせる
     if (reorderMode) setReorderUI(false);
@@ -866,7 +865,7 @@
 
   function openEdit(it){
     // ★追加：編集では上のバーを消す
-    $("reorderBar").classList.add("hidden");
+    setReorderButtonsVisible(false);
 
     // ★追加：編集中に並べ替えが残ってたら終わらせる
     if (reorderMode) setReorderUI(false);
