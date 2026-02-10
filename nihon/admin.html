@@ -61,53 +61,34 @@
       color:#666; font-weight: 900; background:#fff;
     }
 
-    input.text{
-      width: 100%; box-sizing: border-box; font-size: 15px;
-      padding: 7px; border: 1px solid #ddd; border-radius: 6px;
-      background: #fff;
-    }
-    textarea.memo{
-      width:100%; box-sizing:border-box; font-size:15px; padding:7px;
+    input.text{ width: 100%; box-sizing: border-box; font-size: 15px; padding: 7px;
+      border: 1px solid #ddd; border-radius: 6px; background: #fff; }
+
+    textarea.memo{ width:100%; box-sizing:border-box; font-size:15px; padding:7px;
       border:1px solid #ddd; border-radius:6px; background:#fff;
-      min-height: 120px; resize: vertical;
-    }
+      min-height: 120px; resize: vertical; }
 
     .nav{ margin-top: 12px; display:flex; gap:10px; }
-    .navbtn{
-      flex:1 1 0; padding:8px 10px; color: #333; border:1px solid #ddd; border-radius:8px;
-      background:#f8f8f8;  text-align:center; font-weight: 700; cursor:pointer; user-select:none;
-    }
+    .navbtn{  flex:1 1 0; padding:8px 10px; color: #333; border:1px solid #ddd;
+      border-radius:8px; background:#f8f8f8;  text-align:center; font-weight: 700;
+      cursor:pointer; user-select:none; }
     .navbtn:active{ transform: translateY(1px); }
     .navbtn[disabled]{ opacity:0.45; cursor:not-allowed; }
 
-    .image-block{
-      margin-top: 16px; padding-top: 12px;
-      border-top: 1px solid #e0e0e0;
-    }
+    .image-block{ margin-top: 16px; padding-top: 12px;
+      border-top: 1px solid #e0e0e0; }
+
     .image-head{ font-weight: 600; font-size: 13px; color:#555; }
     .image-head input[type="file"]{ display:block; width:100%; margin: 8px 0 8px; }
-    .thumb img{
-      width:100%; height:auto; max-height:40vh; object-fit:contain;
+    .thumb img{ width:100%; height:auto; max-height:40vh; object-fit:contain;
       border-radius: 8px; background:#fff; display:block;
-      border:1px solid #eee;
-    }
+      border:1px solid #eee; }
 
-    .idRow{
-      display:flex; gap:8px; align-items:center;
-    }
+    .idRow{ display:flex; gap:8px; align-items:center; }
+
     .idRow .text{ flex: 1 1 auto; }
 
-    input.text{
-      width: 100%; box-sizing: border-box; font-size: 15px;
-      padding: 7px; border: 1px solid #ddd; border-radius: 6px;
-      background: #fff;
-    }
-
-
-
-
-    .smallBtn{
-      padding: 7px; border:1px solid #ddd; border-radius:8px;
+    .smallBtn{ padding: 7px; border:1px solid #ddd; border-radius:8px;
       background:#fff; font-weight:600;font-size: 14px; cursor:pointer;
       white-space: nowrap;   /* 「ID確定」を改行させない */
       flex: 0 0 auto;        /* ボタンが潰れない */
@@ -116,24 +97,99 @@
    
     .smallBtn:active{ transform: translateY(1px); }
 
-    .lockNote{
-      margin-top: 8px;
-      padding: 8px 10px;
-      border: 1px dashed #ccc;
-      border-radius: 10px;
-      background: #fff;
-      color:#666;
-      font-size: 13px;
+    .lockNote{ margin-top: 8px; padding: 8px 10px; border: 1px dashed #ccc;
+      border-radius: 10px; background: #fff; color:#666; font-size: 13px; }
+
+    /* ===== Reorder (案A) ===== */
+    .reorderbar{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+
+    .modebtn.primary{
+      background:#111; color:#fff; border-color:#111; }
+
+    .modebtn.ghost{ background:#fff; color:#111; }
+
+    .reorder-ctl{ display:flex; gap:6px; margin-top:8px; }
+
+    .reorder-ctl button{
+      flex:1; padding:6px 8px; border:1px solid #ddd; border-radius:10px;
+      background:#f7f7f7; font-weight:800; cursor:pointer; }
+
+    .reorder-ctl button:disabled{ opacity:.35; cursor:default; }
+
+    /* ===== Drag reorder (pointer) ===== */
+    .mini.dragging{ opacity: .65; transform: scale(0.75); z-index: 999;
+      position: relative; }
+    .mini{ -webkit-touch-callout: none; /* iOSの長押しメニュー抑制 */ }
+
+    /* 並べ替えモード中：mini内の文字を「選択対象」にしない */
+    .reorder-on .mini,
+    .reorder-on .mini *{
+      user-select: none !important;
+      -webkit-user-select: none !important;
+      -webkit-touch-callout: none !important; /* iOS長押しメニュー抑制 */
     }
+
+    /* ただし ↑↓ ボタンは普通に操作できるようにする（念のため） */
+    .reorder-on .mini .reorder-ctl,
+    .reorder-on .mini .reorder-ctl *{
+      pointer-events: auto !important;
+    }
+
+
+    .drop-hint{ outline: 2px dashed #aaa; outline-offset: 4px; }
+
+    body.noselect, body.noselect *{ user-select: none !important;
+      -webkit-user-select: none !important; }
+
+    /* 指についてくる複製（ghost） */
+    .drag-ghost{ position: fixed; left: 0; top: 0; z-index: 9999;
+      pointer-events: none; transform: scale(0.92); opacity: .92; }
+
+    /* 元の位置を保持する穴（placeholder） */
+    .drag-placeholder{ border: 2px dashed #aaa; border-radius: 10px;
+      background: rgba(0,0,0,0.03); }
+
+    .dragging-grid{
+      touch-action: pan-y;   /* これがAndroidで効く */
+    }
+
+    .dragging-grid.drag-active{
+      touch-action: none;
+    }
+
+    /* ドラッグ中は “指が触っている要素(.mini)側” もスクロール禁止にする */
+    .dragging-grid.drag-active .mini,
+    .dragging-grid.drag-active .mini *{
+      touch-action: none;
+    }
+
+    .dragging-body{
+      /* touch-action: none;  ←消す */
+      touch-action: pan-y;          /* 縦スクロールOK */
+      overscroll-behavior: contain; /* 端での変な戻りを軽減（任意） */
+      overflow-y: auto;             /* hidden をやめる */
+      overflow-x: hidden;
+    }
+
+
   </style>
 </head>
 
 <body>
   <div class="wrap">
     <div class="topbar">
-      <a class="modebtn" href="list.html">閲覧一覧へ</a>
+      <div class="reorderbar" id="reorderBar">
+        <a class="modebtn" href="list.html">閲覧一覧へ</a>
+
+        <!-- 並べ替え（案A） -->
+        <button class="modebtn ghost" id="btnReorder" type="button">並べ替え</button>
+        <button class="modebtn primary hidden" id="btnReorderSave" type="button">並べ替え保存</button>
+        <button class="modebtn ghost hidden" id="btnReorderCancel" type="button">キャンセル</button>
+      </div>
+
       <div class="status" id="status"></div>
     </div>
+
 
     <!-- ===== List View ===== -->
     <div id="viewList">
@@ -227,6 +283,10 @@
   const API_IMG    = `${API_BASE}/api/image`;
   const R2_PUBLIC_BASE = "https://pub-6e7134ff7595457297783250821603b8.r2.dev";
 
+  // ===== Auto scroll during drag =====
+  const AUTO_SCROLL_EDGE = 80;     // 上下何pxをスクロール領域にするか
+  const AUTO_SCROLL_SPEED = 18;   // 1フレームあたりのスクロール量
+
   // ===== 状態 =====
   let items = [];
   let current = null;
@@ -234,6 +294,278 @@
   // 新規作成フラグと、ID確定フラグ（この2つだけにする）
   let isNew = false;
   let idConfirmed = false;
+  
+  // ===== Reorder mode (案A) =====
+  let reorderMode = false;
+  let reorderEls = []; // items[i] に対応する .mini DOM を保持
+
+  // ===== Drag state (placeholder方式) =====
+  let drag = { active:false, pointerId:null, src:null, ghost:null,       // 追従する複製
+    ph:null, offsetX:0, offsetY:0, raf:0, lastX:0, lastY:0 };
+
+  function autoScrollDuringDrag(clientY){
+    if (!drag.active) return;
+
+    const vh = window.innerHeight;
+
+    if (clientY < AUTO_SCROLL_EDGE) {
+      // 上端
+      window.scrollBy(0, -AUTO_SCROLL_SPEED);
+    } else if (clientY > vh - AUTO_SCROLL_EDGE) {
+      // 下端
+      window.scrollBy(0, AUTO_SCROLL_SPEED);
+    }
+  }
+
+  function setReorderButtonsVisible(visible){
+    // 編集画面では並べ替えUIを全部消す
+    $("btnReorder").classList.toggle("hidden", !visible);
+    $("btnReorderSave").classList.toggle("hidden", !visible);
+    $("btnReorderCancel").classList.toggle("hidden", !visible);
+  }
+
+  function startDrag(mini, pointerId, x, y){
+    console.log("hasCapture?", $("grid").hasPointerCapture(pointerId));
+    const grid = $("grid");
+
+    grid.classList.add("drag-active");   // ★追加：ドラッグ中だけスクロール殺す
+    try { grid.setPointerCapture(pointerId); } catch (_) {} // ★追加：指を確実に捕まえる
+
+    // ★追加：Androidのスクロールを確実に止める
+    document.addEventListener("touchmove", _blockTouchMove, { passive:false, capture:true });
+
+    drag.active = true;
+    drag.pointerId = pointerId;
+    drag.src = mini;
+
+    const r = mini.getBoundingClientRect();
+    drag.offsetX = x - r.left;
+    drag.offsetY = y - r.top;
+
+    // placeholder（srcの場所に置く）
+    const ph = document.createElement("div");
+    ph.className = "mini drag-placeholder";
+    ph.style.width  = r.width + "px";
+    ph.style.height = r.height + "px";
+    drag.ph = ph;
+
+    // ghost
+    const ghost = mini.cloneNode(true);
+    ghost.classList.add("drag-ghost");
+    ghost.style.width  = r.width + "px";
+    ghost.style.height = r.height + "px";
+    drag.ghost = ghost;
+    document.body.appendChild(ghost);
+
+    // ★ここが重要：srcの位置にphを入れてから、srcはdisplay:noneにする
+    grid.insertBefore(ph, mini);
+    mini.style.display = "none";            // ← visibility:hidden ではなく display:none
+
+    // スクロール/選択抑制（後述のAndroid対策にも効く）
+    document.body.classList.add("noselect", "dragging-body");
+    grid.classList.add("dragging-grid");    // touch-action切替用
+    grid.classList.add("drag-active"); // ★追加
+
+    // pointer capture（miniをdisplay:noneにする前に取るのが安全）
+    // ※すでに display:none を先にやってしまうと capture が失敗することがある
+    // → なので、insertBeforeの前後どっちでもOKだが display:none の前がより安全
+    // mini.setPointerCapture(pointerId);  // miniがdisplay:noneだと不安定な端末あり
+    grid.setPointerCapture(pointerId);      // ★gridにcaptureの方が安定
+
+    moveGhost(x, y);
+  }
+
+
+  function moveGhost(clientX, clientY){
+    if (!drag.ghost) return;
+    const left = clientX - drag.offsetX;
+    const top  = clientY - drag.offsetY;
+    drag.ghost.style.transform = `translate(${left}px, ${top}px) scale(0.92)`;
+  }
+
+  // placeholderを「指の下の要素」の前/後へ移動
+  function updatePlaceholder(clientX, clientY){
+    const grid = $("grid");
+    const el = document.elementFromPoint(clientX, clientY);
+    const over = el ? el.closest(".mini") : null;
+
+    if (!over) return;
+    if (over === drag.ph) return;
+
+    const r = over.getBoundingClientRect();
+
+    // ★複数列向け：左右は“前”、右側は“後”寄りに
+    const dx = clientX - (r.left + r.width * 0.5);
+    const dy = clientY - (r.top  + r.height * 0.5);
+
+    const after = (Math.abs(dx) > Math.abs(dy)) ? (dx > 0) : (dy > 0);
+
+    if (after) grid.insertBefore(drag.ph, over.nextSibling);
+    else       grid.insertBefore(drag.ph, over);
+  }
+
+
+  function endDrag(pointerId){
+    clearPress();
+    if (!drag.active) return;
+    if (drag.pointerId !== pointerId) return;
+
+    const grid = $("grid");
+
+    // srcをplaceholder位置へ戻す
+    if (drag.ph && drag.src){
+      drag.src.style.display = "";          // ★戻す
+      grid.insertBefore(drag.src, drag.ph);
+    }
+
+    if (drag.ph) drag.ph.remove();
+    if (drag.ghost) drag.ghost.remove();
+
+    document.body.classList.remove("noselect", "dragging-body");
+    // 並べ替えモード中は "dragging-body / dragging-grid" を維持する
+    if (!reorderMode) document.body.classList.remove("dragging-body");
+    if (!reorderMode) grid.classList.remove("dragging-grid");
+
+    try { $("grid").releasePointerCapture(pointerId); } catch(e){}
+
+    // DOM順→items順を復元
+    reorderEls = Array.from(grid.querySelectorAll(".mini"));
+    const map = new Map(items.map(it => [it.id, it]));
+    items = reorderEls.map(el => map.get(el.dataset.id)).filter(Boolean);
+    document.removeEventListener("touchmove", _blockTouchMove, { passive:false, capture:true });
+
+
+    refreshReorderButtons();
+
+    drag.active = false;
+    drag.pointerId = null;
+    drag.src = null;
+    drag.ghost = null;
+    drag.ph = null;
+    if (drag.raf) cancelAnimationFrame(drag.raf);
+    drag.raf = 0;
+
+    grid.classList.remove("drag-active");
+    try { $("grid").releasePointerCapture(pointerId); } catch (_) {}
+  }
+
+  // ★ 追加：ドラッグ中だけスクロール抑止するためのフック
+  function _blockTouchMove(e){
+    if (!drag || !drag.active) return;
+    // cancelableじゃない場合は止められないが、止められる時は止める
+    if (e.cancelable) e.preventDefault();
+  }
+
+  let reorderBackup = null; // 並べ替え開始時の items を保持
+
+  // ===== Long-press config =====
+  const LONGPRESS_MS = 500;   // 0.5秒
+  const CANCEL_PX = 32;        // これ以上動いたら長押しキャンセル（スクロール優先）
+
+  let press = { timer: null, pointerId: null, startX: 0,
+    startY: 0, mini: null };
+
+  function clearPress(){
+    if (press.timer){
+      clearTimeout(press.timer);
+      press.timer = null;
+    }
+
+  // ★追加：capture解除
+    try{
+      if (press.pointerId != null) $("grid").releasePointerCapture(press.pointerId);
+    }catch(e){}
+
+    press.pointerId = null;
+    press.mini = null;
+  }
+
+
+  function setReorderUI(on){
+    reorderMode = !!on;
+    // ★追加：並べ替え中だけCSSを効かせる
+    document.body.classList.toggle("reorder-on", reorderMode);
+
+    const grid = $("grid");
+
+    // ★追加：Android対策。pointerdown前にtouch-actionを固定しておく
+    grid.classList.toggle("dragging-grid", reorderMode);
+
+    // ついでに、並べ替え中はページスクロールも抑止したいなら
+    document.body.classList.toggle("dragging-body", reorderMode);
+
+    // ボタン表示
+    $("btnReorder").classList.toggle("hidden", reorderMode);
+    $("btnReorderSave").classList.toggle("hidden", !reorderMode);
+    $("btnReorderCancel").classList.toggle("hidden", !reorderMode);
+
+    // 並べ替え中は検索欄そのものを隠す
+    $("q").classList.toggle("hidden", reorderMode);
+
+    // 念のため disabled も同期（保険）
+    $("q").disabled = reorderMode;
+
+    // 並べ替え中はステータスを少し出す
+    if (reorderMode) setStatus("並べ替えモード：↑↓で順序を変えて、保存してください");
+    if (!reorderMode){ reorderEls = [];}
+
+  }
+
+  function renumberSort(step=1000){
+    for (let i = 0; i < items.length; i++){
+      items[i].sort = (i + 1) * step;
+    }
+  }
+
+  async function putItem(it){
+    // /api/item は「全項目PUT」前提なので、既存save()と同じ形で送る
+    const payload = {
+      collection: COLLECTION,
+      id: it.id,
+      title: it.title ?? "",
+      year: it.year ?? "",
+      style: it.style ?? "",
+      architect: it.architect ?? "",
+      location: it.location ?? "",
+      desc: it.desc ?? "",
+      images_json: (Array.isArray(it.images) && it.images.length >= 2)
+        ? it.images
+        : buildImagesJson(COLLECTION, it.id),
+      sort: (it.sort ?? null)
+    };
+
+    const res = await fetch(API_ITEM, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+
+    if (!res.ok){
+      throw new Error(`PUT failed HTTP ${res.status} (${it.id})`);
+    }
+  }
+
+  async function saveReorder(){
+    // まずローカルで1000刻みに再採番
+    renumberSort(1000);
+
+    setStatus("並べ替え保存中…");
+
+    // 全件PUT（案Aの最小実装：堅牢）
+    // カードが増えて重くなったら「差分だけPUT」に拡張できる
+    for (let i = 0; i < items.length; i++){
+      setStatus(`並べ替え保存中… (${i+1}/${items.length})`);
+      await putItem(items[i]);
+    }
+
+    setStatus("並べ替え保存OK", "ok");
+    setReorderUI(false);
+
+    // 念のため再読込（DBの並びを確実に反映）
+    await load();
+  }
+
+
 
   // ===== util =====
   function $(id){ return document.getElementById(id); }
@@ -321,6 +653,9 @@
     $("viewList").classList.remove("hidden");
     $("viewEdit").classList.add("hidden");
 
+    // ★追加：一覧では並べ替えボタンを戻す
+    $("reorderBar").classList.remove("hidden");
+
     current = null;
 
     const u = new URL(location.href);
@@ -328,11 +663,59 @@
     history.replaceState(null, "", u.toString());
   }
 
-  // ===== List描画 =====
+
+
+
   function renderGrid(){
-    const q = $("q").value.trim().toLowerCase();
     const grid = $("grid");
+
+    if (reorderMode){
+      // 並べ替えモードは「初回だけ」DOMを構築
+      if (reorderEls.length === items.length && grid.children.length === items.length){
+        // すでに構築済みなら、ボタン状態だけ整える
+        refreshReorderButtons();
+        return;
+      }
+
+      grid.innerHTML = "";
+      reorderEls = [];
+
+      for (let idx = 0; idx < items.length; idx++){
+        const it = items[idx];
+        const div = document.createElement("div");
+        div.className = "mini";
+        div.dataset.draggable = "1";      // ←追加：目印
+        div.dataset.id = it.id;  // ★これを追加（並び替え結果をitemsへ確実に反映する鍵）
+
+        div.dataset.idx = String(idx);
+
+        const img = it.images?.[0] ?? "";
+        div.innerHTML = `
+          ${img ? `<img class="thumbimg" src="${escapeHtml(img)}" alt="" loading="lazy"
+          onerror="if(!this.dataset.retry){this.dataset.retry=1;setTimeout(()=>this.src=this.src,300);}else{this.style.display='none'}">` : ""}
+          
+          <div class="miniTitle">${escapeHtml(it.title)} <span style="color:#999;font-weight:700">(${escapeHtml(it.id)})</span></div>
+          
+          <!--
+          <div class="reorder-ctl">
+            <button type="button" data-act="up">↑</button>
+            <button type="button" data-act="down">↓</button>
+          </div>
+          -->
+        `;
+
+        // クリックはイベント委譲にする（後述）。ここでは何もしない
+        grid.appendChild(div);
+        reorderEls.push(div);
+      }
+
+      refreshReorderButtons();
+      return;
+    }
+
+    // ===== 通常表示（既存ロジック） =====
     grid.innerHTML = "";
+    const q = $("q").value.trim().toLowerCase();
 
     const filtered = items.filter(it => {
       if (!q) return true;
@@ -350,9 +733,9 @@
       div.className = "mini";
       const img = it.images?.[0] ?? "";
       div.innerHTML = `
-        ${img ? `<img class="thumbimg" src="${escapeHtml(bust(img))}" alt="" onerror="this.style.display='none'">` : ""}
+        ${img ? `<img class="thumbimg" src="${escapeHtml(img)}" alt="" loading="lazy"
+        onerror="if(!this.dataset.retry){this.dataset.retry=1;setTimeout(()=>this.src=this.src,300);}else{this.style.display='none'}">` : ""}
         <div class="miniTitle">${escapeHtml(it.title)} <span style="color:#999;font-weight:700">(${escapeHtml(it.id)})</span></div>
-        <div class="miniMeta">${escapeHtml(it.year)} / ${escapeHtml(it.style)}</div>
       `;
       div.addEventListener("click", () => openEdit(it));
       grid.appendChild(div);
@@ -366,8 +749,63 @@
     }
   }
 
+
+
+
+
+  function refreshReorderButtons(){
+    // 先頭と末尾だけdisable、他はenable
+    for (let i = 0; i < reorderEls.length; i++){
+      const el = reorderEls[i];
+      el.dataset.idx = String(i);
+
+      const up = el.querySelector('button[data-act="up"]');
+      const dn = el.querySelector('button[data-act="down"]');
+
+      if (up) up.disabled = (i === 0);
+      if (dn) dn.disabled = (i === reorderEls.length - 1);
+    }
+  }
+
+
+ function moveItemNoRender(fromIndex, toIndex){
+    if (toIndex < 0 || toIndex >= items.length) return;
+
+    const grid = $("grid");
+    const elFrom = reorderEls[fromIndex];
+    const elTo   = reorderEls[toIndex];
+    if (!elFrom || !elTo) return;
+
+    // 1) DOMを先に動かす（配列をいじる前の参照で確実に移動）
+    if (fromIndex < toIndex){
+      // 下へ：目的要素 elTo の「次」に入れる
+      grid.insertBefore(elFrom, elTo.nextSibling);
+    } else if (fromIndex > toIndex){
+      // 上へ：目的要素 elTo の「前」に入れる
+      grid.insertBefore(elFrom, elTo);
+    } else {
+      return;
+    }
+
+    // 2) 配列(items, reorderEls)を同じ移動で更新
+    const [movedItem] = items.splice(fromIndex, 1);
+    items.splice(toIndex, 0, movedItem);
+
+    const [movedEl] = reorderEls.splice(fromIndex, 1);
+    reorderEls.splice(toIndex, 0, movedEl);
+
+    // 3) idx / disabled を更新
+    refreshReorderButtons();
+  }
+
   // ===== 画面遷移 =====
   function openNew(){
+    // ★追加：編集では上のバーを消す
+    $("reorderBar").classList.add("hidden");
+
+    // ★追加：編集中に並べ替えが残ってたら終わらせる
+    if (reorderMode) setReorderUI(false);
+
     isNew = true;
     idConfirmed = false;
 
@@ -427,6 +865,12 @@
   }
 
   function openEdit(it){
+    // ★追加：編集では上のバーを消す
+    $("reorderBar").classList.add("hidden");
+
+    // ★追加：編集中に並べ替えが残ってたら終わらせる
+    if (reorderMode) setReorderUI(false);
+
     isNew = false;
     idConfirmed = true;
 
@@ -820,6 +1264,142 @@
   $("idEdit").addEventListener("keydown", (e) => {
     if (e.key === "Enter") confirmId();
   });
+
+
+
+  // ===== reorder events =====
+
+  // ===== ↑↓ボタン（並べ替えモード用） =====
+  /*
+  $("grid").addEventListener("click", (e) => {
+    if (!reorderMode) return;
+
+    const btn = e.target.closest("button[data-act]");
+    if (!btn) return;
+
+    const mini = e.target.closest(".mini");
+    if (!mini) return;
+
+    const idx = Number(mini.dataset.idx);
+    if (!Number.isFinite(idx)) return;
+
+    const act = btn.dataset.act;
+    e.stopPropagation();
+
+    if (act === "up")   moveItemNoRender(idx, idx - 1);
+    if (act === "down") moveItemNoRender(idx, idx + 1);
+  });
+  */
+
+  $("btnReorder").addEventListener("click", () => {
+    reorderBackup = items.slice();   // ★参照の浅いコピーでOK（並びだけ戻したい）
+    setReorderUI(true);
+    renderGrid();
+  });
+
+  $("btnReorderCancel").addEventListener("click", () => {
+
+    // ★ドラッグ中なら確実に終わらせてDOM/状態をクリーンにする
+    if (drag && drag.active) endDrag(drag.pointerId);
+    // ★items の並びを元に戻す
+    if (reorderBackup) items = reorderBackup.slice();
+    reorderBackup = null;
+
+    setReorderUI(false);
+    renderGrid();
+  });
+
+  $("btnReorderSave").addEventListener("click", () => {
+    saveReorder().catch(e => {
+      console.error(e);
+      setStatus("並べ替え保存エラー：console を確認", "err");
+    });
+  });
+
+
+
+  $("grid").addEventListener("pointerdown", (e) => {
+    if (!reorderMode) return;
+
+    // ↑↓ボタンはドラッグ開始しない（クリックで動かす）
+    if (e.target.closest("button[data-act]")) return;
+
+    const mini = e.target.closest(".mini");
+    if (!mini) return;
+
+    // ↑↓ボタンは除外
+    if (e.target.closest("button[data-act]")) return;
+
+
+    clearPress();
+    press.pointerId = e.pointerId;
+    press.startX = e.clientX;
+    press.startY = e.clientY;
+    press.mini = mini;
+
+    press.timer = setTimeout(() => {
+      // 長押し成立
+      if (!reorderMode) return;
+      if (drag.active) return;
+      if (press.pointerId !== e.pointerId) return;
+      if (!press.mini) return;
+
+      setStatus("長押し成立：ドラッグ開始", "ok");
+      startDrag(press.mini, e.pointerId, press.startX, press.startY);
+      
+    }, LONGPRESS_MS);
+  });
+
+  $("grid").addEventListener("pointermove", (e) => {
+        
+    // 長押し待ち中：大きく動いたらキャンセル（スクロール優先）
+    if (!drag.active && press.timer && press.pointerId === e.pointerId){
+      const dx = e.clientX - press.startX;
+      const dy = e.clientY - press.startY;
+      if ((dx*dx + dy*dy) > (CANCEL_PX*CANCEL_PX)){
+        clearPress();
+        return;
+      }
+    }
+
+           if (drag.active){
+      if (drag.pointerId !== e.pointerId) return;
+      e.preventDefault();
+
+      drag.lastX = e.clientX;
+      drag.lastY = e.clientY;
+
+      // ★ 追加：オートスクロール
+      autoScrollDuringDrag(e.clientY);
+
+      if (!drag.raf){
+        drag.raf = requestAnimationFrame(() => {
+          drag.raf = 0;
+          moveGhost(drag.lastX, drag.lastY);
+          updatePlaceholder(drag.lastX, drag.lastY);
+        });
+      }
+      return;
+    }
+  },{ passive: false });
+
+
+  $("grid").addEventListener("pointerup", (e) => {
+    if (!reorderMode) return;
+    if (drag.active) endDrag(e.pointerId);
+    clearPress(); // 長押し待ちも止める
+  });
+
+  $("grid").addEventListener("pointercancel", (e) => {
+    if (!reorderMode) return;
+    if (drag.active) endDrag(e.pointerId);
+    clearPress(); // 長押し待ちも止める
+  });
+
+  $("grid").addEventListener("contextmenu", (e) => {
+    if (reorderMode) e.preventDefault();
+  });
+
 
   // ファイル変更 → 即アップロード（ID確定後のみ）
   $("file1").addEventListener("change", () => uploadSlot(1));
