@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>archcards admin (nihon)</title>
+  <title>archcards admin (kindai)</title>
   <style>
     body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; margin: 0; background:#fafafa; }
     .wrap { max-width: 720px; margin: 0 auto; padding: 16px; }
@@ -276,7 +276,7 @@
 
 <script>
   // ===== 固定設定 =====
-  const COLLECTION = "nihon";
+  const COLLECTION = "kindai";
   const API_BASE   = "https://archicard-api.yuki-548.workers.dev";
   const API_ITEMS  = `${API_BASE}/api/items?collection=${encodeURIComponent(COLLECTION)}`;
   const API_ITEM   = `${API_BASE}/api/item`;
@@ -653,7 +653,8 @@
     $("viewList").classList.remove("hidden");
     $("viewEdit").classList.add("hidden");
 
-    setReorderButtonsVisible(true); // ★明示的に戻す
+    // ★追加：一覧では並べ替えボタンを戻す
+    $("reorderBar").classList.remove("hidden");
 
     current = null;
 
@@ -800,7 +801,7 @@
   // ===== 画面遷移 =====
   function openNew(){
     // ★追加：編集では上のバーを消す
-    setReorderButtonsVisible(false);
+    $("reorderBar").classList.add("hidden");
 
     // ★追加：編集中に並べ替えが残ってたら終わらせる
     if (reorderMode) setReorderUI(false);
@@ -865,7 +866,7 @@
 
   function openEdit(it){
     // ★追加：編集では上のバーを消す
-    setReorderButtonsVisible(false);
+    $("reorderBar").classList.add("hidden");
 
     // ★追加：編集中に並べ替えが残ってたら終わらせる
     if (reorderMode) setReorderUI(false);
