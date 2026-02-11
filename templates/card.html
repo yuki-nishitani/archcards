@@ -224,6 +224,11 @@
   function showBack() {
     card.classList.add("show-back");
     card.classList.remove("show-front");
+    for (const id of ["img1b","img2b"]) {
+      const el = $(id);
+      if (!el.getAttribute("src")) el.src = el.dataset.src || "";
+    }
+
   }
   function isBack() {
     return card.classList.contains("show-back");
@@ -239,9 +244,12 @@
    $("btnEdit").href =
     `admin.html?id=${encodeURIComponent(item.id)}&return=card&card=card.html`;
 
-    // front images
-    $("img1").src = item.images?.[0] ?? "";
-    $("img2").src = item.images?.[1] ?? "";
+    const u1 = item.images?.[0] ?? "";
+    const u2 = item.images?.[1] ?? "";
+
+    $("img1").src = u1;
+    $("img2").src = u2;
+
 
     // back text
     $("title").textContent = item.title ?? "";
@@ -251,9 +259,11 @@
     $("location").textContent  = item.location ?? "";
     $("desc").textContent  = item.desc ?? "";
 
-    // back thumbs (same images)
-    $("img1b").src = item.images?.[0] ?? "";
-    $("img2b").src = item.images?.[1] ?? "";
+    // 裏は遅延（src ではなく data-src）
+    $("img1b").dataset.src = u1;
+    $("img2b").dataset.src = u2;
+    $("img1b").removeAttribute("src");
+    $("img2b").removeAttribute("src");
 
     // ページ切替時は表に戻す（好みで：詳細に留めたいなら消す）
     showFront();

@@ -85,9 +85,6 @@ body{
   background: #eaeaea;
 }
 
-
-
-
 </style>
 </head>
 
@@ -102,31 +99,60 @@ body{
 </div>
 
 <script>
-const DATA_JSON = "https://archicard-api.yuki-548.workers.dev/api/items?collection=kindai";
-const grid = document.getElementById("grid");
+  const R2_PUBLIC_BASE = "https://pub-6e7134ff7595457297783250821603b8.r2.dev";
 
-async function load(){
-  const res = await fetch(DATA_JSON, { cache:"no-store" });
-  const items = await res.json();
+  function buildThumbUrl(collection, id){
+    const c = encodeURIComponent(collection);
+    const i = encodeURIComponent(id);
+    return `${R2_PUBLIC_BASE}/${c}/${i}/thumb.webp`;
+  }
 
-  items.forEach(item=>{
-    const div = document.createElement("div");
-    div.className = "item";
+
+  const DATA_JSON = "https://archicard-api.yuki-548.workers.dev/api/items?collection=kindai";
+  const grid = document.getElementById("grid");
+
+  async function load(){
+    const res = await fetch(DATA_JSON, { cache:"no-store" });
+    const items = await res.json();
+
+    items.forEach(item=>{
+      const div = document.createElement("div");
+      div.className = "item";
+
+
+    const full = item.images?.[0] ?? "";
+    const thumb = buildThumbUrl("kindai", item.id);
+
     div.innerHTML = `
-      <img src="${item.images?.[0] ?? ""}">
+      <img
+        src="${thumb}"
+        data-fallback="${full}"
+        alt=""
+        onerror="
+          if(!this.dataset.fbTried){
+            this.dataset.fbTried=1;
+            const fb=this.dataset.fallback||'';
+            if(fb){ this.src=fb; return; }
+          }
+          this.style.display='none';
+        "
+      >
       <div class="title">${item.title ?? ""}</div>
     `;
 
-    // クリックで詳細へ
-    div.onclick = ()=>{
-      location.href = `card.html?id=${item.id}`;
-    };
 
-    grid.appendChild(div);
-  });
-}
 
-load();
+
+      // クリックで詳細へ
+      div.onclick = ()=>{
+        location.href = `card.html?id=${item.id}`;
+      };
+
+      grid.appendChild(div);
+    });
+  }
+
+  load();
 </script>
 </body>
 </html>

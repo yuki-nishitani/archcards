@@ -264,15 +264,15 @@
         </div>
 
         <div class="nav">
-          <button class="navbtn" id="btnSave" type="button">保存</button>
           <button class="navbtn" id="btnDelete" type="button">削除</button>
+          <button class="navbtn" id="btnSave" type="button">保存</button>
           <button class="navbtn" id="btnBack" type="button">キャンセル</button>
         </div>
 
         <div class="hint" id="editHint"></div>
       </div>
     </div>
-  </div>
+  </div> 
 
 <script>
   // ===== 固定設定 =====
@@ -565,7 +565,28 @@
     await load();
   }
 
+  function getReturnTarget(){
+    const p = new URLSearchParams(location.search);
+    const ret = p.get("return");    // "card" など
+    const card = p.get("card") || "card.html";
 
+    if (ret === "card") {
+      // いま編集してるカードIDへ戻す（保存前でも current.id を使う）
+      const id = (current && current.id) ? current.id : p.get("id");
+      if (id) return `${card}?id=${encodeURIComponent(id)}`;
+      return card;
+    }
+    return null;
+  }
+
+  function goReturnOrList(){
+    const url = getReturnTarget();
+    if (url) {
+      location.href = url;  // ←カード閲覧へ戻る
+    } else {
+      showList();           // ←従来どおり一覧へ
+    }
+  }
 
   // ===== util =====
   function $(id){ return document.getElementById(id); }
@@ -938,11 +959,11 @@
   function goBack(){
     // 新規でID未確定ならそのまま一覧へ
     if (isNew && !idConfirmed) {
-      showList();
+      goReturnOrList();
       return;
     }
     // それ以外は一覧へ
-    showList();
+    goReturnOrList();
   }
 
   // ===== ID確定 =====
@@ -1185,7 +1206,7 @@
 
     setStatus("保存OK", "ok");
     renderGrid();
-    showList();
+    goReturnOrList();
   }
 
   // ===== 削除 =====
@@ -1248,7 +1269,7 @@
         showList();
       }
     } else {
-      showList();       // ★ id が無いときだけ new / list を考える
+      showList();      // ★ id が無いときだけ new / list を考える
     }
 
   }
