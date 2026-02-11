@@ -637,6 +637,13 @@
     ];
   }
 
+  function buildThumbUrl(collection, id){
+    const c = encodeURIComponent(collection);
+    const i = encodeURIComponent(id);
+    return `${R2_PUBLIC_BASE}/${c}/${i}/thumb.webp`;
+  }
+
+
   function normalizeId(raw){
     const id = (raw ?? "").trim();
     // 英小文字/数字/ハイフン/アンダースコア（必要なら調整）
@@ -710,19 +717,26 @@
 
         div.dataset.idx = String(idx);
 
-        const img = it.images?.[0] ?? "";
+
+        const full = it.images?.[0] ?? "";
+        const thumb = buildThumbUrl(COLLECTION, it.id);
+        const first = thumb || full; // 念のため
+
         div.innerHTML = `
-          ${img ? `<img class="thumbimg" src="${escapeHtml(img)}" alt="" loading="lazy"
-          onerror="if(!this.dataset.retry){this.dataset.retry=1;setTimeout(()=>this.src=this.src,300);}else{this.style.display='none'}">` : ""}
-          
+          ${ (thumb || full) ? `
+            <img class="thumbimg" src="${escapeHtml(thumb)}" alt="" loading="lazy"
+              data-fallback="${escapeHtml(full)}"
+              onerror="
+                if(!this.dataset.fbTried){
+                  this.dataset.fbTried=1;
+                  const fb=this.dataset.fallback||'';
+                  if(fb){ this.src=fb; return; }
+                }
+                this.style.display='none';
+              ">
+          ` : ""}
+
           <div class="miniTitle">${escapeHtml(it.title)} <span style="color:#999;font-weight:700">(${escapeHtml(it.id)})</span></div>
-          
-          <!--
-          <div class="reorder-ctl">
-            <button type="button" data-act="up">↑</button>
-            <button type="button" data-act="down">↓</button>
-          </div>
-          -->
         `;
 
         // クリックはイベント委譲にする（後述）。ここでは何もしない
@@ -752,12 +766,27 @@
     for (const it of filtered){
       const div = document.createElement("div");
       div.className = "mini";
-      const img = it.images?.[0] ?? "";
+
+      const full = it.images?.[0] ?? "";
+      const thumb = buildThumbUrl(COLLECTION, it.id);
+
       div.innerHTML = `
-        ${img ? `<img class="thumbimg" src="${escapeHtml(img)}" alt="" loading="lazy"
-        onerror="if(!this.dataset.retry){this.dataset.retry=1;setTimeout(()=>this.src=this.src,300);}else{this.style.display='none'}">` : ""}
+        ${ (thumb || full) ? `
+          <img class="thumbimg" src="${escapeHtml(thumb)}" alt="" loading="lazy"
+            data-fallback="${escapeHtml(full)}"
+            onerror="
+              if(!this.dataset.fbTried){
+                this.dataset.fbTried=1;
+                const fb=this.dataset.fallback||'';
+                if(fb){ this.src=fb; return; }
+              }
+              this.style.display='none';
+            ">
+        ` : ""}
+
         <div class="miniTitle">${escapeHtml(it.title)} <span style="color:#999;font-weight:700">(${escapeHtml(it.id)})</span></div>
       `;
+
       div.addEventListener("click", () => openEdit(it));
       grid.appendChild(div);
     }
