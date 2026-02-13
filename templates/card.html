@@ -150,7 +150,19 @@
       color: #ffffff;
     }
 
+    /* 裏面：2列で折り返し */
+    .thumbs{
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;   /* ★追加 */
+      gap: 5px;
+      align-items: flex-start;
+    }
 
+    .thumb{
+      flex: 0 0 calc(50% - 2.5px);  /* ★2列 */
+      max-width: calc(50% - 2.5px);
+    }
 
   </style>
 </head>
@@ -166,8 +178,7 @@
     <div class="card show-front" id="card">
       <!-- FRONT: 流し見（画像だけ縦並び） -->
       <div class="face front stack">
-        <img class="img" id="img1" alt="image 1" />
-        <img class="img" id="img2" alt="image 2" />
+        <div id="frontImages"></div>
         <div class="hint">タップ：詳細 / 左右フリック：次・前</div>
       </div>
 
@@ -182,10 +193,7 @@
           <div class="row"><span class="label">メモ:</span><span id="desc"></span></div>
         </div>
 
-        <div class="thumbs">
-          <div class="thumb"><img id="img1b" alt="thumb 1" /></div>
-          <div class="thumb"><img id="img2b" alt="thumb 2" /></div>
-        </div>
+        <div class="thumbs" id="backImages"></div>
 
         <div class="hint">タップ：戻る / 左右フリック：次・前</div>
       </div>
@@ -221,15 +229,32 @@
     card.classList.add("show-front");
     card.classList.remove("show-back");
   }
+
   function showBack() {
     card.classList.add("show-back");
     card.classList.remove("show-front");
-    for (const id of ["img1b","img2b"]) {
-      const el = $(id);
-      if (!el.getAttribute("src")) el.src = el.dataset.src || "";
-    }
 
+    const wrap = document.getElementById("backImages");
+    wrap.querySelectorAll("img").forEach(el => {
+      if (el.getAttribute("src")) return;
+
+      const u = (el.dataset.src || "").trim();
+      if (!u || u === "undefined" || u === "null") {
+        // そもそも無効なら枠ごと消す
+        el.closest(".thumb")?.remove();
+        return;
+      }
+
+      el.onerror = () => {
+        // 読み込み失敗(404/非画像/etc) → 枠ごと消す
+        el.closest(".thumb")?.remove();
+      };
+
+      el.src = u;
+    });
   }
+
+
   function isBack() {
     return card.classList.contains("show-back");
   }
@@ -241,15 +266,50 @@
     const item = items[idx];
 
     // ★ 編集リンクを更新（このカードを編集）
-   $("btnEdit").href =
-    `admin.html?id=${encodeURIComponent(item.id)}&return=card&card=card.html`;
+    $("btnEdit").href =
+      `admin.html?id=${encodeURIComponent(item.id)}&return=card&card=card.html`;
 
-    const u1 = item.images?.[0] ?? "";
-    const u2 = item.images?.[1] ?? "";
+    // images: "" を除外して配列化（1..4 でも将来増えてもOK）
+    const imgs = (item.images || []).filter(u => typeof u === "string" && u.trim() !== "");
 
-    $("img1").src = u1;
-    $("img2").src = u2;
+    // =========================
+    // FRONT：縦に下へ追加
+    // =========================
+    const frontWrap = $("frontImages");   // <div id="frontImages"></div>
+    frontWrap.innerHTML = "";
 
+    for (const u of imgs) {
+      const im = document.createElement("img");
+      im.className = "img";
+      im.alt = "image";
+
+      // ★ 取得失敗したら、その画像を表示しない
+      im.onerror = () => {
+        im.remove();
+      };
+
+      im.src = u;                 // 表は即表示
+      frontWrap.appendChild(im);
+    }
+
+      // =========================
+    // BACK：2個で1段、3個目以降は下へ（lazy）
+    // =========================
+    const backWrap = $("backImages");     // <div id="backImages" class="thumbs"></div>
+    backWrap.innerHTML = "";
+
+    for (const u of imgs) {
+      const box = document.createElement("div");
+      box.className = "thumb";
+
+      const im = document.createElement("img");
+      im.alt = "thumb";
+      im.dataset.src = u;         // 裏は遅延（showBackでsrcを入れる）
+      im.removeAttribute("src");
+
+      box.appendChild(im);
+      backWrap.appendChild(box);
+    }
 
     // back text
     $("title").textContent = item.title ?? "";
@@ -259,21 +319,21 @@
     $("location").textContent  = item.location ?? "";
     $("desc").textContent  = item.desc ?? "";
 
-    // 裏は遅延（src ではなく data-src）
-    $("img1b").dataset.src = u1;
-    $("img2b").dataset.src = u2;
-    $("img1b").removeAttribute("src");
-    $("img2b").removeAttribute("src");
-
     // ページ切替時は表に戻す（好みで：詳細に留めたいなら消す）
     showFront();
   }
 
+
   function renderById(id){
-   const i = items.findIndex(it => it.id === id);
-   if (i >= 0) render(i);
-   else render(0); // 見つからなければ先頭
+    const s = String(id || "").trim();
+    if (!s) { render(0); return; }
+
+    const j = items.findIndex(it => String(it.id) === s);
+    if (j >= 0) render(j);
+    else render(0); // 見つからなければ先頭
   }
+
+
 
 
   function next() {
@@ -413,7 +473,7 @@
 
   load().catch(err => {
     console.error(err);
-    alert("data.json の読み込みに失敗しました。Live Server で開いているか、data.json が同じフォルダにあるか確認してください。");
+    alert("APIの読み込みに失敗しました。DevTools → Network で /api/items のStatusを確認してください。");
   });
 </script>
 </body>

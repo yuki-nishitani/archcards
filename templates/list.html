@@ -141,12 +141,11 @@ body{
     `;
 
 
-
-
-      // クリックで詳細へ
       div.onclick = ()=>{
-        location.href = `card.html?id=${item.id}`;
+        location.href = `card.html?id=${encodeURIComponent(item.id)}`;
       };
+
+
 
       grid.appendChild(div);
     });

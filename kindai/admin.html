@@ -21,14 +21,43 @@
       display:flex; justify-content:space-between; align-items:center;
       gap:10px; margin-bottom: 10px;
     }
-    .modebtn{
-      padding: 8px 10px; border:1px solid #ddd; border-radius:12px;
-      background:#fff;  font-weight: 700; cursor:pointer; user-select:none; font-size:15px;
-      text-decoration:none; color:#111;
-    }
-    .modebtn:active{ transform: translateY(1px); }
 
-    .hidden{ display:none; }
+    .modebtn{
+      appearance: none;
+      -webkit-appearance: none;
+
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 6px 12px;
+      margin-right: 6px;
+
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 1;
+
+      color: #333;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+
+      cursor: pointer;
+      text-decoration: none;   /* ← a 用 */
+    }
+
+    .modebtn:hover{
+      background: #f5f5f5;
+    }
+
+    .modebtn:active{
+      background: #eee;
+    }
+
+
+
+
+    .hidden{ display:none !important; }
     .status{ font-size:13px; color:#666; }
     .ok{ color:#0a7; }
     .err{ color:#c00; }
@@ -84,6 +113,18 @@
       border-radius: 8px; background:#fff; display:block;
       border:1px solid #eee; }
 
+    .thumb{
+      display: flex;
+      flex-direction: column;   /* 画像の下にボタン */
+      align-items: center;      /* 横方向を中央 */
+      gap: 2px;                 /* 画像とボタンの間隔 */
+      margin-top: 4px;
+    }
+
+    .thumb .smallBtn{
+      margin-top: 4px;
+    }
+
     .idRow{ display:flex; gap:8px; align-items:center; }
 
     .idRow .text{ flex: 1 1 auto; }
@@ -96,6 +137,15 @@
     }
    
     .smallBtn:active{ transform: translateY(1px); }
+
+    button[id^="btnImgDel"] {
+      background: #fff;
+      color: #c33;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 12px;
+      padding: 4px 10px;
+    }
 
     .lockNote{ margin-top: 8px; padding: 8px 10px; border: 1px dashed #ccc;
       border-radius: 10px; background: #fff; color:#666; font-size: 13px; }
@@ -180,11 +230,13 @@
     <div class="topbar">
       <div class="reorderbar" id="reorderBar">
         <a class="modebtn" href="list.html">閲覧一覧へ</a>
+        <button class="modebtn hidden" id="btnEditList" type="button">編集一覧へ</button>
 
-        <!-- 並べ替え（案A） -->
-        <button class="modebtn ghost" id="btnReorder" type="button">並べ替え</button>
-        <button class="modebtn primary hidden" id="btnReorderSave" type="button">並べ替え保存</button>
-        <button class="modebtn ghost hidden" id="btnReorderCancel" type="button">キャンセル</button>
+        <span id="reorderBtns">
+          <button class="modebtn ghost" id="btnReorder" type="button">並べ替え</button>
+          <button class="modebtn primary hidden" id="btnReorderSave" type="button">並べ替え保存</button>
+          <button class="modebtn ghost hidden" id="btnReorderCancel" type="button">キャンセル</button>
+        </span>
       </div>
 
       <div class="status" id="status"></div>
@@ -253,14 +305,53 @@
         <div class="image-block">
           <div class="image-head">画像1：</div>
           <input type="file" id="file1" accept="image/*">
-          <div class="thumb"><img id="img1b" alt="画像1プレビュー"></div>
+
+          <div class="thumb">
+            <img id="img1b" alt="画像1プレビュー">
+            <button class="smallBtn" id="btnImgDel1" type="button">
+              削除
+            </button>
+          </div>
         </div>
 
         <!-- 画像2 -->
         <div class="image-block">
           <div class="image-head">画像2：</div>
           <input type="file" id="file2" accept="image/*">
-          <div class="thumb"><img id="img2b" alt="画像2プレビュー"></div>
+
+          <div class="thumb">
+            <img id="img2b" alt="画像2プレビュー">
+            <button class="smallBtn" id="btnImgDel2" type="button">
+              削除
+            </button>
+          </div>
+        </div>
+        
+        <!-- 画像3 -->
+        <div class="image-block">
+          <div class="image-head">画像3：</div>
+          <input type="file" id="file3" accept="image/*">
+
+          <div class="thumb">
+            <img id="img3b" alt="画像3プレビュー">
+            <button class="smallBtn" id="btnImgDel3" type="button">
+              削除
+            </button>
+          </div>
+        </div>
+
+
+        <!-- 画像4 -->
+        <div class="image-block">
+          <div class="image-head">画像4：</div>
+          <input type="file" id="file4" accept="image/*">
+
+          <div class="thumb">
+            <img id="img4b" alt="画像4プレビュー">
+            <button class="smallBtn" id="btnImgDel4" type="button">
+              削除
+            </button>
+          </div>
         </div>
 
         <div class="nav">
@@ -282,6 +373,15 @@
   const API_ITEM   = `${API_BASE}/api/item`;
   const API_IMG    = `${API_BASE}/api/image`;
   const R2_PUBLIC_BASE = "https://pub-6e7134ff7595457297783250821603b8.r2.dev";
+  // 画像スロット数
+  const MAX_SLOTS = 4;
+
+
+  // ===== Thumb settings (list thumbnails) =====
+  const THUMB_MAX_LONG_EDGE = 320;   // 長辺px（推奨 320〜480）
+  const THUMB_MAX_BYTES = 60 * 1024; // 目安。超えたら品質を下げる
+  const THUMB_QUALITY = 0.70;        // 0〜1
+
 
   // ===== Auto scroll during drag =====
   const AUTO_SCROLL_EDGE = 80;     // 上下何pxをスクロール領域にするか
@@ -317,12 +417,6 @@
     }
   }
 
-  function setReorderButtonsVisible(visible){
-    // 編集画面では並べ替えUIを全部消す
-    $("btnReorder").classList.toggle("hidden", !visible);
-    $("btnReorderSave").classList.toggle("hidden", !visible);
-    $("btnReorderCancel").classList.toggle("hidden", !visible);
-  }
 
   function startDrag(mini, pointerId, x, y){
     console.log("hasCapture?", $("grid").hasPointerCapture(pointerId));
@@ -363,14 +457,7 @@
 
     // スクロール/選択抑制（後述のAndroid対策にも効く）
     document.body.classList.add("noselect", "dragging-body");
-    grid.classList.add("dragging-grid");    // touch-action切替用
-    grid.classList.add("drag-active"); // ★追加
-
-    // pointer capture（miniをdisplay:noneにする前に取るのが安全）
-    // ※すでに display:none を先にやってしまうと capture が失敗することがある
-    // → なので、insertBeforeの前後どっちでもOKだが display:none の前がより安全
-    // mini.setPointerCapture(pointerId);  // miniがdisplay:noneだと不安定な端末あり
-    grid.setPointerCapture(pointerId);      // ★gridにcaptureの方が安定
+    grid.classList.add("dragging-grid");    // touch-action切替
 
     moveGhost(x, y);
   }
@@ -446,7 +533,6 @@
     drag.raf = 0;
 
     grid.classList.remove("drag-active");
-    try { $("grid").releasePointerCapture(pointerId); } catch (_) {}
   }
 
   // ★ 追加：ドラッグ中だけスクロール抑止するためのフック
@@ -470,12 +556,6 @@
       clearTimeout(press.timer);
       press.timer = null;
     }
-
-  // ★追加：capture解除
-    try{
-      if (press.pointerId != null) $("grid").releasePointerCapture(press.pointerId);
-    }catch(e){}
-
     press.pointerId = null;
     press.mini = null;
   }
@@ -528,7 +608,7 @@
       architect: it.architect ?? "",
       location: it.location ?? "",
       desc: it.desc ?? "",
-      images_json: (Array.isArray(it.images) && it.images.length >= 2)
+      images_json: (Array.isArray(it.images) && it.images.length >= MAX_SLOTS)
         ? it.images
         : buildImagesJson(COLLECTION, it.id),
       sort: (it.sort ?? null)
@@ -627,20 +707,77 @@
     imgEl.style.display = "none"; // 新規では「何もない」を明示
   }
 
-  // webp固定：常に2枚のURLを生成（空でも入る）
   function buildImagesJson(collection, id){
     const c = encodeURIComponent(collection);
     const i = encodeURIComponent(id);
-    return [
-      `${R2_PUBLIC_BASE}/${c}/${i}/1.webp`,
-      `${R2_PUBLIC_BASE}/${c}/${i}/2.webp`,
-    ];
+    return Array.from({length: MAX_SLOTS}, (_, k) => {
+      const slot = k + 1;
+      return `${R2_PUBLIC_BASE}/${c}/${i}/${slot}.webp`;
+    });
   }
 
   function buildThumbUrl(collection, id){
     const c = encodeURIComponent(collection);
     const i = encodeURIComponent(id);
     return `${R2_PUBLIC_BASE}/${c}/${i}/thumb.webp`;
+  }
+
+
+  // ===== thumb.webp を作る（一覧用） =====
+  async function makeThumbWebp(file, {
+    maxLongEdge = THUMB_MAX_LONG_EDGE,
+    maxBytes = THUMB_MAX_BYTES,
+    type = "image/webp",
+    baseQuality = THUMB_QUALITY,
+  } = {}) {
+    let bitmap;
+    try {
+      bitmap = await createImageBitmap(file);
+    } catch {
+      throw new Error("この画像形式はブラウザで変換できません（HEIC等の可能性）。JPEG/PNGに変換してから試してください。");
+    }
+
+    const w0 = bitmap.width, h0 = bitmap.height;
+    const long0 = Math.max(w0, h0);
+    const sc0 = long0 > maxLongEdge ? (maxLongEdge / long0) : 1.0;
+
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d", { alpha: false });
+
+    async function encode(q, sc){
+      const w = Math.max(1, Math.floor(w0 * sc));
+      const h = Math.max(1, Math.floor(h0 * sc));
+      canvas.width = w; canvas.height = h;
+      ctx.clearRect(0, 0, w, h);
+      ctx.drawImage(bitmap, 0, 0, w, h);
+      const blob = await new Promise((resolve) => canvas.toBlob(resolve, type, q));
+      return blob;
+    }
+
+    let blob = await encode(baseQuality, sc0);
+    if (blob && blob.size <= maxBytes) return blob;
+
+    const qs = [baseQuality, 0.62, 0.54, 0.46, 0.38, 0.32, 0.28].filter((v,i,a)=>a.indexOf(v)===i);
+    for (const q of qs){
+      blob = await encode(q, sc0);
+      if (blob && blob.size <= maxBytes) return blob;
+    }
+
+    let sc = sc0;
+    for (let i = 0; i < 4; i++){
+      sc *= 0.85;
+      blob = await encode(0.30, sc);
+      if (blob && blob.size <= maxBytes) return blob;
+    }
+
+    if (!blob) throw new Error("thumb生成に失敗しました");
+    return blob;
+  }
+
+  function buildThumbPutUrl(collection, id){
+    const c = encodeURIComponent(collection);
+    const i = encodeURIComponent(id);
+    return `${API_IMG}?collection=${c}&id=${i}&slot=thumb`;
   }
 
 
@@ -664,7 +801,7 @@
   function setEditEnabled(enabled){
     // ID確定前はここ全部OFF
     const ids = ["titleEdit","yearEdit","styleEdit","architectEdit","locationEdit","descEdit",
-                 "file1","file2","btnSave"];
+                 "file1","file2","file3","file4","btnSave"];
     for (const k of ids){
       const el = $(k);
       if (!el) continue;
@@ -682,7 +819,8 @@
     $("viewEdit").classList.add("hidden");
 
     // ★追加：一覧では並べ替えボタンを戻す
-    $("reorderBar").classList.remove("hidden");
+    $("reorderBtns").classList.remove("hidden");
+    $("btnEditList").classList.add("hidden");     // ←追加：一覧では消す
 
     current = null;
 
@@ -848,10 +986,39 @@
     refreshReorderButtons();
   }
 
+
+
+  function syncDeleteButton(imgId, btnId){
+    const img = document.getElementById(imgId);
+    const btn = document.getElementById(btnId);
+    if (!img || !btn) return;
+
+    const update = () => {
+      if (img.src && img.naturalWidth > 0) {
+        btn.style.display = "";
+      } else {
+        btn.style.display = "none";
+      }
+    };
+
+    img.onload = update;
+    img.onerror = update;
+
+    update(); // 初期状態
+  }
+
+  function refreshDeleteButtons(){
+    syncDeleteButton("img1b", "btnImgDel1");
+    syncDeleteButton("img2b", "btnImgDel2");
+    syncDeleteButton("img3b", "btnImgDel3");
+    syncDeleteButton("img4b", "btnImgDel4");
+  }
+
   // ===== 画面遷移 =====
   function openNew(){
     // ★追加：編集では上のバーを消す
-    $("reorderBar").classList.add("hidden");
+    $("reorderBtns").classList.add("hidden");
+    $("btnEditList").classList.remove("hidden");  // ←追加：編集一覧ボタンを出す
 
     // ★追加：編集中に並べ替えが残ってたら終わらせる
     if (reorderMode) setReorderUI(false);
@@ -897,7 +1064,10 @@
 
     clearPreview($("img1b"));
     clearPreview($("img2b"));
+    clearPreview($("img3b"));
+    clearPreview($("img4b"));
 
+    refreshDeleteButtons(); // ← 追加
     $("idEdit").disabled = false;
 
     // ID確定までロック
@@ -916,7 +1086,8 @@
 
   function openEdit(it){
     // ★追加：編集では上のバーを消す
-    $("reorderBar").classList.add("hidden");
+    $("reorderBtns").classList.add("hidden");
+    $("btnEditList").classList.remove("hidden");  // ←追加：編集一覧ボタンを出す
 
     // ★追加：編集中に並べ替えが残ってたら終わらせる
     if (reorderMode) setReorderUI(false);
@@ -939,9 +1110,10 @@
     current._fixedId = it.id;
 
     // images が空なら、webp固定で補完（要件どおり）
-    if (!Array.isArray(current.images) || current.images.length < 2){
+    if (!Array.isArray(current.images) || current.images.length < MAX_SLOTS){
       current.images = buildImagesJson(COLLECTION, current.id);
     }
+
 
     $("viewList").classList.add("hidden");
     $("viewEdit").classList.remove("hidden");
@@ -954,13 +1126,12 @@
     $("descEdit").value = it.desc ?? "";
 
     // 既存は生成URLをそのまま表示（実体がないなら onerror で消える）
-    setPreview($("img1b"), current.images[0]);
-    setPreview($("img2b"), current.images[1]);
-
-    $("img1b").onerror = () => { $("img1b").style.display = "none"; };
-    $("img2b").onerror = () => { $("img2b").style.display = "none"; };
-    $("img1b").style.display = "";
-    $("img2b").style.display = "";
+    for (let s = 1; s <= MAX_SLOTS; s++) {
+      const img = $(`img${s}b`);
+      setPreview(img, current.images[s - 1]);
+      img.onerror = () => { img.style.display = "none"; };
+      img.style.display = "";
+    }
 
     // 編集可能
     setEditEnabled(true);
@@ -983,6 +1154,8 @@
     // 保険：入力欄が存在しても操作不能に
     $("idEdit").disabled = true;
     $("idEdit").value = current.id;
+
+    refreshDeleteButtons(); // ← 追加
   }
 
   function goBack(){
@@ -1025,12 +1198,12 @@
     $("idBadge").textContent = current.id;
 
     // プレビューは生成URLを表示（実体が無ければ onerror で非表示）
-    $("img1b").style.display = "";
-    $("img2b").style.display = "";
-    setPreview($("img1b"), current.images[0]);
-    setPreview($("img2b"), current.images[1]);
-    $("img1b").onerror = () => { $("img1b").style.display = "none"; };
-    $("img2b").onerror = () => { $("img2b").style.display = "none"; };
+    for (let s = 1; s <= MAX_SLOTS; s++) {
+      const img = $(`img${s}b`);
+      img.style.display = "";
+      setPreview(img, current.images[s - 1]);
+      img.onerror = () => { img.style.display = "none"; };
+    }
 
     // 編集/アップロード解禁
     setEditEnabled(true);
@@ -1099,6 +1272,8 @@
   }
 
   // ===== 画像アップロード =====
+
+
   async function uploadSlot(slot){
     if (!current) return;
     if (!idConfirmed || !current.id){
@@ -1106,8 +1281,9 @@
       return;
     }
 
-    const fileEl = slot === 1 ? $("file1") : $("file2");
-    const file = fileEl.files?.[0];
+    // ★ ここを 1/2 固定 → file1..file4 動的に
+    const fileEl = $(`file${slot}`);
+    const file = fileEl?.files?.[0];
     if (!file){
       setStatus(`画像${slot}を選択してください`, "err");
       return;
@@ -1139,28 +1315,95 @@
       return;
     }
 
-    // UI側は生成URLを保持する（要件）
-    // ただしレスポンスURLが返ったら同じはずなので、そこを使ってもOK
     let data = null;
     try { data = await res.json(); } catch {}
-    const urlOut = data?.url || current.images?.[slot - 1];
+    const urlOut = data?.url || current.images?.[slot - 1] || "";
 
-    if (!Array.isArray(current.images) || current.images.length < 2){
+    // ★ slot=1 のときは thumb.webp も生成してアップロード（今のままでOK）
+    if (slot === 1) {
+      try {
+        setStatus(`画像${slot} thumb生成中…`);
+        const thumbBlob = await makeThumbWebp(file, {
+          maxLongEdge: THUMB_MAX_LONG_EDGE,
+          maxBytes: THUMB_MAX_BYTES,
+          baseQuality: THUMB_QUALITY,
+        });
+
+        setStatus(`画像${slot} thumbアップロード中… (${Math.round(thumbBlob.size/1024)}KB)`);
+        const thumbUpUrl = buildThumbPutUrl(COLLECTION, current.id);
+        const tr = await fetch(thumbUpUrl, {
+          method: "PUT",
+          headers: { "Content-Type": "image/webp" },
+          body: thumbBlob
+        });
+        if (!tr.ok) {
+          const ttxt = await tr.text().catch(() => "");
+          console.warn("thumb upload failed", tr.status, ttxt);
+        }
+      } catch (e) {
+        console.warn("thumb generation/upload failed", e);
+      }
+    }
+
+    // ★ images 配列は必ず MAX_SLOTS に揃える
+    if (!Array.isArray(current.images) || current.images.length < MAX_SLOTS){
       current.images = buildImagesJson(COLLECTION, current.id);
     }
     current.images[slot - 1] = urlOut;
 
-    if (slot === 1) {
-      setPreview($("img1b"), urlOut);
-      $("file1").value = "";
-    } else {
-      setPreview($("img2b"), urlOut);
-      $("file2").value = "";
-    }
+    // ★ プレビュー img1b..img4b を動的に
+    const img = $(`img${slot}b`);
+    setPreview(img, urlOut);
+
+    fileEl.value = "";
+
+    refreshDeleteButtons(); // ← 追加
 
     setStatus(`画像${slot} OK`, "ok");
     renderGrid();
   }
+
+
+  async function deleteSlot(slot){
+    if (!current || !idConfirmed || !current.id){
+      setStatus("先にIDを確定してください", "err");
+      return;
+    }
+
+    const ok = confirm(`画像${slot}をR2から削除します。よろしいですか？`);
+    if (!ok) return;
+
+    setStatus(`画像${slot} 削除中…`);
+
+    const delUrl =
+      `${API_IMG}?collection=${encodeURIComponent(COLLECTION)}&id=${encodeURIComponent(current.id)}&slot=${encodeURIComponent(slot)}`;
+
+    const res = await fetch(delUrl, { method: "DELETE" });
+    if (!res.ok){
+      const txt = await res.text().catch(() => "");
+      setStatus(`画像削除失敗 HTTP ${res.status} ${txt}`, "err");
+      return;
+    }
+
+    // ここではDBは更新しない。UIだけ「消えた状態」にする
+    const numSlot = Number(slot);
+    if (Number.isFinite(numSlot) && numSlot >= 1 && numSlot <= MAX_SLOTS){
+      // URLは残してOK（実体が無いので onerror で消える）が、
+      // 編集画面では即反映したいのでプレビューを明示的に消す
+      clearPreview($(`img${numSlot}b`));
+
+      // slot=1ならthumbも消えてる想定なので、一覧を更新したい場合は再描画
+      renderGrid();
+    } else if (slot === "thumb") {
+      renderGrid();
+    }
+
+    refreshDeleteButtons(); // ← 追加
+    setStatus(`画像${slot} 削除OK`, "ok");
+  }
+ 
+
+
 
   // ===== 保存 =====
   async function save(){
@@ -1172,7 +1415,7 @@
     }
 
     // 念のため images を必ず生成（要件）
-    if (!Array.isArray(current.images) || current.images.length < 2){
+    if (!Array.isArray(current.images) || current.images.length < MAX_SLOTS){
       current.images = buildImagesJson(COLLECTION, current.id);
     }
 
@@ -1278,7 +1521,7 @@
 
     // 既存でも images が空なら webp固定で補完（要件）
     for (const it of items){
-      if (!Array.isArray(it.images) || it.images.length < 2){
+      if (!Array.isArray(it.images) || it.images.length < MAX_SLOTS){
         it.images = buildImagesJson(COLLECTION, it.id);
       }
     }
@@ -1309,6 +1552,12 @@
   $("btnSave").addEventListener("click", save);
   $("btnDelete").addEventListener("click", delCurrent);
   $("btnIdConfirm").addEventListener("click", confirmId);
+  $("btnEditList").addEventListener("click", () => showList());
+
+  $("btnImgDel1").addEventListener("click", () => deleteSlot(1));
+  $("btnImgDel2").addEventListener("click", () => deleteSlot(2));
+  $("btnImgDel3").addEventListener("click", () => deleteSlot(3));
+  $("btnImgDel4").addEventListener("click", () => deleteSlot(4));
 
   // Enterでも確定
   $("idEdit").addEventListener("keydown", (e) => {
@@ -1450,15 +1699,19 @@
     if (reorderMode) e.preventDefault();
   });
 
-
   // ファイル変更 → 即アップロード（ID確定後のみ）
-  $("file1").addEventListener("change", () => uploadSlot(1));
-  $("file2").addEventListener("change", () => uploadSlot(2));
+  for (let s = 1; s <= MAX_SLOTS; s++) {
+    const el = $(`file${s}`);
+    if (el) el.addEventListener("change", () => uploadSlot(s));
+  }
+
 
   load().catch(e => {
     console.error(e);
     setStatus("エラー：console を確認", "err");
+    refreshDeleteButtons()
   });
+
 </script>
 </body>
 </html>
