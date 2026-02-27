@@ -23,40 +23,17 @@
     }
 
     .modebtn{
-      appearance: none;
-      -webkit-appearance: none;
-
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-
-      padding: 6px 12px;
-      margin-right: 6px;
-
-      font-size: 13px;
-      font-weight: 500;
-      line-height: 1;
-
-      color: #333;
-      background: #fff;
-      border: 1px solid #ddd;
+      appearance: none; -webkit-appearance: none;
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: 6px 12px; margin-right: 6px;
+      font-size: 13px; font-weight: 500; line-height: 1;
+      color: #333; background: #fff; border: 1px solid #ddd;
       border-radius: 6px;
-
-      cursor: pointer;
-      text-decoration: none;   /* ← a 用 */
+      cursor: pointer; text-decoration: none;   /* ← a 用 */
     }
-
-    .modebtn:hover{
-      background: #f5f5f5;
-    }
-
-    .modebtn:active{
-      background: #eee;
-    }
-
-
-
-
+    .modebtn:hover{ background: #f5f5f5; }
+    .modebtn:active{ background: #eee; }
+  
     .hidden{ display:none !important; }
     .status{ font-size:13px; color:#666; }
     .ok{ color:#0a7; }
@@ -98,53 +75,43 @@
       min-height: 120px; resize: vertical; }
 
     .nav{ margin-top: 12px; display:flex; gap:10px; }
-    .navbtn{  flex:1 1 0; padding:8px 10px; color: #333; border:1px solid #ddd;
+    .navbtn{
+      flex:1 1 0; padding:8px 10px; color: #333; border:1px solid #ddd;
       border-radius:8px; background:#f8f8f8;  text-align:center; font-weight: 700;
-      cursor:pointer; user-select:none; }
+      cursor:pointer; user-select:none;
+    }
     .navbtn:active{ transform: translateY(1px); }
     .navbtn[disabled]{ opacity:0.45; cursor:not-allowed; }
 
     .image-block{ margin-top: 16px; padding-top: 12px;
       border-top: 1px solid #e0e0e0; }
-
     .image-head{ font-weight: 600; font-size: 13px; color:#555; }
     .image-head input[type="file"]{ display:block; width:100%; margin: 8px 0 8px; }
-    .thumb img{ width:100%; height:auto; max-height:40vh; object-fit:contain;
+
+    .thumb img{
+      width:100%; height:auto; max-height:40vh; object-fit:contain;
       border-radius: 8px; background:#fff; display:block;
-      border:1px solid #eee; }
-
+      border:1px solid #eee;
+    }
     .thumb{
-      display: flex;
-      flex-direction: column;   /* 画像の下にボタン */
-      align-items: center;      /* 横方向を中央 */
-      gap: 2px;                 /* 画像とボタンの間隔 */
-      margin-top: 4px;
+      display: flex; flex-direction: column;   /* 画像の下にボタン */
+      align-items: center; gap: 2px; margin-top: 4px;
     }
 
-    .thumb .smallBtn{
-      margin-top: 4px;
-    }
-
+    .thumb .smallBtn{ margin-top: 4px; }
     .idRow{ display:flex; gap:8px; align-items:center; }
-
     .idRow .text{ flex: 1 1 auto; }
-
-    .smallBtn{ padding: 7px; border:1px solid #ddd; border-radius:8px;
+    .smallBtn{
+      padding: 7px; border:1px solid #ddd; border-radius:8px;
       background:#fff; font-weight:600;font-size: 14px; cursor:pointer;
-      white-space: nowrap;   /* 「ID確定」を改行させない */
-      flex: 0 0 auto;        /* ボタンが潰れない */
-      min-width: 72px;       /* お好みで 70〜90 */
+      white-space: nowrap; flex: 0 0 auto; min-width: 72px;
     }
    
     .smallBtn:active{ transform: translateY(1px); }
 
     button[id^="btnImgDel"] {
-      background: #fff;
-      color: #c33;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      font-size: 12px;
-      padding: 4px 10px;
+      background: #fff; color: #c33; border: 1px solid #ddd;
+      border-radius: 6px; font-size: 12px;  padding: 4px 10px;
     }
 
     .lockNote{ margin-top: 8px; padding: 8px 10px; border: 1px dashed #ccc;
@@ -152,14 +119,10 @@
 
     /* ===== Reorder (案A) ===== */
     .reorderbar{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
-
     .modebtn.primary{
       background:#111; color:#fff; border-color:#111; }
-
     .modebtn.ghost{ background:#fff; color:#111; }
-
     .reorder-ctl{ display:flex; gap:6px; margin-top:8px; }
-
     .reorder-ctl button{
       flex:1; padding:6px 8px; border:1px solid #ddd; border-radius:10px;
       background:#f7f7f7; font-weight:800; cursor:pointer; }
@@ -194,15 +157,12 @@
     /* 指についてくる複製（ghost） */
     .drag-ghost{ position: fixed; left: 0; top: 0; z-index: 9999;
       pointer-events: none; transform: scale(0.92); opacity: .92; }
-
     /* 元の位置を保持する穴（placeholder） */
     .drag-placeholder{ border: 2px dashed #aaa; border-radius: 10px;
       background: rgba(0,0,0,0.03); }
-
     .dragging-grid{
       touch-action: pan-y;   /* これがAndroidで効く */
     }
-
     .dragging-grid.drag-active{
       touch-action: none;
     }
@@ -212,7 +172,6 @@
     .dragging-grid.drag-active .mini *{
       touch-action: none;
     }
-
     .dragging-body{
       /* touch-action: none;  ←消す */
       touch-action: pan-y;          /* 縦スクロールOK */
@@ -220,7 +179,6 @@
       overflow-y: auto;             /* hidden をやめる */
       overflow-x: hidden;
     }
-
 
   </style>
 </head>
@@ -241,7 +199,6 @@
 
       <div class="status" id="status"></div>
     </div>
-
 
     <!-- ===== List View ===== -->
     <div id="viewList">
@@ -276,27 +233,22 @@
             <span class="label">タイトル:</span>
             <input class="text" id="titleEdit" placeholder="例：伊勢神宮正殿" />
           </div>
-
           <div class="row">
             <span class="label">年代:</span>
             <input class="text" id="yearEdit" placeholder="例：7世紀頃" />
           </div>
-
           <div class="row">
             <span class="label">様式:</span>
             <input class="text" id="styleEdit" placeholder="例：神明造" />
           </div>
-
           <div class="row">
             <span class="label">建築家:</span>
             <input class="text" id="architectEdit" placeholder="例：不明" />
           </div>
-
           <div class="row">
             <span class="label">場所:</span>
             <input class="text" id="locationEdit" placeholder="例：三重県" />
           </div>
-
           <div class="row"><span class="label">メモ:</span></div>
           <textarea class="memo" id="descEdit" placeholder="メモを編集"></textarea>
         </div>
@@ -376,12 +328,10 @@
   // 画像スロット数
   const MAX_SLOTS = 4;
 
-
   // ===== Thumb settings (list thumbnails) =====
   const THUMB_MAX_LONG_EDGE = 320;   // 長辺px（推奨 320〜480）
   const THUMB_MAX_BYTES = 60 * 1024; // 目安。超えたら品質を下げる
   const THUMB_QUALITY = 0.70;        // 0〜1
-
 
   // ===== Auto scroll during drag =====
   const AUTO_SCROLL_EDGE = 80;     // 上下何pxをスクロール領域にするか
@@ -416,7 +366,6 @@
       window.scrollBy(0, AUTO_SCROLL_SPEED);
     }
   }
-
 
   function startDrag(mini, pointerId, x, y){
     console.log("hasCapture?", $("grid").hasPointerCapture(pointerId));
@@ -559,7 +508,6 @@
     press.pointerId = null;
     press.mini = null;
   }
-
 
   function setReorderUI(on){
     reorderMode = !!on;
@@ -829,9 +777,6 @@
     history.replaceState(null, "", u.toString());
   }
 
-
-
-
   function renderGrid(){
     const grid = $("grid");
 
@@ -852,9 +797,7 @@
         div.className = "mini";
         div.dataset.draggable = "1";      // ←追加：目印
         div.dataset.id = it.id;  // ★これを追加（並び替え結果をitemsへ確実に反映する鍵）
-
         div.dataset.idx = String(idx);
-
 
         const full = it.images?.[0] ?? "";
         const thumb = buildThumbUrl(COLLECTION, it.id);
@@ -889,7 +832,6 @@
     // ===== 通常表示（既存ロジック） =====
     grid.innerHTML = "";
     const q = $("q").value.trim().toLowerCase();
-
     const filtered = items.filter(it => {
       if (!q) return true;
       return (it.id||"").toLowerCase().includes(q) || (it.title||"").toLowerCase().includes(q);
@@ -904,10 +846,8 @@
     for (const it of filtered){
       const div = document.createElement("div");
       div.className = "mini";
-
       const full = it.images?.[0] ?? "";
       const thumb = buildThumbUrl(COLLECTION, it.id);
-
       div.innerHTML = `
         ${ (thumb || full) ? `
           <img class="thumbimg" src="${escapeHtml(thumb)}" alt="" loading="lazy"
@@ -937,33 +877,24 @@
     }
   }
 
-
-
-
-
   function refreshReorderButtons(){
     // 先頭と末尾だけdisable、他はenable
     for (let i = 0; i < reorderEls.length; i++){
       const el = reorderEls[i];
       el.dataset.idx = String(i);
-
       const up = el.querySelector('button[data-act="up"]');
       const dn = el.querySelector('button[data-act="down"]');
-
       if (up) up.disabled = (i === 0);
       if (dn) dn.disabled = (i === reorderEls.length - 1);
     }
   }
 
-
  function moveItemNoRender(fromIndex, toIndex){
     if (toIndex < 0 || toIndex >= items.length) return;
-
     const grid = $("grid");
     const elFrom = reorderEls[fromIndex];
     const elTo   = reorderEls[toIndex];
     if (!elFrom || !elTo) return;
-
     // 1) DOMを先に動かす（配列をいじる前の参照で確実に移動）
     if (fromIndex < toIndex){
       // 下へ：目的要素 elTo の「次」に入れる
@@ -974,19 +905,14 @@
     } else {
       return;
     }
-
     // 2) 配列(items, reorderEls)を同じ移動で更新
     const [movedItem] = items.splice(fromIndex, 1);
     items.splice(toIndex, 0, movedItem);
-
     const [movedEl] = reorderEls.splice(fromIndex, 1);
     reorderEls.splice(toIndex, 0, movedEl);
-
     // 3) idx / disabled を更新
     refreshReorderButtons();
   }
-
-
 
   function syncDeleteButton(imgId, btnId){
     const img = document.getElementById(imgId);
