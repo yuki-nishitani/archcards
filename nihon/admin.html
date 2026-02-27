@@ -1138,7 +1138,7 @@
     const u = new URL(location.href);
     u.searchParams.set("id", current.id);
     u.searchParams.delete("mode");
-    history.replaceState(null, "", u.toString());
+    history.replaceState(null, "", u.toString()); 
 
     setStatus(`ID確定：${current.id}`, "ok");
   }
