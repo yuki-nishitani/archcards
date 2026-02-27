@@ -1145,7 +1145,7 @@
 
   // ===== 画像圧縮（webp固定） =====
   async function compressToUnderBytes(file, {
-    maxBytes = 400 * 1024,
+    maxBytes = 400 * 1024,  
     maxDim = 2200,
     minDim = 900,
     type = "image/webp",
@@ -1154,7 +1154,7 @@
     try {
       bitmap = await createImageBitmap(file);
     } catch {
-      throw new Error("この画像形式はブラウザで圧縮できません（HEIC等の可能性）。JPEG/PNGに変換してから試してください。");
+      throw new Error("この画像形式はブラウザで圧縮できません（HEIC等の可能性）。JPEG/PNGに変換してから試してください");
     }
 
     const w0 = bitmap.width, h0 = bitmap.height;
