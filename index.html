@@ -64,12 +64,16 @@ h1{
 
   <h1>STRUCTURE</h1>
   <div class="grid" id="grid-structure"></div>
+
+  <h1>ENGLISH</h1>
+  <div class="grid" id="grid-english"></div>
 </div>
 
 <script>
 const API_BASE = "https://archicard-api.yuki-548.workers.dev"; // Workers
 const gridArch = document.getElementById("grid-archcards");
 const gridStruct = document.getElementById("grid-structure");
+const gridEnglish = document.getElementById("grid-english");
 
 // ARCHCARDS（同一タブ遷移）
 const archcards = [
@@ -103,6 +107,17 @@ const structures = [
     json: "", // ランダム画像取得しない
     link: "https://nqm.pages.dev/",
     img: "https://pub-6e7134ff7595457297783250821603b8.r2.dev/icon/NQM.webp",
+    targetBlank: true
+  }
+];
+
+// ENGLISH（English Book は新しいタブ）
+const englishItems = [
+  {
+    title: "English Book",
+    json: "",
+    link: "https://english-book.pages.dev/",
+    img: "https://pub-6e7134ff7595457297783250821603b8.r2.dev/icon/English.webp",
     targetBlank: true
   }
 ];
@@ -152,6 +167,7 @@ async function render(grid, categories){
 
 render(gridArch, archcards);
 render(gridStruct, structures);
+render(gridEnglish, englishItems);
 </script>
 </body>
 </html>
