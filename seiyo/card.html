@@ -38,6 +38,13 @@
     .row { margin: 6px 0; line-height: 1.35; }
     .label { color:#555; font-weight: 500; margin-right: 6px; }
 
+    /* メモは改行を保持して表示 */
+    #desc {
+      display: block;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
     /* 裏面：横並び */
     .thumbs {
       margin-top: 12px;
@@ -60,6 +67,16 @@
     }
 
     .hint { color:#666; font-size: 13px; margin-top: 10px; }
+
+    .posinfo {
+      text-align: center;
+      color: #666;
+      font-size: 13px;
+      margin-top: 10px;
+      letter-spacing: 0.02em;
+    }
+    .posinfo .sep { margin: 0 8px; color:#bbb; }
+    .posinfo .shuffle-num { color:#cb533e; font-weight: 600; }
 
 
     /* 建築名（名称）だけ見出しっぽく */
@@ -198,6 +215,8 @@
         <div class="hint">タップ：戻る / 左右フリック：次・前</div>
       </div>
 
+      <div class="posinfo" id="posInfo"></div>
+
       <div class="nav">
         <button class="navbtn" id="btnPrev" type="button">前へ</button>
         <button class="navbtn" id="modeBtn" type="button">通常モード</button>
@@ -213,7 +232,18 @@
   let idx = 0;
 
   let randomMode = false;
-  let randHistory = []; // ランダムで辿った履歴（前へで戻る用）
+  let shuffleOrder = [];   // ランダムモード中の巡回順（items のインデックス配列）
+  let shufflePos = 0;      // shuffleOrder 内での現在位置（0始まり）
+
+  // Fisher-Yates シャッフル
+  function shuffledIndices(n) {
+    const arr = Array.from({ length: n }, (_, i) => i);
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
 
 
 
@@ -321,6 +351,22 @@
 
     // ページ切替時は表に戻す（好みで：詳細に留めたいなら消す）
     showFront();
+
+    updatePosInfo();
+  }
+
+  function updatePosInfo() {
+    const el = $("posInfo");
+    if (!el || !items.length) return;
+
+    const listStr = `一覧 ${idx + 1}/${items.length}`;
+
+    if (randomMode && shuffleOrder.length) {
+      const shuffleStr = `シャッフル <span class="shuffle-num">${shufflePos + 1}</span>/${shuffleOrder.length}`;
+      el.innerHTML = `${listStr}<span class="sep">・</span>${shuffleStr}`;
+    } else {
+      el.innerHTML = listStr;
+    }
   }
 
 
@@ -344,15 +390,10 @@
       return;
     }
 
-    // ランダム：現在と同じにならないようにする（要素数1なら同じでもOK）
-    randHistory.push(idx);
-    if (items.length === 1) { render(idx); return; }
-
-    let j = idx;
-    while (j === idx) {
-      j = Math.floor(Math.random() * items.length);
-    }
-    render(j);
+    if (!shuffleOrder.length) return;
+    // シャッフル済みの並びを順番に進む（末尾まで行ったら先頭へループ）
+    shufflePos = (shufflePos + 1) % shuffleOrder.length;
+    render(shuffleOrder[shufflePos]);
   }
 
   function prev() {
@@ -363,13 +404,10 @@
       return;
     }
 
-    // ランダム：履歴を戻る
-    if (randHistory.length > 0) {
-      render(randHistory.pop());
-    } else {
-      // 履歴がないときは通常の prev にフォールバック（好みで消してOK）
-      render(idx - 1);
-    }
+    if (!shuffleOrder.length) return;
+    // シャッフル済みの並びを逆に辿る（先頭より前は末尾へループ）
+    shufflePos = (shufflePos - 1 + shuffleOrder.length) % shuffleOrder.length;
+    render(shuffleOrder[shufflePos]);
   }
 
 
@@ -395,8 +433,23 @@
 
   modeBtn.addEventListener("click", (e) => {
     e.stopPropagation();         // カードの表裏反転を誤発火させない
+    if (!items.length) return;   // データ読み込み前は何もしない
+
     randomMode = !randomMode;
-    randHistory = [];            // モード切替時に履歴リセット（破綻防止）
+
+    if (randomMode) {
+      // ランダムモードON：新しくシャッフルして先頭から開始
+      // （一覧上の何番目かは今見ていたカードのまま、シャッフル番号は 1/n から）
+      shuffleOrder = shuffledIndices(items.length);
+      shufflePos = 0;
+      render(shuffleOrder[0]);
+    } else {
+      // 通常モードに戻す：シャッフルの記録はリセット（表示中のカードはそのまま）
+      shuffleOrder = [];
+      shufflePos = 0;
+      updatePosInfo();
+    }
+
     updateModeUI();
   });
 
